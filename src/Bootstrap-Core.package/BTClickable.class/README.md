@@ -1,0 +1,1 @@
+A BTClickable is the superclass for objects that want to receive clicks and hover events.

@@ -1,0 +1,1 @@
+Parses pango markup as documented here: https://developer.gnome.org/pango/stable/PangoMarkupFormat.html

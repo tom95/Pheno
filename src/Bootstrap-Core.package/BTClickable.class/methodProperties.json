@@ -1,0 +1,22 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"active" : "TB 12/7/2017 12:04",
+		"active:" : "TB 12/7/2017 12:13",
+		"attach:" : "TB 5/5/2017 15:29",
+		"handlesMouseDown:" : "TB 12/7/2017 12:02",
+		"handlesMouseMove:" : "TB 12/7/2017 12:02",
+		"handlesMouseOver:" : "TB 12/7/2017 12:02",
+		"hovered" : "TB 12/7/2017 12:04",
+		"hovered:" : "TB 3/10/2018 09:45",
+		"initialize" : "TB 12/7/2017 12:03",
+		"initiateDragOf" : "TB 12/7/2017 12:07",
+		"initiateDragOf:" : "TB 12/7/2017 12:13",
+		"mouseDown:" : "TB 12/10/2017 00:21",
+		"mouseEnter:" : "TB 5/8/2017 12:30",
+		"mouseLeave:" : "TB 12/7/2017 12:02",
+		"mouseUp:" : "TB 12/7/2017 13:11",
+		"outOfWorld:" : "JH 4/25/2017 16:37",
+		"triggerClicked:" : "TB 5/8/2017 12:11",
+		"triggerHovered:event:" : "TB 12/7/2017 12:03" } }

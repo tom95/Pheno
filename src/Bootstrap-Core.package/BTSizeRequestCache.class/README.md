@@ -1,0 +1,1 @@
+A BTSizeRequestCache caches results to preferredSizeForWidth: queries.

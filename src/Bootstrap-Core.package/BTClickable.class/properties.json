@@ -1,0 +1,17 @@
+{
+	"category" : "Bootstrap-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "TB 3/23/2017 15:06",
+	"instvars" : [
+		"hovered",
+		"active",
+		"initiateDragOf",
+		"hadMouseDown" ],
+	"name" : "BTClickable",
+	"pools" : [
+		 ],
+	"super" : "BTWidget",
+	"type" : "normal" }

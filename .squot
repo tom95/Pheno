@@ -1,4 +1,5 @@
 OrderedDictionary {
+	'src\/Bootstrap-Core.package' : #SquotCypressCodeSerializer,
 	'src\/Bootstrap-Styles.package' : #SquotCypressCodeSerializer,
 	'src\/Bootstrap-Widgets.package' : #SquotCypressCodeSerializer,
 	'src\/SVG-Morphic.package' : #SquotCypressCodeSerializer

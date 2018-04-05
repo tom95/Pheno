@@ -1,0 +1,14 @@
+{
+	"category" : "Bootstrap-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "TB 3/12/2017 20:38",
+	"instvars" : [
+		 ],
+	"name" : "BTMarkupParser",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

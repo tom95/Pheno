@@ -1,0 +1,4 @@
+cache
+clear
+
+	list removeAll

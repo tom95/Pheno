@@ -1,0 +1,23 @@
+{
+	"category" : "Bootstrap-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"ScalingFactor" ],
+	"commentStamp" : "TB 2/17/2017 14:47",
+	"instvars" : [
+		"styleContext",
+		"minSize",
+		"vertical",
+		"align",
+		"spacing",
+		"ignoreLayout",
+		"expand",
+		"maxSize",
+		"requestCache",
+		"disabled" ],
+	"name" : "BTWidget",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

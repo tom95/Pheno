@@ -1,0 +1,4 @@
+accessing
+ellipsize
+
+	^ self subclassResponsibility

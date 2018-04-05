@@ -1,0 +1,3 @@
+layout
+minSize
+	^minSize

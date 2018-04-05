@@ -1,0 +1,4 @@
+accessing
+lineSpacing
+
+	^ self subclassResponsibility

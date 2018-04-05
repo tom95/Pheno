@@ -1,0 +1,4 @@
+accessing
+alignment
+
+	^ self subclassResponsibility

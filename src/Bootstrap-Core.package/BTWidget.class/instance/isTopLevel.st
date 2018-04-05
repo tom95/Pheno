@@ -1,0 +1,3 @@
+testing
+isTopLevel
+	^false
