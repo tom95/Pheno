@@ -1,0 +1,1 @@
+A BTTextArea is an editable text display with a text input background.

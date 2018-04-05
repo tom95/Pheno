@@ -1,0 +1,14 @@
+{
+	"category" : "Bootstrap-Widgets",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "TB 3/23/2017 14:21",
+	"instvars" : [
+		"label" ],
+	"name" : "BTAlert",
+	"pools" : [
+		 ],
+	"super" : "BTWidget",
+	"type" : "normal" }

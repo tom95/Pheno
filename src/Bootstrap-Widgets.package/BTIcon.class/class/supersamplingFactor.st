@@ -1,0 +1,4 @@
+caching
+supersamplingFactor
+
+	^ 4

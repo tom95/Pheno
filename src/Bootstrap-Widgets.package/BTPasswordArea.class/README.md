@@ -1,0 +1,1 @@
+A BTPasswordArea displays all its text as *.

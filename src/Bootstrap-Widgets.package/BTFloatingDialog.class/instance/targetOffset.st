@@ -1,0 +1,4 @@
+constants
+targetOffset
+
+	^ 0

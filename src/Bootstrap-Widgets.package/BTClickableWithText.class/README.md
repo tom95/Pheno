@@ -1,0 +1,1 @@
+A BTClickableWithText is a clickable that contains a label by default.

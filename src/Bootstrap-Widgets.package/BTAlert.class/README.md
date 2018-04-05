@@ -1,0 +1,1 @@
+A BTAlert is a simple colored container. It is useful to display a state-related message to the user.

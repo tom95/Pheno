@@ -1,0 +1,14 @@
+{
+	"category" : "Bootstrap-Widgets",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BTHoverableCssMorph",
+	"pools" : [
+		 ],
+	"super" : "BTCssMorph",
+	"type" : "normal" }

@@ -1,0 +1,1 @@
+A BTDivider draws a semi transparent horizontal line. It does not divide numbers or nations.

@@ -1,0 +1,4 @@
+event handling
+wouldAcceptKeyboardFocusUponTab
+
+	^ true

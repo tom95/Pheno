@@ -1,0 +1,19 @@
+{
+	"category" : "Bootstrap-Widgets",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "TB 3/23/2017 16:53",
+	"instvars" : [
+		"placeholder",
+		"focused",
+		"drawCursor",
+		"blinkStart",
+		"multiLine",
+		"editable" ],
+	"name" : "BTTextEntry",
+	"pools" : [
+		 ],
+	"super" : "BTLabel",
+	"type" : "normal" }

@@ -1,0 +1,16 @@
+{
+	"category" : "Bootstrap-Widgets",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"FormCache",
+		"SVGCache" ],
+	"commentStamp" : "TB 4/5/2018 11:41",
+	"instvars" : [
+		"svg",
+		"cachedForm" ],
+	"name" : "BTIcon",
+	"pools" : [
+		 ],
+	"super" : "BTWidget",
+	"type" : "normal" }

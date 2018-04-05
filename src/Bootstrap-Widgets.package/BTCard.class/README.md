@@ -1,0 +1,1 @@
+A BTCard is a white container that you may use whenever you structure content of multiple separate items below or next to each other. In particular useful in conjunction with BTCardHeader.

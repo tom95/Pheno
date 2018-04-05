@@ -1,0 +1,4 @@
+editing
+clear
+
+	self text: ''
