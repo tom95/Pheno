@@ -1,0 +1,28 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"antialiasingLevel:" : "gvc 8/1/2005 10:45",
+		"create:fromSVG:" : "gvc 7/31/2005 16:37",
+		"createCircleFromSVGCircle:" : "gvc 7/31/2005 16:37",
+		"createEllipseFromSVGEllipse:" : "gvc 7/31/2005 16:38",
+		"createFillFromSVGLinearGradient:" : "gvc 10/31/2005 13:07",
+		"createFillFromSVGRadialGradient:" : "gvc 10/10/2005 14:38",
+		"createFromSVG:" : "gvc 8/1/2005 11:09",
+		"createGroupFromSVGGroup:" : "gvc 8/1/2005 14:41",
+		"createLineFromSVGLine:" : "gvc 7/31/2005 16:38",
+		"createPathFromSVGPath:" : "gvc 7/31/2005 16:38",
+		"createPolygonFromSVGPolygon:" : "gvc 7/31/2005 16:39",
+		"createPolylineFromSVGPolyline:" : "gvc 7/31/2005 16:39",
+		"createRampFromSVGGradient:" : "gvc 10/4/2005 08:32",
+		"createRectFromSVGRect:" : "gvc 7/31/2005 16:39",
+		"createTextFromSVGText:" : "gvc 7/31/2005 16:40",
+		"drawSubmorphsOn:" : "gvc 10/4/2005 09:01",
+		"fills" : "gvc 8/1/2005 13:29",
+		"fills:" : "gvc 8/1/2005 13:29",
+		"getFill:" : "gvc 8/1/2005 13:30",
+		"initialize" : "gvc 8/1/2005 13:43",
+		"orderedGradients:fromSVG:" : "gvc 10/3/2005 09:37",
+		"processSVGElements:" : "gvc 8/1/2005 13:37",
+		"setFill:to:" : "gvc 8/1/2005 13:30",
+		"userSpaceBoundingBoxWithRespectTo:" : "gvc 10/4/2005 09:02" } }

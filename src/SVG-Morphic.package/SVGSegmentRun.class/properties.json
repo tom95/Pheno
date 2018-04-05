@@ -1,0 +1,14 @@
+{
+	"category" : "SVG-Morphic",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"segments" ],
+	"name" : "SVGSegmentRun",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

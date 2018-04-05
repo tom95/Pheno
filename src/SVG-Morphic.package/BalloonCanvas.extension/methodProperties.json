@@ -1,0 +1,8 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"drawGeneralSegments:color:borderWidth:borderColor:" : "gvc 7/28/2005 17:16",
+		"drawOpenPolygon:color:borderWidth:borderColor:" : "gvc 7/31/2005 16:54",
+		"drawOpenPolygon:fillStyle:borderWidth:borderColor:" : "gvc 7/31/2005 16:52",
+		"drawStringNoTransform:at:font:color:" : "gvc 7/30/2005 10:52" } }

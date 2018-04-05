@@ -1,0 +1,13 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"computePixelRampOfSize:" : "gvc 8/2/2005 13:21",
+		"interpolatedAlphaMix:of:and:" : "gvc 8/2/2005 13:21",
+		"mappedTo:" : "gvc 10/31/2005 13:22",
+		"mappedToBounds:" : "gvc 10/31/2005 13:11",
+		"mapsToObjectBounds" : "gvc 7/30/2005 20:25",
+		"spread" : "gvc 7/30/2005 20:00",
+		"spread:" : "gvc 7/30/2005 20:00",
+		"units" : "gvc 7/30/2005 20:00",
+		"units:" : "gvc 7/30/2005 20:00" } }

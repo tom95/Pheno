@@ -1,0 +1,14 @@
+{
+	"category" : "SVG-Morphic",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"DefaultRenderer" ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SVGRenderer",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

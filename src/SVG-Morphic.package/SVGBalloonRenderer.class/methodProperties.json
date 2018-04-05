@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"renderEllipse:on:" : "gvc 8/4/2005 10:15",
+		"renderLine:on:" : "gvc 8/4/2005 10:07",
+		"renderPath:on:" : "gvc 8/4/2005 10:04",
+		"renderPolygon:on:" : "gvc 8/4/2005 10:17",
+		"renderPolyline:on:" : "gvc 8/4/2005 10:14",
+		"renderRect:on:" : "gvc 8/4/2005 10:13",
+		"renderText:on:" : "gvc 10/3/2005 16:19",
+		"styleIn:fromSVGStyle:" : "gvc 10/4/2005 09:19" } }

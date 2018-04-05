@@ -1,0 +1,14 @@
+{
+	"category" : "SVG-Morphic",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SVGFixupLineSegmentRun",
+	"pools" : [
+		 ],
+	"super" : "SVGLineSegmentRun",
+	"type" : "normal" }

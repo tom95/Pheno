@@ -1,0 +1,14 @@
+{
+	"category" : "SVG-Morphic",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"rectangle" ],
+	"name" : "SVGRectangularMorph",
+	"pools" : [
+		 ],
+	"super" : "SVGComponentMorph",
+	"type" : "normal" }

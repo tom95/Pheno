@@ -1,0 +1,14 @@
+{
+	"category" : "SVG-Morphic",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SVGClosingLineSegment",
+	"pools" : [
+		 ],
+	"super" : "LineSegment",
+	"type" : "normal" }

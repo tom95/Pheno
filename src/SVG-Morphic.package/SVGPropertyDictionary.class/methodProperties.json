@@ -1,0 +1,11 @@
+{
+	"class" : {
+		"withDefaults" : "gvc 10/4/2005 09:20",
+		"withParent:" : "gvc 8/8/2005 12:25",
+		"withParents:" : "gvc 8/8/2005 12:25" },
+	"instance" : {
+		"addParent:" : "gvc 8/8/2005 11:54",
+		"initialize" : "gvc 8/8/2005 11:54",
+		"parents" : "gvc 8/8/2005 11:53",
+		"parents:" : "gvc 8/8/2005 11:53",
+		"propertyAt:" : "gvc 8/8/2005 11:31" } }

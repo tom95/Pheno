@@ -1,0 +1,14 @@
+{
+	"category" : "SVG-Morphic",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SVGGroupMorph",
+	"pools" : [
+		 ],
+	"super" : "SVGCompositeMorph",
+	"type" : "normal" }

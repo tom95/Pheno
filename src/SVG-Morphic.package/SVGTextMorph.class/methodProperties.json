@@ -1,0 +1,15 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"createFromSVG:" : "gvc 8/1/2005 11:17",
+		"createTSpanFromSVGTSpan:" : "gvc 8/1/2005 11:12",
+		"createTextFromSVG:" : "gvc 10/4/2005 09:10",
+		"drawOn:" : "gvc 10/4/2005 09:06",
+		"fontToUse" : "gvc 7/31/2005 09:37",
+		"location" : "gvc 7/30/2005 10:34",
+		"location:" : "gvc 7/30/2005 10:34",
+		"processSVGElements:" : "gvc 8/1/2005 11:15",
+		"text" : "gvc 7/30/2005 10:29",
+		"text:" : "gvc 7/30/2005 10:29",
+		"userSpaceBoundingBoxWithRespectTo:" : "gvc 7/30/2005 19:42" } }

@@ -1,0 +1,15 @@
+{
+	"category" : "SVG-Morphic",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"units",
+		"spread" ],
+	"name" : "SVGGradientFillStyle",
+	"pools" : [
+		 ],
+	"super" : "GradientFillStyle",
+	"type" : "normal" }

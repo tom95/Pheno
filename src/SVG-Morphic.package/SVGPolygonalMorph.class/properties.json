@@ -1,0 +1,14 @@
+{
+	"category" : "SVG-Morphic",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"points" ],
+	"name" : "SVGPolygonalMorph",
+	"pools" : [
+		 ],
+	"super" : "SVGComponentMorph",
+	"type" : "normal" }

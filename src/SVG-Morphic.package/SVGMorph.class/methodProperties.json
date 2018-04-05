@@ -1,0 +1,18 @@
+{
+	"class" : {
+		"example" : "gvc 10/17/2005 17:41",
+		"fromFile:" : "gvc 10/17/2005 17:40",
+		"fromFileStream:" : "gvc 10/17/2005 17:39" },
+	"instance" : {
+		"composedStyle" : "gvc 7/29/2005 21:22",
+		"createDefsFromSVGDefs:" : "gvc 8/1/2005 13:32",
+		"createFillsFromSVG:" : "gvc 10/3/2005 08:44",
+		"createFromSVG:" : "gvc 7/30/2005 10:21",
+		"createFromSVGDocument:" : "gvc 7/30/2005 10:17",
+		"defaultColor" : "gvc 7/28/2005 09:13",
+		"defaultViewBox" : "gvc 7/29/2005 09:22",
+		"drawOn:" : "gvc 8/1/2005 12:09",
+		"drawSubmorphsOn:" : "gvc 7/30/2005 22:19",
+		"getFill:" : "gvc 7/30/2005 20:12",
+		"initialize" : "gvc 8/1/2005 13:42",
+		"setDimensionsFromSVG:" : "gvc 10/3/2005 17:13" } }

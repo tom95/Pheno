@@ -1,0 +1,14 @@
+{
+	"category" : "SVG-Morphic",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"segments" ],
+	"name" : "SVGPathMorph",
+	"pools" : [
+		 ],
+	"super" : "SVGComponentMorph",
+	"type" : "normal" }

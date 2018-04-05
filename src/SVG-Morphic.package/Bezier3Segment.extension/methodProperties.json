@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"asBezier2Segments" : "gvc 10/3/2005 10:40",
+		"asBezier2Shape" : "gvc 10/10/2005 13:48",
+		"asBezier2Shape:" : "gvc 10/10/2005 13:54",
+		"boundingBox" : "gvc 7/30/2005 20:47",
+		"isBezier3Segment" : "gvc 10/3/2005 09:49",
+		"isLineSegment" : "gvc 10/3/2005 09:48",
+		"primAddToEngine:fills:lineWidth:" : "gvc 10/10/2005 13:54",
+		"runClass" : "gvc 10/25/2005 12:44" } }

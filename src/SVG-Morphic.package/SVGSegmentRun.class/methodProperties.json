@@ -1,0 +1,11 @@
+{
+	"class" : {
+		"runsFromSegments:" : "gvc 10/25/2005 12:49",
+		"segments:" : "gvc 10/25/2005 12:43" },
+	"instance" : {
+		"add:" : "gvc 10/25/2005 13:05",
+		"initialize" : "gvc 10/25/2005 12:50",
+		"points" : "gvc 10/25/2005 13:21",
+		"primAddToEngine:fills:lineWidth:" : "gvc 10/25/2005 12:31",
+		"segments" : "gvc 10/25/2005 12:32",
+		"segments:" : "gvc 10/25/2005 12:32" } }

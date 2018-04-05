@@ -1,0 +1,23 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addSegment:" : "gvc 7/28/2005 15:40",
+		"adjustSegmentEnds" : "gvc 8/12/2005 12:18",
+		"createArcSegmentFrom:at:" : "gvc 10/3/2005 15:44",
+		"createClosingLineSegmentFrom:to:" : "gvc 8/8/2005 13:52",
+		"createCubicBezierSegmentFrom:at:" : "gvc 7/29/2005 00:04",
+		"createCubicBezierSegmentFrom:via:and:to:" : "gvc 7/28/2005 16:00",
+		"createFixupLineSegmentFrom:to:" : "gvc 10/4/2005 14:13",
+		"createFromSVG:" : "gvc 8/1/2005 12:57",
+		"createLineSegmentFrom:at:" : "gvc 7/29/2005 00:34",
+		"createLineSegmentFrom:to:" : "gvc 8/12/2005 12:08",
+		"createQuadraticBezierSegmentFrom:at:" : "gvc 7/29/2005 00:04",
+		"createQuadraticBezierSegmentFrom:via:to:" : "gvc 7/28/2005 15:59",
+		"createSegmentsFromSVG:" : "TB 12/5/2017 22:05",
+		"drawOn:" : "gvc 10/4/2005 09:06",
+		"initialize" : "gvc 7/28/2005 15:24",
+		"pathDataFromSVG:" : "gvc 10/3/2005 10:15",
+		"segments" : "gvc 7/28/2005 15:24",
+		"segments:" : "gvc 7/28/2005 15:24",
+		"userSpaceBoundingBoxWithRespectTo:" : "gvc 7/30/2005 20:47" } }
