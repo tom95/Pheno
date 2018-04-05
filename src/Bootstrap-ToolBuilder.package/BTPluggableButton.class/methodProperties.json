@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"drawOn:" : "TB 4/4/2018 12:03",
+		"enabled:" : "TB 4/4/2018 12:06",
+		"initialize" : "TB 4/4/2018 12:04",
+		"minHeight" : "TB 4/5/2018 11:18",
+		"textColor" : "TB 4/4/2018 12:05",
+		"updateFillStylePressing:hovering:" : "TB 4/4/2018 12:05",
+		"updateStyleProperties" : "TB 4/5/2018 11:13" } }

@@ -1,0 +1,19 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"adjustHeight" : "TB 4/4/2018 12:14",
+		"adjustWidth" : "TB 4/4/2018 12:14",
+		"colorForRow:" : "TB 4/4/2018 12:14",
+		"displayFilterOn:for:in:font:" : "TB 4/4/2018 12:15",
+		"drawBoundsForRow:" : "TB 4/4/2018 12:15",
+		"drawPreSelectionOn:" : "TB 4/4/2018 12:15",
+		"drawSelectionFor:withState:on:" : "TB 4/4/2018 12:15",
+		"drawSelectionOn:" : "TB 4/4/2018 12:15",
+		"hMargin" : "TB 4/4/2018 12:16",
+		"highlightHoverRow:on:" : "TB 4/4/2018 12:16",
+		"initialize" : "TB 4/4/2018 12:17",
+		"multiSelectionColor" : "TB 4/4/2018 12:16",
+		"preSelectionColor" : "TB 4/4/2018 12:16",
+		"rowAtLocation:" : "TB 4/4/2018 12:16",
+		"updateStyleProperties" : "TB 4/4/2018 12:20" } }

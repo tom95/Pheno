@@ -1,0 +1,25 @@
+{
+	"class" : {
+		"createBoxForm:parent:size:" : "TB 4/4/2018 12:30" },
+	"instance" : {
+		"addLabelArea" : "TB 4/4/2018 12:29",
+		"addedMorph:" : "TB 4/4/2018 14:51",
+		"applyUserInterfaceTheme" : "TB 4/4/2018 12:29",
+		"collapseOrExpand" : "TB 4/4/2018 14:30",
+		"createBoxForm:" : "TB 4/4/2018 12:30",
+		"createCloseBox" : "TB 4/4/2018 14:58",
+		"createCollapseBox" : "TB 4/4/2018 14:59",
+		"createExpandBox" : "TB 4/4/2018 14:59",
+		"createMenuBox" : "TB 4/4/2018 14:59",
+		"drawOn:" : "TB 4/4/2018 12:37",
+		"initialize" : "TB 4/4/2018 14:51",
+		"initializeLabelArea" : "TB 4/4/2018 14:36",
+		"labelHeight" : "TB 4/4/2018 14:45",
+		"lookFocused" : "TB 4/4/2018 12:32",
+		"lookUnfocused" : "TB 4/4/2018 12:32",
+		"setFramesForLabelArea" : "TB 4/4/2018 14:31",
+		"update:" : "TB 4/4/2018 14:37",
+		"updateBoxes" : "TB 4/4/2018 12:30",
+		"updateCollapseBox" : "TB 4/4/2018 12:31",
+		"updateExpandBox" : "TB 4/4/2018 12:31",
+		"updateLabelAreaFrame" : "TB 4/4/2018 14:30" } }

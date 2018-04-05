@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addLine" : "TB 4/4/2018 14:12",
+		"addTitle:icon:updatingSelector:updateTarget:" : "TB 4/4/2018 14:10",
+		"drawOn:" : "TB 4/4/2018 14:08",
+		"initialize" : "TB 4/4/2018 14:08",
+		"popUpAdjacentTo:forHand:from:" : "TB 4/4/2018 14:13",
+		"setTitleParametersFor:" : "TB 4/4/2018 14:08" } }

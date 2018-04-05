@@ -1,0 +1,21 @@
+{
+	"class" : {
+		"checkMarkSize" : "TB 4/4/2018 14:19",
+		"defaultSubMenuMarker" : "TB 4/4/2018 14:20",
+		"markerSize" : "TB 4/4/2018 14:19" },
+	"instance" : {
+		"applyUserInterfaceTheme" : "TB 4/4/2018 14:14",
+		"colorToUse" : "TB 4/4/2018 14:15",
+		"contents:withMarkers:inverse:" : "TB 4/4/2018 14:15",
+		"drawBackgroundOn:" : "TB 4/4/2018 14:15",
+		"drawIconOn:" : "TB 4/4/2018 14:15",
+		"drawLabelOn:" : "TB 4/4/2018 14:16",
+		"drawSubMenuMarkerOn:" : "TB 4/4/2018 14:16",
+		"iconSpacing" : "TB 4/4/2018 14:16",
+		"initialize" : "TB 4/4/2018 14:17",
+		"isEnabled:" : "TB 4/4/2018 14:18",
+		"isSelected:" : "TB 4/4/2018 14:18",
+		"minHeight" : "TB 4/4/2018 14:18",
+		"minWidth" : "TB 4/4/2018 14:18",
+		"offImage" : "TB 4/4/2018 14:20",
+		"onImage" : "TB 4/4/2018 14:20" } }

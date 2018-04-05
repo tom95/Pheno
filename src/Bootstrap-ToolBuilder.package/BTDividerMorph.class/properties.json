@@ -1,0 +1,14 @@
+{
+	"category" : "Bootstrap-ToolBuilder",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "TB 4/4/2018 14:12",
+	"instvars" : [
+		 ],
+	"name" : "BTDividerMorph",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

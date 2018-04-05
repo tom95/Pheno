@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"drawBalloonTextOn:" : "TB 4/4/2018 12:24",
+		"drawOn:" : "TB 4/4/2018 12:22",
+		"initialize" : "TB 4/4/2018 12:26",
+		"keyboardFocusChange:" : "TB 4/4/2018 12:23",
+		"setDefaultParameters" : "TB 4/4/2018 12:24",
+		"textMorphClass" : "TB 4/4/2018 14:54",
+		"updateStyleProperties" : "TB 4/4/2018 14:57" } }

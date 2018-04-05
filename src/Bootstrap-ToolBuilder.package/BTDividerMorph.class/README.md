@@ -1,0 +1,1 @@
+A BTDividerMorph is a helper for menu items to draw a simple separator. May be used in other contexts with TableLayouts.
