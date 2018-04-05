@@ -1,0 +1,1 @@
+A BTStyleProvider contains one or many BTStyle's. It can be attached to a widget with a priority. When trying to determine a style property in a widget, the widget tree will be traversed from that widget to the root, querying each BTStyleProvider with a higher or equal priority to the last valid, for a BTStyle that matches the widget.

@@ -1,0 +1,14 @@
+{
+	"category" : "Bootstrap-Styles",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BTTheme",
+	"pools" : [
+		 ],
+	"super" : "BTStyleProvider",
+	"type" : "normal" }

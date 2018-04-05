@@ -1,0 +1,11 @@
+{
+	"class" : {
+		"drawBackgroundOn:bounds:color:radius:" : "TB 12/10/2017 21:50",
+		"drawBackgroundOn:style:bounds:" : "TB 12/7/2017 00:15",
+		"drawBorderOn:bounds:color:radius:width:" : "TB 4/5/2018 11:38",
+		"drawBorderOn:style:bounds:" : "TB 12/10/2017 22:19",
+		"drawFullOn:style:bounds:" : "TB 12/5/2017 14:41",
+		"drawTextOn:style:bounds:" : "TB 12/5/2017 13:55",
+		"roundRectShapeBounds:radius:borderWidth:" : "TB 12/10/2017 19:04" },
+	"instance" : {
+		 } }

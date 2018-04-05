@@ -1,0 +1,4 @@
+testing
+isClassSelector
+
+	^ true

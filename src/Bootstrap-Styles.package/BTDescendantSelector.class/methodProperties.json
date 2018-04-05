@@ -1,0 +1,13 @@
+{
+	"class" : {
+		"child:parent:" : "TB 12/6/2017 14:17" },
+	"instance" : {
+		"/" : "TB 12/10/2017 22:29",
+		"=" : "TB 12/6/2017 20:33",
+		"childSelector" : "TB 12/6/2017 14:12",
+		"childSelector:" : "TB 12/6/2017 14:17",
+		"isDescendantSelector" : "TB 12/6/2017 20:28",
+		"matches:" : "TB 12/6/2017 20:05",
+		"parentSelector" : "TB 12/6/2017 14:12",
+		"parentSelector:" : "TB 12/6/2017 14:17",
+		"specifity" : "TB 12/6/2017 21:02" } }

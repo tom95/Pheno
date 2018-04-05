@@ -1,0 +1,31 @@
+{
+	"category" : "Bootstrap-Styles",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"GlobalStyleContext",
+		"MAX_STATES",
+		"NUM_STATES",
+		"STATE_ACTIVE",
+		"STATE_BACKDROP",
+		"STATE_DISABLED",
+		"STATE_EVEN_CHILD",
+		"STATE_FIRST_CHILD",
+		"STATE_HOVER",
+		"STATE_LAST_CHILD",
+		"STATE_NORMAL",
+		"STATE_ODD_CHILD",
+		"STATE_SELECTED",
+		"ScalingFactor",
+		"Theme" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"providers",
+		"classes",
+		"parent",
+		"states" ],
+	"name" : "BTStyleContext",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
