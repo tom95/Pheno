@@ -1,5 +1,6 @@
 OrderedDictionary {
 	'src\/Bootstrap-Core.package' : #SquotCypressCodeSerializer,
+	'src\/Bootstrap-Examples.package' : #SquotCypressCodeSerializer,
 	'src\/Bootstrap-Styles.package' : #SquotCypressCodeSerializer,
 	'src\/Bootstrap-ToolBuilder.package' : #SquotCypressCodeSerializer,
 	'src\/Bootstrap-Widgets.package' : #SquotCypressCodeSerializer,

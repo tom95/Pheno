@@ -1,0 +1,14 @@
+{
+	"category" : "Bootstrap-Examples",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BTCardExample",
+	"pools" : [
+		 ],
+	"super" : "BTExample",
+	"type" : "normal" }

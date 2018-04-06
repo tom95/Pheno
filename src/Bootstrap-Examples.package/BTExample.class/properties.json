@@ -1,0 +1,14 @@
+{
+	"category" : "Bootstrap-Examples",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BTExample",
+	"pools" : [
+		 ],
+	"super" : "BTWidget",
+	"type" : "normal" }
