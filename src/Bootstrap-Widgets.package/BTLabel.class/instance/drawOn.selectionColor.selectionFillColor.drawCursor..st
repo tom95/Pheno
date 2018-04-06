@@ -18,4 +18,4 @@ drawOn: aCanvas selectionColor: aColor selectionFillColor: anotherColor drawCurs
 		selectionFillColor: anotherColor
 		clip: (aCanvas clipRect translateBy: aCanvas origin)
 		drawCursor: aBoolean
-		finalPosition: self position
+		finalPosition: self layoutBounds topLeft

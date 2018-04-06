@@ -2,11 +2,10 @@ drawing
 drawOn: aCanvas
 
 	| selectionBackground selectionColor |
-	self styleContext stateActive: true.
-	selectionColor := self styleContext color.
-	selectionBackground := self styleContext backgroundColor.
-	self styleContext stateActive: false.
-
+	self styleContext withStateActiveDo: [:context |
+		selectionColor := context color.
+		selectionBackground := context backgroundColor].
+	
 	self
 		drawOn: aCanvas
 		selectionColor: selectionColor

@@ -12,4 +12,4 @@ initialize
 			padding: 20 @ 12;
 			backgroundColor: #fff);
 		align: #(fill start);
-		vertical: true
+		vertical: false

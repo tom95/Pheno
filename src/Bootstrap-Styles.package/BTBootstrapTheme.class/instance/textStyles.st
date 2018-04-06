@@ -12,6 +12,11 @@ textStyles
 	
 	(self for: #caret)
 		color: Color red.
-		
+	
 	(self for: #textArea)
-		padding: (Rectangle left: 0.5rem right: 0 top: 0.5rem bottom: 0)
+		padding: (Rectangle left: 0.75rem right: 0.75rem top: 0.375rem bottom: 0.375rem);
+		borderRadius: 0.25rem;
+		border: 1 color: #ced4da.
+	
+	(self for: #textArea state: #active)
+		borderColor: #'80bdff'
