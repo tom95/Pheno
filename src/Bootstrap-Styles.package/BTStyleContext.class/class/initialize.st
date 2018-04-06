@@ -1,8 +1,6 @@
 as yet unclassified
 initialize
 
-	super initialize.
-	
 	" dont forget to enter new values to #stateSymbolToIndex: as well "
 	STATE_NORMAL := 0.
 	STATE_ACTIVE := 1.
