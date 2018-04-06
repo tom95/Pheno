@@ -1,0 +1,1 @@
+A BTImage is displays a `Form` and makes sure it scales to the UI of your demands.
