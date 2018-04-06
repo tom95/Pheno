@@ -7,6 +7,7 @@ selectionColor: aSelectionColor
 selectionFillColor: aSelectionFillColor
 clip: aRectangle
 drawCursor: aBoolean
+finalPosition: aPoint
 
 	self drawOn: aCanvas transform: aTransform color: aColor fillColor: (aFillColor ifNil: [Color transparent]) clip: aRectangle start: -1 end: -1.
 	

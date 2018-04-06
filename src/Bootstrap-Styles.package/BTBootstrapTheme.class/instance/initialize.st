@@ -4,7 +4,7 @@ initialize
 	super initialize.
 	
 	self forAny
-		spacing: 15.
+		spacing: self defaultSpacing.
 	
 	(self for: #link)
 		color: #'0275d8'.
@@ -21,4 +21,5 @@ initialize
 		buttonGroupStyles;
 		listStyles;
 		textStyles;
-		windowStyles
+		windowStyles;
+		cardStyles

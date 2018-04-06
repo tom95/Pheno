@@ -1,0 +1,15 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"add:" : "TB 4/26/2017 23:32",
+		"animate" : "TB 4/6/2018 13:33",
+		"calculateSizeForWidth:" : "TB 4/26/2017 23:39",
+		"collapsed" : "TB 2/8/2017 00:18",
+		"collapsed:" : "TB 4/6/2018 13:33",
+		"easeInOutCubicFrom:to:at:" : "TB 2/8/2017 10:36",
+		"extent:" : "TB 4/6/2018 13:32",
+		"initialize" : "TB 4/6/2018 13:28",
+		"toggleCollapsed" : "TB 2/8/2017 11:44",
+		"transitionDuration" : "TB 2/8/2017 00:19",
+		"transitionDuration:" : "TB 2/8/2017 00:19" } }

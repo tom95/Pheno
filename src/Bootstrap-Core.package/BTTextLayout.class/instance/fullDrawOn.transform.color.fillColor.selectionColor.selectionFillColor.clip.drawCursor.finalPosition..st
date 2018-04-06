@@ -7,4 +7,5 @@ selectionColor: aSelectionColor
 selectionFillColor: aSelectionFillColor
 clip: aRectangle
 drawCursor: aBoolean
+finalPosition: aPoint
 	^self subclassResponsibility

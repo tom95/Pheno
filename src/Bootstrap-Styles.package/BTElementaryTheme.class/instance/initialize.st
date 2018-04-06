@@ -15,4 +15,5 @@ initialize
 		buttonGroupStyles;
 		scrollStyles;
 		listStyles;
-		textStyles
+		textStyles;
+		cardStyles
