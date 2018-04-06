@@ -1,0 +1,1 @@
+A BTListGroup is a container for BTListItems and only those.

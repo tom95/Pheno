@@ -23,4 +23,5 @@ initialize
 		textStyles;
 		windowStyles;
 		cardStyles;
-		imageStyles
+		imageStyles;
+		listGroupStyles

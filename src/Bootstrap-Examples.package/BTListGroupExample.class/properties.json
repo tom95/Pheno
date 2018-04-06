@@ -1,0 +1,14 @@
+{
+	"category" : "Bootstrap-Examples",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BTListGroupExample",
+	"pools" : [
+		 ],
+	"super" : "BTExample",
+	"type" : "normal" }
