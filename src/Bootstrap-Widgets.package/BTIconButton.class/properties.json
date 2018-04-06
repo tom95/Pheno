@@ -1,0 +1,14 @@
+{
+	"category" : "Bootstrap-Widgets",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"icon" ],
+	"name" : "BTIconButton",
+	"pools" : [
+		 ],
+	"super" : "BTClickable",
+	"type" : "normal" }

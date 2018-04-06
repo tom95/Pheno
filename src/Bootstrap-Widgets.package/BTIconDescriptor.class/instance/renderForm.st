@@ -7,7 +7,6 @@ renderForm
 	self svg allMorphsDo: [:morph | morph style at: 'fill' put: self color].
 	
 	form := self svg imageFormForRectangle: rect.
-	
 	^ BTIcon supersamplingFactor > 1
-		ifTrue: [form scaledToSize: self size]
+		ifTrue: [form scaledToSize: self size asPoint smoothing: 16]
 		ifFalse: [form]

@@ -1,0 +1,4 @@
+system startup
+refreshFontCache
+
+	self primRegisterCustomFontDirectory: self fontCacheDirectory fullName

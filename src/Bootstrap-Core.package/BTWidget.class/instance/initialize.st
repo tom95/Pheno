@@ -12,6 +12,4 @@ initialize
 	align := #(fill fill).
 	requestCache := BTSizeRequestCache new.
 	
-	self
-		color: Color transparent;
-		styleContext: BTStyleContext new
+	self styleContext: BTStyleContext new

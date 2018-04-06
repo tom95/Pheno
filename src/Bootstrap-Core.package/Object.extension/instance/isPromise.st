@@ -1,0 +1,4 @@
+*Bootstrap-Core
+isPromise
+
+	^ false

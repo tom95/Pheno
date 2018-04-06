@@ -1,0 +1,1 @@
+A BTPangoTextLayout is the implementation of a text layout that calls into libpango.

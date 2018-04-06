@@ -1,4 +1,4 @@
 drawing
 drawOn: aCanvas
 
-	aCanvas image: (self cachedFormFor: self extent) at: self position
+	aCanvas translucentImage: (self cachedFormFor: self extent) at: self layoutBounds origin
