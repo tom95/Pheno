@@ -1,0 +1,1 @@
+A BTTagList maintains an OrderedCollection of tag strings for you, making sure it is in sync with the UI.

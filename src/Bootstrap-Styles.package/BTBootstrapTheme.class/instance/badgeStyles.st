@@ -4,6 +4,7 @@ badgeStyles
 	(self for: #(badge))
 		borderRadius: 0.25 rem;
 		color: #fff;
+		spacing: 5;
 		backgroundColor: #'343a40'.
 	(self for: #(badge badgeSuccess)) backgroundColor: #'28a745'.
 	(self for: #(badge badgeWarning)) backgroundColor: #ffc107; color: #fff.

@@ -1,0 +1,1 @@
+A BTWritableTagList additionally to the functionality of a BTTagList allows to enter new tags.

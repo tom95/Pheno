@@ -5,7 +5,7 @@ text: aString
 		label := BTLabel new
 			wrap: #never;
 			yourself.
-		self add: label].
+		self add: label at: 1].
 		self class applyStyleAttributes: label.
 	
 	label text: aString

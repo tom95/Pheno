@@ -4,5 +4,5 @@ initialize
 	super initialize.
 	
 	self
-		addStyleClass: #iconButton";
-		layoutPolicy: nil"
+		addStyleClass: #iconButton;
+		addFallbackStyles: ((BTStyle for: #iconButton) color: #inherit)
