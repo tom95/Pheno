@@ -1,0 +1,1 @@
+A BTScrollArea is a scrolling area to contain widgets that are too large to be displayed on a single screen.

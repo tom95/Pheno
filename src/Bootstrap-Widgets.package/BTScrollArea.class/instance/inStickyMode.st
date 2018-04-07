@@ -1,0 +1,4 @@
+accessing
+inStickyMode
+		
+	^ inStickyMode

@@ -1,0 +1,14 @@
+{
+	"category" : "Bootstrap-Widgets",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "al 5/3/2017 15:35",
+	"instvars" : [
+		 ],
+	"name" : "BTScrollContainer",
+	"pools" : [
+		 ],
+	"super" : "TransformMorph",
+	"type" : "normal" }
