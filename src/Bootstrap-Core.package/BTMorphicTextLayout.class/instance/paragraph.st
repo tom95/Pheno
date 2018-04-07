@@ -1,6 +1,7 @@
 accessing
 paragraph
-	^paragraph ifNil: [
+
+	^ paragraph ifNil: [
 		paragraph := NewParagraph new
 			compose: self text asText
 			style: TextStyle default copy
@@ -10,4 +11,4 @@ paragraph
 				ifFalse: [self width]) @ self maximumContainerExtent y);
 			adjustRightX.
 		self updateCursor.
-		paragraph ]
+		paragraph]

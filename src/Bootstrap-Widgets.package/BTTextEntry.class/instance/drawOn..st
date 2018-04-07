@@ -2,7 +2,7 @@ drawing
 drawOn: aCanvas
 
 	| selectionBackground selectionColor |
-	self styleContext withStateActiveDo: [:context |
+	self styleContext withClass: #selection do: [:context |
 		selectionColor := context color.
 		selectionBackground := context backgroundColor].
 	

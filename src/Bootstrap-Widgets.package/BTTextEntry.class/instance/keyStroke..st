@@ -54,7 +54,8 @@ keyStroke: anEvent
 			^ self deleteBeforeCursor].
 		key = '<delete>' ifTrue: [
 			^ self deleteAfterCursor].
-		key = '<Cmd-h>' "FIXME appears to be Ctrl-backspace ???" ifTrue: [
+		"FIXME appears to be Ctrl-backspace ???"
+		(key = '<Cmd-h>' or: [key = '<Ctrl-backspace>']) ifTrue: [
 			^ self deleteNextWord: -1].
 		key = '<Ctrl-delete>' ifTrue: [
 			^ self deleteNextWord: 1].
@@ -62,7 +63,7 @@ keyStroke: anEvent
 			^ self insertAtCursor: Clipboard clipboardText].
 		key = '<Cmd-x>' ifTrue: [
 			Clipboard clipboardText: self selectedText. ^ self deleteBeforeCursor].
-	
+		
 		(anEvent controlKeyPressed or: [anEvent commandKeyPressed]) ifFalse: [
 			self insertAtCursor: anEvent keyCharacter.
 			self placeCursorAt: self cursor + 1]].

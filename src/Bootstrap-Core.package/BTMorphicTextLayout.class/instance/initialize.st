@@ -5,5 +5,5 @@ initialize
 	width := -1.
 	cursor := nil.
 	selectionBound := 0.
-	text := ''.
+	text := ' '. "see comment in text:"
 	origin := 0 asPoint

@@ -4,14 +4,15 @@ moveCursorVertically: aNumber selecting: aBoolean
 	
 	| data line |
 	data := self layout lineNumberOfIndex: self cursor.
-	(aNumber < 0 and: [data first = 0])
+	
+	(aNumber < 0 and: [data first + aNumber < 1])
 		ifTrue: [self cursor: 0]
 		ifFalse: [
-			(aNumber > 0 and: [data first = (self layout numberOfLines - 1)])
+			(aNumber > 0 and: [data first + aNumber > self layout numberOfLines])
 				ifTrue: [self cursor: self text size]
 				ifFalse: [
 					line := data first + aNumber.
-					data := self layout indexAtLine: line x: data second.	
+					data := self layout indexAtLine: line x: data second.
 
 					self cursor: data first + data second]].
 	

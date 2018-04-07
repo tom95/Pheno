@@ -1,0 +1,16 @@
+{
+	"category" : "Bootstrap-Widgets",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "TB 4/7/2018 20:41",
+	"instvars" : [
+		"label",
+		"textArea",
+		"textAreaClass" ],
+	"name" : "BTTextAreaWithLabel",
+	"pools" : [
+		 ],
+	"super" : "BTWidget",
+	"type" : "normal" }

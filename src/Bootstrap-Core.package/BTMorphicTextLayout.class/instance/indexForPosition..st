@@ -1,3 +1,4 @@
 cursor
 indexForPosition: aPoint
-	^{true. (self paragraph characterBlockAtPoint: aPoint) stringIndex. 0}
+
+	^ {true. (self paragraph characterBlockAtPoint: aPoint + origin) stringIndex - 1. 0}
