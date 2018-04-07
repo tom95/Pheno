@@ -1,0 +1,1 @@
+A BTLink is a clickable with text that has your typical blue color of links and changes it when hovered.

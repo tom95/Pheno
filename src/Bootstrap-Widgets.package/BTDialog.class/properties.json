@@ -1,0 +1,16 @@
+{
+	"category" : "Bootstrap-Widgets",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "TB 5/16/2017 15:33",
+	"instvars" : [
+		"titleLabel",
+		"acceptPromise",
+		"parentTopLevel" ],
+	"name" : "BTDialog",
+	"pools" : [
+		 ],
+	"super" : "BTCard",
+	"type" : "normal" }

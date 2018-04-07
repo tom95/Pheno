@@ -1,0 +1,14 @@
+{
+	"category" : "Bootstrap-Widgets",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "TB 3/23/2017 15:11",
+	"instvars" : [
+		 ],
+	"name" : "BTLink",
+	"pools" : [
+		 ],
+	"super" : "BTClickableWithText",
+	"type" : "normal" }

@@ -1,0 +1,4 @@
+widget-api
+assureWidgetParent
+
+	^ self

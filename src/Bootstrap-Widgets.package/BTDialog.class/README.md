@@ -1,0 +1,1 @@
+A BTDialog is a toplevel window that may display contextual content to the user, with widgets that they may interact with. The open methods will return a promise that the dialog can resolve with its accept: and cancel: methods.

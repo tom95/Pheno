@@ -17,7 +17,8 @@
 		"STATE_ODD_CHILD",
 		"STATE_SELECTED",
 		"ScalingFactor",
-		"Theme" ],
+		"Theme",
+		"Utilities" ],
 	"commentStamp" : "",
 	"instvars" : [
 		"providers",
