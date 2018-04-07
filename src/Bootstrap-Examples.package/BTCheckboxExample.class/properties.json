@@ -1,0 +1,14 @@
+{
+	"category" : "Bootstrap-Examples",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BTCheckboxExample",
+	"pools" : [
+		 ],
+	"super" : "BTExample",
+	"type" : "normal" }

@@ -225,6 +225,7 @@
 		"iconEllipsis_h" : "TB 12/5/2017 16:47",
 		"iconEllipsis_v" : "TB 12/5/2017 16:47",
 		"iconEmpire" : "TB 12/5/2017 16:47",
+		"iconEmpty" : "TB 4/7/2018 20:29",
 		"iconEnvelope" : "TB 12/5/2017 16:47",
 		"iconEnvelope_o" : "TB 12/5/2017 16:47",
 		"iconEnvelope_open" : "TB 12/5/2017 16:47",
@@ -794,6 +795,7 @@
 	"instance" : {
 		"cachedFormFor:" : "TB 12/10/2017 01:22",
 		"calculateSizeForWidth:" : "TB 4/5/2018 15:51",
+		"changeIconName:" : "TB 4/7/2018 20:30",
 		"drawOn:" : "TB 4/6/2018 12:12",
 		"formForSize:color:" : "TB 12/10/2017 01:37",
 		"initialize" : "TB 12/6/2017 23:58",

@@ -1,0 +1,4 @@
+accessing
+checked
+
+	^ checkbox checked

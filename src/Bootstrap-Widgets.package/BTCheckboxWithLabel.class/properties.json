@@ -1,0 +1,15 @@
+{
+	"category" : "Bootstrap-Widgets",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "TB 3/23/2017 15:07",
+	"instvars" : [
+		"label",
+		"checkbox" ],
+	"name" : "BTCheckboxWithLabel",
+	"pools" : [
+		 ],
+	"super" : "BTClickable",
+	"type" : "normal" }
