@@ -1,0 +1,9 @@
+{
+	"class" : {
+		"tabs:" : "ek 4/21/2017 10:44" },
+	"instance" : {
+		"addTab:" : "ek 4/21/2017 10:44",
+		"initialize" : "TB 4/7/2018 10:52",
+		"isNavigation" : "ek 4/21/2017 10:44",
+		"makeActive:" : "TB 4/7/2018 11:39",
+		"triggerTabSwitched:oldTab:" : "ek 4/21/2017 10:44" } }

@@ -24,4 +24,5 @@ initialize
 		windowStyles;
 		cardStyles;
 		imageStyles;
+		tabStyles;
 		listGroupStyles

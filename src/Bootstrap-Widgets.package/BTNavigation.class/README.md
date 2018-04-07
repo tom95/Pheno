@@ -1,0 +1,1 @@
+A BTNavigation is the container class for tabs. Refer to BTTab for a nice picture. It does not display pages though, use BTTabNavigation for that.

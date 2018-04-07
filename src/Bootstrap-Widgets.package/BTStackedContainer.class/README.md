@@ -1,0 +1,1 @@
+A BTStackedContainer is a container that only displays a single of its children at a time.

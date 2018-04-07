@@ -1,0 +1,15 @@
+{
+	"category" : "Bootstrap-Widgets",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "TB 4/7/2018 10:51",
+	"instvars" : [
+		"navigationBar",
+		"stackedContainer" ],
+	"name" : "BTTabNavigation",
+	"pools" : [
+		 ],
+	"super" : "BTWidget",
+	"type" : "normal" }
