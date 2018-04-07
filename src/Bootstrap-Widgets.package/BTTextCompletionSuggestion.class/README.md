@@ -1,0 +1,1 @@
+A BTTextCompletionSuggestion extends the DropdownItem by also expecting a data value, which can be, for example, an ID that is used to link the Item to a dataset on a server
