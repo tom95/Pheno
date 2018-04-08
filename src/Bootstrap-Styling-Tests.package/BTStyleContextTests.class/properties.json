@@ -1,0 +1,18 @@
+{
+	"category" : "Bootstrap-Styling-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"context",
+		"redStyle",
+		"blueStyle",
+		"orangeButtonStyle",
+		"previousGlobalStyleContext" ],
+	"name" : "BTStyleContextTests",
+	"pools" : [
+		 ],
+	"super" : "BTTestCase",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "Bootstrap-Styling-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BTStyleSelectorTests",
+	"pools" : [
+		 ],
+	"super" : "BTTestCase",
+	"type" : "normal" }

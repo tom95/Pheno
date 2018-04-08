@@ -1,0 +1,9 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testColorConvert" : "TB 12/6/2017 22:18",
+		"testForegroundForBackground" : "TB 4/8/2018 11:42",
+		"testInheritIsNotChanged" : "TB 12/7/2017 00:10",
+		"testRectangleConvert" : "TB 12/6/2017 22:46",
+		"testState" : "TB 12/7/2017 12:34" } }
