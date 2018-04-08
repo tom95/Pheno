@@ -1,9 +1,13 @@
 {
 	"class" : {
-		 },
+		"foregroundColorForBackgroundColor:" : "TB 4/8/2018 11:43",
+		"textColorDark" : "TB 4/8/2018 10:50",
+		"textColorLight" : "TB 4/8/2018 10:49",
+		"yiqConstranstedThreshold" : "TB 4/8/2018 10:49" },
 	"instance" : {
 		"add:" : "TB 12/6/2017 23:04",
 		"asProvider" : "TB 12/6/2017 01:13",
+		"foregroundColorForBackgroundColor:" : "TB 4/8/2018 10:50",
 		"initialize" : "TB 12/6/2017 00:17",
 		"lookup:matching:do:" : "TB 12/6/2017 00:57",
 		"update:" : "TB 12/6/2017 23:13" } }

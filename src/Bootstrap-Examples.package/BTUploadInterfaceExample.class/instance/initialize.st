@@ -38,4 +38,6 @@ initialize
 		add: scriptTagArea;
 		add: ((BTButton text: 'Create Project' ) addStyleClass: #primary; align: #(end start)).
 	
-	self add: uploadBox
+	self
+		addStyleClass: #withPadding;
+		add: uploadBox

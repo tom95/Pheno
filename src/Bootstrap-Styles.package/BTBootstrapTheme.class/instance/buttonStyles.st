@@ -30,16 +30,18 @@ buttonStyles
 		borderWidth: 2;
 		borderColor: (Color white alpha: 0.5).
 	
-	(self for: #(button buttonDanger))
-		backgroundColor: #dc3545;
-		borderColor: #dc3545;
-		color: #fff.
-	
-	(self for: #(button buttonDanger) state: #(hover))
-		backgroundColor: #c82333;
-		borderColor: #bd2130.
-	
-	(self for: (BTClassSelector for: #(button buttonDanger) state: #(hover active)),
-		(BTClassSelector for: #(button buttonDanger) state: #active))
-		backgroundColor: #bd2130;
-		borderColor: #b21f2d
+	self themeColors with: self themeColorTypes do: [:color :type | | selector |
+		selector := {#button. type}.
+		(self for: selector)
+			backgroundColor: color;
+			borderColor: color;
+			color: (self foregroundColorForBackgroundColor: color).
+		
+		(self for: selector state: #(hover))
+			backgroundColor: (color adjustBrightness: -0.075);
+			borderColor: (color adjustBrightness: -0.1).
+		
+		(self for: (BTClassSelector for: selector state: #(hover active)),
+			(BTClassSelector for: selector state: #active))
+			backgroundColor: (color adjustBrightness: -0.1);
+			borderColor: (color adjustBrightness: -0.125)]

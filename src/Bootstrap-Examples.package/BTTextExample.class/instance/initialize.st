@@ -30,4 +30,6 @@ initialize
 		
 		add: ((BTLink text: 'Click me pls')
 			when: #clicked
-			evaluate: [self topLevel displayNotification: 'hi' type: #success])
+			evaluate: [self topLevel displayNotification: 'hi' type: #success]);
+		
+		add: (BTLabel text: self sampleText)
