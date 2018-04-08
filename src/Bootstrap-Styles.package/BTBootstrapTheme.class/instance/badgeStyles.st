@@ -6,8 +6,8 @@ badgeStyles
 		color: #fff;
 		spacing: 5;
 		backgroundColor: #'343a40'.
-	(self for: #(badge badgeSuccess)) backgroundColor: #'28a745'.
-	(self for: #(badge badgeWarning)) backgroundColor: #ffc107; color: #fff.
-	(self for: #(badge badgeInfo)) backgroundColor: #'17a2b8'.
-	(self for: #(badge badgeDanger)) backgroundColor: #dc3545.
-	(self for: #(badge badgePrimary)) backgroundColor: #'007bff'
+	
+	self themeColors with: self themeColorTypes do: [:color :type |
+		(self for: {#badge. type})
+			backgroundColor: color;
+			color: (self foregroundColorForBackgroundColor: color)]

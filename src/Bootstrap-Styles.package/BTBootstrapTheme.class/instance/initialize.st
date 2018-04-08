@@ -25,4 +25,5 @@ initialize
 		cardStyles;
 		imageStyles;
 		tabStyles;
-		listGroupStyles
+		listGroupStyles;
+		checkboxStyles
