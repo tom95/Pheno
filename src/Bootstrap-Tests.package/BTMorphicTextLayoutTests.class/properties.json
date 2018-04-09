@@ -1,0 +1,14 @@
+{
+	"category" : "Bootstrap-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"layout" ],
+	"name" : "BTMorphicTextLayoutTests",
+	"pools" : [
+		 ],
+	"super" : "BTTestCase",
+	"type" : "normal" }

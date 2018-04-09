@@ -1,0 +1,15 @@
+{
+	"category" : "Bootstrap-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"world",
+		"hand" ],
+	"name" : "BTEventTestCase",
+	"pools" : [
+		 ],
+	"super" : "BTTestCase",
+	"type" : "normal" }

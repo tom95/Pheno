@@ -1,0 +1,14 @@
+{
+	"category" : "Bootstrap-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BTTestSpyTests",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

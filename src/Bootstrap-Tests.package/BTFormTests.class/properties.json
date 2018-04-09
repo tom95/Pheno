@@ -1,0 +1,16 @@
+{
+	"category" : "Bootstrap-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"window",
+		"inputs",
+		"button" ],
+	"name" : "BTFormTests",
+	"pools" : [
+		 ],
+	"super" : "BTEventTestCase",
+	"type" : "normal" }

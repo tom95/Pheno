@@ -1,0 +1,16 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"completionWidget" : "TB 3/6/2017 11:32",
+		"completionWidgetWithShortSuggestions" : "TB 5/5/2017 11:45",
+		"displayedSuggestions" : "TB 5/3/2017 19:46",
+		"setUp" : "JH 4/25/2017 12:09",
+		"tearDown" : "TB 3/6/2017 11:37",
+		"testAllowExactMatch" : "JH 4/24/2017 11:48",
+		"testAllowFreeText" : "JH 4/24/2017 11:48",
+		"testArrowSelectSuggestion" : "TB 5/4/2017 10:14",
+		"testDisallowFreeText" : "JH 5/3/2017 17:39",
+		"testSuggestionsFiltered" : "TB 5/5/2017 11:44",
+		"testSuggestionsFilteredShortSuggestions" : "TB 5/5/2017 11:44",
+		"testTabSelectSuggestion" : "JH 5/3/2017 17:37" } }

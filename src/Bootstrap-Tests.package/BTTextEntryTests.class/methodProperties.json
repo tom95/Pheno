@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "TB 4/7/2018 21:12",
+		"testBugCursorJump" : "TB 4/8/2018 12:24",
+		"testCorrectEmptyHeight" : "TB 4/7/2018 21:13",
+		"testDeleteWord" : "TB 4/7/2018 23:57",
+		"testDeleteWordBack" : "TB 4/7/2018 23:58",
+		"testMoveVertically" : "TB 4/7/2018 22:46",
+		"testMultiLine" : "TB 3/8/2017 11:06",
+		"testSingleLine" : "TB 3/8/2017 11:06" } }

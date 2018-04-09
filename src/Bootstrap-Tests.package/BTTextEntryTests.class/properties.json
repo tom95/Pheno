@@ -1,0 +1,15 @@
+{
+	"category" : "Bootstrap-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"textEntry",
+		"topLevel" ],
+	"name" : "BTTextEntryTests",
+	"pools" : [
+		 ],
+	"super" : "BTEventTestCase",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "Bootstrap-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"clickableWidget" ],
+	"name" : "BTClickableTests",
+	"pools" : [
+		 ],
+	"super" : "BTEventTestCase",
+	"type" : "normal" }

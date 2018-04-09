@@ -1,0 +1,15 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"assert:description:" : "TB 3/12/2017 07:44",
+		"beDisabled" : "TB 5/22/2017 15:29",
+		"beVisible" : "TB 5/22/2017 15:29",
+		"findSubmorph:ofKind:" : "TB 5/10/2017 13:38",
+		"haveA:labelled:" : "TB 5/11/2017 09:26",
+		"haveText:" : "TB 5/22/2017 15:03",
+		"resolve" : "TB 5/9/2017 11:17",
+		"send:" : "TB 5/9/2017 11:17",
+		"send:withArguments:" : "TB 5/9/2017 11:17",
+		"testCase" : "TB 3/12/2017 07:40",
+		"testCase:" : "TB 3/12/2017 07:40" } }

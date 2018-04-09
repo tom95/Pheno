@@ -1,0 +1,9 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testMarkupToTextContentsOnly" : "TB 3/12/2017 14:49",
+		"testStrip" : "TB 3/12/2017 13:18",
+		"testStripUnescape" : "TB 3/12/2017 15:30",
+		"testTagWithWeirdContent" : "TB 3/12/2017 15:19",
+		"testUnescape" : "TB 3/12/2017 15:30" } }

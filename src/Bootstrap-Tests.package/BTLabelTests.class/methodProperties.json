@@ -1,0 +1,7 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"expectedFailures" : "TB 3/11/2017 13:11",
+		"testEllipsize" : "TB 3/1/2017 09:41",
+		"testWrap" : "TB 3/1/2017 09:38" } }

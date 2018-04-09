@@ -1,0 +1,18 @@
+{
+	"category" : "Bootstrap-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"event",
+		"arguments",
+		"fulfilled",
+		"actual",
+		"negated" ],
+	"name" : "BTTestSpy",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

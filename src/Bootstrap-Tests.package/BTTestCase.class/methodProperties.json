@@ -1,0 +1,17 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addSpy:" : "TB 3/6/2017 12:10",
+		"checkSpies" : "TB 3/6/2017 21:59",
+		"expect:" : "TB 3/6/2017 11:16",
+		"horizontalContainer" : "TB 3/1/2017 09:06",
+		"horizontalTopLevel" : "TB 3/1/2017 09:06",
+		"randomColor" : "TB 3/1/2017 09:06",
+		"safePromise:" : "TB 3/14/2017 09:15",
+		"setUp" : "TB 12/7/2017 19:31",
+		"tearDown" : "TB 12/7/2017 19:31",
+		"topLevel:" : "TB 4/5/2018 14:53",
+		"verticalContainer" : "TB 3/1/2017 09:05",
+		"verticalTopLevel" : "TB 3/1/2017 09:05",
+		"widget" : "TB 3/1/2017 09:05" } }

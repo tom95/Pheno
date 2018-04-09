@@ -1,0 +1,14 @@
+{
+	"category" : "Bootstrap-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"naturalSize" ],
+	"name" : "BTWidgetWithNaturalSize",
+	"pools" : [
+		 ],
+	"super" : "BTWidget",
+	"type" : "normal" }

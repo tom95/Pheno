@@ -1,0 +1,14 @@
+{
+	"category" : "Bootstrap-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BTTestHandMorph",
+	"pools" : [
+		 ],
+	"super" : "HandMorph",
+	"type" : "normal" }
