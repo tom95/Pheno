@@ -1,0 +1,1 @@
+A BTSizeRequest stores the minimum and natural size of a widget.

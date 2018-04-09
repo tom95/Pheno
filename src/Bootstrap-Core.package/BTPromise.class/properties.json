@@ -1,0 +1,21 @@
+{
+	"category" : "Bootstrap-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"ThrowAllErrors" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"onError",
+		"value",
+		"resolvers",
+		"mutex",
+		"state",
+		"error",
+		"rejectors",
+		"rejecters" ],
+	"name" : "BTPromise",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

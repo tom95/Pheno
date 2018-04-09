@@ -1,0 +1,4 @@
+testing
+isResolved
+
+	^ state == #fulfilled
