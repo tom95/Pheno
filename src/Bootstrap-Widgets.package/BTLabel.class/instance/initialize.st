@@ -1,7 +1,10 @@
 initialize-release
 initialize
 
-	layout := self class textLayoutClass new font: self class textLayoutClass defaultFont; yourself.
+	| layoutClass |
+	layoutClass := BTTextLayout concreteTextLayoutClass.
+	
+	layout := layoutClass new font: layoutClass defaultFont; yourself.
 	text := ''.
 	angle := 0.
 	styleAttributes := Dictionary new.

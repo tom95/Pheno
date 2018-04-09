@@ -9,4 +9,4 @@ createIconFormSize: aNumber
 		ifNotNil: [:icon |
 			(BTIcon respondsTo: icon)
 				ifTrue: [(BTIcon perform: icon) formForSize: size color: self color]
-				ifFalse: [Form extent: size depth: 32]]
+				ifFalse: [Form extent: size asPoint depth: 32]]

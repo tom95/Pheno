@@ -1,5 +1,5 @@
-accessing
-textLayoutClass
+as yet unclassified
+concreteTextLayoutClass
 
 	^ (Smalltalk
 		at: #BTPangoTextLayout
