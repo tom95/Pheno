@@ -6,9 +6,7 @@ testWrap
 	
 	labelFullWidth := (label sizeForWidth: -1) x.
 	
-	self assert: labelFullWidth equals: label width.
-	
-	label wrap: #char.
-	topLevel shrink.
-	
-	self assert: label width < labelFullWidth
+	(self expect: label width) to equal: labelFullWidth.
+	(self expect: label) to decreaseIts: #width during: [
+		label wrap: #char.
+		topLevel shrink]
