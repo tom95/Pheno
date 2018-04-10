@@ -26,4 +26,5 @@ initialize
 		imageStyles;
 		tabStyles;
 		listGroupStyles;
-		checkboxStyles
+		checkboxStyles;
+		scrollAreaStyles
