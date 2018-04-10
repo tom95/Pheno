@@ -1,0 +1,14 @@
+{
+	"category" : "Bootstrap-Examples",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BTPageNavigationExample",
+	"pools" : [
+		 ],
+	"super" : "BTExample",
+	"type" : "normal" }

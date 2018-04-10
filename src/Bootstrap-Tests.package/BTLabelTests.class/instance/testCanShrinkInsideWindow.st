@@ -10,5 +10,5 @@ testCanShrinkInsideWindow
 	topLevel extent: labelFullWidth + extra @ 100; fullBounds.
 	(self expect: label width) to equal: labelFullWidth.
 	
-	topLevel extent: labelFullWidth / 2 + extra @ 800; fullBounds.
+	topLevel extent: labelFullWidth / 2 + extra @ 200; fullBounds.
 	(self expect: label width) to equal: labelFullWidth / 2

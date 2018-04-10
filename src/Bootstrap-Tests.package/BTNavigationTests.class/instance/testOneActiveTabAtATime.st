@@ -1,7 +1,7 @@
 as yet unclassified
 testOneActiveTabAtATime
 	| navigation topLevel |
-	navigation := BTNavigation new.
+	navigation := BTTabStrip new.
 	#('First' 'Second' 'None') do: [ :text |
 		navigation add: (BTTab new add: (BTLabel text: text) ) ].
 

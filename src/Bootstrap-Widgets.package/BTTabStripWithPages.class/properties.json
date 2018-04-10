@@ -4,11 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "TB 4/7/2018 10:51",
+	"commentStamp" : "TB 4/10/2018 17:24",
 	"instvars" : [
-		"currentTab",
-		"tabSwitchedDo" ],
-	"name" : "BTNavigation",
+		"navigationBar",
+		"stackedContainer" ],
+	"name" : "BTTabStripWithPages",
 	"pools" : [
 		 ],
 	"super" : "BTWidget",

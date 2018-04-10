@@ -5,7 +5,7 @@ initialize
 	
 	self
 		stackedContainer: BTStackedContainer new;
-		navigationBar: BTNavigation new.
+		navigationBar: BTTabStrip new.
 	
 	self navigationBar when: #tabSwitched send: #selectTab: to: self.
 	

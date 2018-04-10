@@ -1,0 +1,1 @@
+A BTNavigationStack is a stack keeping track of BTPages, allowing to store them and navigate forward and backward between them.
