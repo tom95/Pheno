@@ -15,4 +15,7 @@ initialize
 	STATE_ODD_CHILD := 9.
 	
 	" increment this when you add new states "
-	MAX_STATES := 64
+	MAX_STATES := 64.
+	
+	Theme ifNil: [BTBootstrapTheme new use].
+	Utilities ifNil: [self updateUtilityStyles]
