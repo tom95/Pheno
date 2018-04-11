@@ -1,7 +1,7 @@
 as yet unclassified
 testAllRejects
 	| a b grouped e |
-	e := BTHttpError new.
+	e := BTTestApplicationException new.
 	a := BTPromise new.
 	b := BTPromise new.
 	
