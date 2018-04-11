@@ -1,4 +1,4 @@
-*Bootstrap-Styles
+*Bootstrap-Core
 addedMorph: aMorph
 
 	aMorph styleContext parent: self styleContext.
