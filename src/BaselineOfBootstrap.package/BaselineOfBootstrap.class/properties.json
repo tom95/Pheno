@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfBootstrap",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfBootstrap",
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"type" : "normal" }
