@@ -1,4 +1,4 @@
-*Bootstrap-Core
+*Bootstrap-Styles
 asStyle
 
 	^ BTClassSelector for: self
