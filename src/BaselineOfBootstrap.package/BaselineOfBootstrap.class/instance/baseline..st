@@ -1,4 +1,4 @@
-as yet unclassified
+baseline
 baseline: spec
 
 	<baseline>
@@ -9,5 +9,6 @@ baseline: spec
 		
 		spec
 			package: 'Bootstrap' with: [spec requires: #('JSON' 'SVGMorph')];
-			package: 'default' with: #('Bootstrap');
-			package: 'tests' with: #('Bootstrap')]
+			
+			group: 'default' with: #('Bootstrap');
+			group: 'tests' with: #('Bootstrap')]
