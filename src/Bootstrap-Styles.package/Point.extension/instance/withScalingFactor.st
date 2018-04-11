@@ -1,4 +1,4 @@
-*Bootstrap-Core
+*Bootstrap-Styles
 withScalingFactor
 
 	^ self * BTStyleContext scalingFactor
