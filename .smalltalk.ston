@@ -5,7 +5,7 @@ SmalltalkCISpec {
       #directory : 'src',
       #platforms : [ #squeak ],
       #load : 'tests'
-    },
+    }
   ]
 }
 
