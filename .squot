@@ -6,6 +6,5 @@ OrderedDictionary {
 	'src\/Bootstrap-Styling-Tests.package' : #SquotCypressCodeSerializer,
 	'src\/Bootstrap-Tests.package' : #SquotCypressCodeSerializer,
 	'src\/Bootstrap-ToolBuilder.package' : #SquotCypressCodeSerializer,
-	'src\/Bootstrap-Widgets.package' : #SquotCypressCodeSerializer,
-	'src\/SVG-Morphic.package' : #SquotCypressCodeSerializer
+	'src\/Bootstrap-Widgets.package' : #SquotCypressCodeSerializer
 }
