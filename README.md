@@ -16,6 +16,9 @@ Metacello new
 
 Finally, launch a couple examples using e.g.
 ```smalltalk
-BTTextExample open
-BTColorStylesExample open
+BTTextExample open.
+BTColorStylesExample open.
+
+" to browse all examples, run: "
+Browser newOnCategory: 'Bootstrap-Examples'.
 ```
