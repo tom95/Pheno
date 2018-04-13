@@ -1,0 +1,23 @@
+{
+	"class" : {
+		"defaultFont" : "TB 4/13/2018 22:29" },
+	"instance" : {
+		"extent" : "TB 4/13/2018 23:43",
+		"font" : "TB 4/13/2018 22:29",
+		"font:" : "TB 4/13/2018 22:29",
+		"fullDrawOn:transform:color:fillColor:selectionColor:selectionFillColor:clip:drawCursor:finalPosition:" : "TB 4/14/2018 00:45",
+		"initialize" : "TB 4/14/2018 00:46",
+		"lineHeight" : "TB 4/14/2018 01:09",
+		"lineSpacing" : "TB 4/14/2018 00:44",
+		"lineSpacing:" : "TB 4/14/2018 00:44",
+		"lines" : "TB 4/13/2018 23:43",
+		"occluderRegions" : "TB 4/14/2018 00:56",
+		"occluderRegions:" : "TB 4/14/2018 00:56",
+		"processLayout" : "TB 4/14/2018 01:15",
+		"rangeForLineAtY:" : "TB 4/14/2018 01:19",
+		"releaseCachedState" : "TB 4/13/2018 23:43",
+		"text" : "TB 4/13/2018 23:42",
+		"text:" : "TB 4/13/2018 23:44",
+		"tokensOfString:from:to:do:" : "TB 4/13/2018 22:57",
+		"width" : "TB 4/13/2018 22:27",
+		"width:" : "TB 4/13/2018 23:44" } }

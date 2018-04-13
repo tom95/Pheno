@@ -1,0 +1,17 @@
+{
+	"category" : "Bootstrap-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"baseline",
+		"start",
+		"stop",
+		"text" ],
+	"name" : "BTTextLine",
+	"pools" : [
+		 ],
+	"super" : "Rectangle",
+	"type" : "normal" }

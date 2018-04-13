@@ -1,3 +1,3 @@
 accessing
 height
-	^height
+	^ self subclassResponsibility
