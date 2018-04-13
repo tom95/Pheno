@@ -16,7 +16,7 @@ Metacello new
 
 Finally, launch a couple examples using e.g.
 ```smalltalk
-BTTextExample open.
+BTLabelExample open.
 BTColorStylesExample open.
 
 " to browse all examples, run: "
