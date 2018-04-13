@@ -30,4 +30,11 @@ buttonStyles
 		borderWidth: 2;
 		borderColor: (Color white alpha: 0.5).
 	
-	self defaultThemeColorVariationFor: #button
+	self defaultThemeColorVariationFor: #button.
+	
+	(self for: #iconButton)
+		color: #'999'.
+	(self for: #iconButton state: #hover)
+		color: #'444'.
+	(self for: #iconButton state: #(active hover))
+		color: #'000'
