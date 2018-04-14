@@ -9,4 +9,6 @@ clip: aRectangle
 drawCursor: aBoolean
 finalPosition: aPoint
 
-	self lines do: [:line | line drawOn: aCanvas at: aTransform offset + line origin color: aColor]
+	aBoolean ifTrue: [self drawCursorOn: aCanvas origin: aPoint color: aColor].
+	
+	self lines do: [:line | line drawOn: aCanvas at: aPoint + line origin color: aColor]

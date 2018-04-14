@@ -1,4 +1,0 @@
-initialize-release
-initialize
-	
-	self initializeWithLayoutClass: BTTextLayout concreteTextLayoutClass

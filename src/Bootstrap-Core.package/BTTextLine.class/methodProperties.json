@@ -2,9 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
+		"=" : "TB 4/14/2018 10:35",
 		"baseline" : "TB 4/13/2018 23:32",
 		"baseline:" : "TB 4/13/2018 23:32",
 		"drawOn:at:color:" : "TB 4/14/2018 00:38",
+		"indexForPosition:" : "TB 4/14/2018 12:01",
+		"rectangleForIndex:" : "TB 4/14/2018 11:56",
 		"start" : "TB 4/13/2018 23:32",
 		"start:" : "TB 4/13/2018 23:32",
 		"stop" : "TB 4/13/2018 23:32",

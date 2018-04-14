@@ -1,7 +1,7 @@
 as yet unclassified
 processLayout
 
-	| totalWidth lineWidth totalHeight lineHeight lineStartIndex lineAscent |
+	| totalWidth lineWidth totalHeight lineHeight lineStartIndex lineAscent range |
 	lineWidth := 0.
 	lineHeight := 0.
 	lineAscent := 0.
@@ -12,15 +12,18 @@ processLayout
 	
 	self text runs withStartStopAndValueDo: [:start :stop :attributes | | activeFont |
 		activeFont := self text fontAt: start withStyle: TextStyle default.
+		
+		activeFont lineGrid > lineHeight ifTrue: [range := self rangeForLineAtYFrom: totalHeight to: totalHeight + activeFont lineGrid].
+		
 		lineHeight := lineHeight max: activeFont lineGrid.
 		lineAscent := lineAscent max: activeFont ascent.
 		
 		self tokensOfString: self text string from: start to: stop do: [:tokenStart :tokenStop | | tokenWidth |
 			tokenWidth := activeFont widthOfString: self text string from: tokenStart to: tokenStop.
 			
-			lineWidth + tokenWidth > self width
+			range start + lineWidth + tokenWidth > range stop
 				ifTrue: [
-					lines add: ((BTTextLine origin: 0 @ totalHeight extent: lineWidth @ lineHeight)
+					lines add: ((BTTextLine origin: range start @ totalHeight extent: range stop - range start @ lineHeight)
 						baseline: lineAscent;
 						start: lineStartIndex;
 						stop: tokenStart - 1;
@@ -29,6 +32,7 @@ processLayout
 					lineStartIndex := tokenStart.
 					totalWidth := totalWidth max: lineWidth.
 					totalHeight := totalHeight + lineHeight + self lineSpacing.
+					range := self rangeForLineAtYFrom: totalHeight to: totalHeight + activeFont lineGrid.
 					lineWidth := tokenWidth.
 					lineHeight := activeFont lineGrid.
 					lineAscent := activeFont ascent]
@@ -42,8 +46,5 @@ processLayout
 	
 	totalWidth := totalWidth max: lineWidth.
 	totalHeight := totalHeight + lineHeight.
-	
-	self flag: #fixme. "not sure yet about this (is easier for testing, but less accurate for possible future use cases). once decided, move up into constructors or remove"
-	lines := lines collect: [:line | line withWidth: self width].
 	
 	extent := totalWidth @ totalHeight

@@ -11,7 +11,7 @@ initializeWithLayoutClass: aClass
 	layoutWidth := -1.
 	wrap := true.
 	
-	super initialize.
+	self initialize.
 	
 	self
 		addStyleClass: #label;

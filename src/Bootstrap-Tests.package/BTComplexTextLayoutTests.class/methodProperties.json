@@ -2,5 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"expectedFailures" : "TB 4/14/2018 01:21",
-		"testOccluderRegions" : "TB 4/14/2018 01:15" } }
+		"expectedFailures" : "TB 4/14/2018 12:02",
+		"testOccluderRegions" : "TB 4/14/2018 10:29",
+		"testOccluderRegionsFullLine" : "TB 4/14/2018 12:02",
+		"testRangeForLineAtY" : "TB 4/14/2018 10:28" } }
