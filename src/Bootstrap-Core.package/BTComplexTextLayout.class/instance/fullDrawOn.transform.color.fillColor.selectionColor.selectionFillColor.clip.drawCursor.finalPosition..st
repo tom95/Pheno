@@ -9,6 +9,9 @@ clip: aRectangle
 drawCursor: aBoolean
 finalPosition: aPoint
 
-	aBoolean ifTrue: [self drawCursorOn: aCanvas origin: aPoint color: aColor].
+	(aBoolean and: [self cursor = self selectionBound]) ifTrue: [self drawCursorOn: aCanvas origin: aPoint color: aColor].
+	
+	self cursor ~= self selectionBound ifTrue: [
+		aCanvas translateBy: aPoint during: [:c | self drawSelectionOn: c color: aSelectionColor background: aSelectionFillColor]].
 	
 	self lines do: [:line | line drawOn: aCanvas at: aPoint + line origin color: aColor]

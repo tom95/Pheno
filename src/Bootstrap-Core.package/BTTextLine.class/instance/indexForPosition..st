@@ -10,6 +10,6 @@ indexForPosition: aNumber
 		self flag: #todo. "if over half, take next char"
 		runStart to: runStop do: [:index |
 			x := x + (font widthOf: (text string at: index)).
-			x > aNumber ifTrue: [^ index - 1]]].
+			x > aNumber ifTrue: [^ index]]].
 	
-	^ self stop - 1
+	^ self stop
