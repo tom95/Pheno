@@ -21,9 +21,9 @@ processLayout
 		self tokensOfString: self text string from: start to: stop do: [:tokenStart :tokenStop | | tokenWidth |
 			tokenWidth := activeFont widthOfString: self text string from: tokenStart to: tokenStop.
 			
-			range start + lineWidth + tokenWidth > range stop
+			range first + lineWidth + tokenWidth > range last
 				ifTrue: [
-					lines add: ((BTTextLine origin: range start @ totalHeight extent: range stop - range start @ lineHeight)
+					lines add: ((BTTextLine origin: range first @ totalHeight extent: range last - range first @ lineHeight)
 						baseline: lineAscent;
 						start: lineStartIndex;
 						stop: tokenStart - 1;
