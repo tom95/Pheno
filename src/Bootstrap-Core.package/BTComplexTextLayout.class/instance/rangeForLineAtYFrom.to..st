@@ -5,4 +5,4 @@ rangeForLineAtYFrom: aNumber to: anotherNumber
 	upper := self rangeForLineAtY: aNumber.
 	lower := self rangeForLineAtY: anotherNumber - 1.
 	
-	^ (upper start max: lower first) to: (upper stop min: upper last)
+	^ (upper first max: lower first) to: (upper last min: upper last)
