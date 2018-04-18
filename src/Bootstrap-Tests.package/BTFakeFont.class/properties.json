@@ -1,17 +1,14 @@
 {
-	"category" : "Bootstrap-Core",
+	"category" : "Bootstrap-Tests",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"baseline",
-		"start",
-		"stop",
-		"layout" ],
-	"name" : "BTTextLine",
+		 ],
+	"name" : "BTFakeFont",
 	"pools" : [
 		 ],
-	"super" : "Rectangle",
+	"super" : "AbstractFont",
 	"type" : "normal" }

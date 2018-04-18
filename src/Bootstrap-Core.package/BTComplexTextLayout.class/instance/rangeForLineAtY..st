@@ -5,6 +5,8 @@ rangeForLineAtY: aNumber
 	start := 0.
 	end := self width.
 	
+	end < 0 ifTrue: [end := 9e8].
+	
 	self flag: #fixme. "need to figure out something smarter or loop multiple times"
 	self occluderRegions do: [:rect |
 		(rect top <= aNumber and: [rect bottom >= aNumber]) ifTrue: [

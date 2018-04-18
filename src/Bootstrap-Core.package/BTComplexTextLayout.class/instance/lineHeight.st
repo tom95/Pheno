@@ -1,4 +1,5 @@
 as yet unclassified
 lineHeight
+	" only an estimate based on the default font. if there are font changes, this function is not aware of it"
 
-	^ TextStyle default defaultFont lineGrid + self lineSpacing
+	^ self font height + self lineSpacing

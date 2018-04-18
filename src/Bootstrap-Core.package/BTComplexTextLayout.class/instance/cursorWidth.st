@@ -1,4 +1,4 @@
 as yet unclassified
-text
+cursorWidth
 
-	^ text
+	^ 1

@@ -5,5 +5,5 @@ drawCursorOn: aCanvas origin: aPoint color: aColor
 	cursorRect := self rectangleForIndex: cursor.
 	
 	aCanvas
-			fillRectangle: (aPoint + cursorRect origin extent: 1 @ cursorRect extent y)
+			fillRectangle: (aPoint + cursorRect origin extent: self cursorWidth @ cursorRect extent y)
 			fillStyle: aColor

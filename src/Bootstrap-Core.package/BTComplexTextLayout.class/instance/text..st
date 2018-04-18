@@ -1,5 +1,9 @@
 as yet unclassified
 text: aString
 
-	text := BTMarkupParser markupToText: aString.
-	self releaseCachedState
+	| newText |
+	newText := BTMarkupParser markupToText: aString.
+	
+	newText ~= text ifTrue: [
+		text := newText.
+		self releaseCachedState]

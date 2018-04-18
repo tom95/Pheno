@@ -1,4 +1,4 @@
 as yet unclassified
 defaultFont
 
-	^ 'Roboto 12'
+	^ TextStyle default defaultFont

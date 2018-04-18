@@ -1,5 +1,6 @@
 as yet unclassified
 lineSpacing: aNumber
 
-	lineSpacing := aNumber.
-	self releaseCachedState
+	lineSpacing ~= aNumber ifTrue: [
+		lineSpacing := aNumber.
+		self releaseCachedState]
