@@ -1,4 +1,4 @@
-*Bootstrap-Styles
+*Pheno-Styles
 updateStyleProperties
 
 	self flag: #todo. "many classes expect this to be a number, but it often is a rectangle"

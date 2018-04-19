@@ -9,7 +9,7 @@ First install metacello using [this guide](https://github.com/Metacello/metacell
 
 ```smalltalk
 Metacello new
-  baseline: 'Bootstrap';
+  baseline: 'Pheno';
   repository: 'github://tom95/Pheno:master/src';
   load.
 ```
@@ -20,7 +20,7 @@ PHLabelExample open.
 PHColorStylesExample open.
 
 " to browse all examples, run: "
-Browser newOnCategory: 'Bootstrap-Examples'.
+Browser newOnCategory: 'Pheno-Examples'.
 ```
 
 ## Migrating from `BT` Prefix

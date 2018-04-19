@@ -1,4 +1,4 @@
-*Bootstrap-Styles
+*Pheno-Styles
 update: aspect
 
 	super update: aspect.

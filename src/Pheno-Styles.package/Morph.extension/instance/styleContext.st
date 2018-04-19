@@ -1,4 +1,4 @@
-*Bootstrap-Styles
+*Pheno-Styles
 styleContext
 
 	^ self valueOfProperty: #styleContext ifAbsentPut: [ | context |

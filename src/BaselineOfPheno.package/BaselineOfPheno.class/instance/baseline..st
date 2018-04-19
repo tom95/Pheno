@@ -8,15 +8,15 @@ baseline: spec
 		spec package: 'SVG-Morphic' with: [spec repository: 'http://www.squeaksource.com/SVGMorph'].
 		
 		spec
-			package: 'Bootstrap-Styles';
-			package: 'Bootstrap-ToolBuilder' with: [spec requires: #('Bootstrap-Styles')];
-			package: 'Bootstrap-Core' with: [spec requires: #('Bootstrap-Styles' 'JSON' 'SVG-Morphic')];
-			package: 'Bootstrap-Widgets' with: [spec requires: #('Bootstrap-Core' 'Bootstrap-ToolBuilder')];
-			package: 'Bootstrap-Examples' with: [spec requires: #('Bootstrap-Widgets')];
-			package: 'Bootstrap-Tests' with: [spec requires: #('Bootstrap-Widgets')];
-			package: 'Bootstrap-Styling-Tests' with: [spec requires: #('Bootstrap-Tests' 'Bootstrap-Styles')].
+			package: 'Pheno-Styles';
+			package: 'Pheno-ToolBuilder' with: [spec requires: #('Pheno-Styles')];
+			package: 'Pheno-Core' with: [spec requires: #('Pheno-Styles' 'JSON' 'SVG-Morphic')];
+			package: 'Pheno-Widgets' with: [spec requires: #('Pheno-Core' 'Pheno-ToolBuilder')];
+			package: 'Pheno-Examples' with: [spec requires: #('Pheno-Widgets')];
+			package: 'Pheno-Tests' with: [spec requires: #('Pheno-Widgets')];
+			package: 'Pheno-Styling-Tests' with: [spec requires: #('Pheno-Tests' 'Pheno-Styles')].
 		
 		spec
-			group: 'minimal' with: #('Bootstrap-Widgets');
-			group: 'default' with: #('Bootstrap-Examples');
-			group: 'tests' with: #('Bootstrap-Tests' 'Bootstrap-Styling-Tests')]
+			group: 'minimal' with: #('Pheno-Widgets');
+			group: 'default' with: #('Pheno-Examples');
+			group: 'tests' with: #('Pheno-Tests' 'Pheno-Styling-Tests')]

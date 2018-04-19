@@ -1,4 +1,4 @@
-*Bootstrap-Styles
+*Pheno-Styles
 useCustomTheme: aStyleProvider
 
 	self valueOfProperty: #customTheme ifPresentDo: [:provider |

@@ -1,4 +1,4 @@
-*Bootstrap-Styles
+*Pheno-Styles
 addStyleClasses: aCollectionOfSymbols
 	
 	" nil check for direct usage from toolbuilder specs "

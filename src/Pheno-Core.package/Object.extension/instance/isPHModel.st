@@ -1,4 +1,4 @@
-*Bootstrap-Core
+*Pheno-Core
 isPHModel
 
 	^ false

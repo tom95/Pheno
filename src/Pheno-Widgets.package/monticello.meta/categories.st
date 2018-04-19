@@ -1,1 +1,1 @@
-SystemOrganization addCategory: #'Bootstrap-Widgets'!
+SystemOrganization addCategory: #'Pheno-Widgets'!

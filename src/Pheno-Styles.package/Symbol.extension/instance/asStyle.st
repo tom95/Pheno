@@ -1,4 +1,4 @@
-*Bootstrap-Styles
+*Pheno-Styles
 asStyle
 
 	^ PHClassSelector for: self

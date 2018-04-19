@@ -1,4 +1,4 @@
-*Bootstrap-Styles
+*Pheno-Styles
 updateStylePropertiesReal
 
 	self flag: #todo. "remove this and all its callers once we can enable #updateStyleProperties"

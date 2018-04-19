@@ -1,4 +1,4 @@
-*Bootstrap-Styles
+*Pheno-Styles
 assureWidgetParent
 	" see PHWidget>>assureWidgetParent "
 	^self owner ifNotNilDo: #assureWidgetParent

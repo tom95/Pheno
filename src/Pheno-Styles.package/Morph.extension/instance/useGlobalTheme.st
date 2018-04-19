@@ -1,4 +1,4 @@
-*Bootstrap-Styles
+*Pheno-Styles
 useGlobalTheme
 
 	self valueOfProperty: #customTheme ifPresentDo: [:provider |
