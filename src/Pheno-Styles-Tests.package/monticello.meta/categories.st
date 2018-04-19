@@ -1,1 +1,1 @@
-SystemOrganization addCategory: #'Pheno-Styling-Tests'!
+SystemOrganization addCategory: #'Pheno-Styles-Tests'!

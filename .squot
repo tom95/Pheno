@@ -3,7 +3,7 @@ OrderedDictionary {
 	'src\/Pheno-Core.package' : #SquotCypressCodeSerializer,
 	'src\/Pheno-Examples.package' : #SquotCypressCodeSerializer,
 	'src\/Pheno-Styles.package' : #SquotCypressCodeSerializer,
-	'src\/Pheno-Styling-Tests.package' : #SquotCypressCodeSerializer,
+	'src\/Pheno-Styles-Tests.package' : #SquotCypressCodeSerializer,
 	'src\/Pheno-Tests.package' : #SquotCypressCodeSerializer,
 	'src\/Pheno-ToolBuilder.package' : #SquotCypressCodeSerializer,
 	'src\/Pheno-Widgets.package' : #SquotCypressCodeSerializer
