@@ -1,0 +1,1 @@
+A PHBadge is a label with a background and a bolder font. Use it for tags and the like.

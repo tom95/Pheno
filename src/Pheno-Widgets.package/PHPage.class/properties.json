@@ -1,0 +1,14 @@
+{
+	"category" : "Pheno-Widgets",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "TB 3/23/2017 16:57",
+	"instvars" : [
+		"primaryFormClickable" ],
+	"name" : "PHPage",
+	"pools" : [
+		 ],
+	"super" : "PHWidget",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "Pheno-Widgets",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "TB 3/23/2017 15:11",
+	"instvars" : [
+		 ],
+	"name" : "PHButton",
+	"pools" : [
+		 ],
+	"super" : "PHClickableWithText",
+	"type" : "normal" }

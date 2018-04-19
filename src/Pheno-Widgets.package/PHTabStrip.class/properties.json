@@ -1,0 +1,15 @@
+{
+	"category" : "Pheno-Widgets",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "TB 4/10/2018 17:23",
+	"instvars" : [
+		"currentTab",
+		"tabSwitchedDo" ],
+	"name" : "PHTabStrip",
+	"pools" : [
+		 ],
+	"super" : "PHWidget",
+	"type" : "normal" }

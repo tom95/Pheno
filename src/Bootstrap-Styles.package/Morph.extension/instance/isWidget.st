@@ -1,4 +1,0 @@
-*Bootstrap-Styles
-isWidget
-
-	^ false

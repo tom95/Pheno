@@ -1,0 +1,1 @@
+A PHPasswordArea displays all its text as *.

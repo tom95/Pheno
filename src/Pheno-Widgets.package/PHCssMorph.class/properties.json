@@ -1,0 +1,14 @@
+{
+	"category" : "Pheno-Widgets",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PHCssMorph",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

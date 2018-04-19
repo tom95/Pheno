@@ -1,0 +1,15 @@
+{
+	"category" : "Pheno-ToolBuilder",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"disabled",
+		"activeNotifications" ],
+	"name" : "PHPluggableWindow",
+	"pools" : [
+		 ],
+	"super" : "PluggableSystemWindow",
+	"type" : "normal" }

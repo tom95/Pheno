@@ -1,0 +1,1 @@
+A PHListGroup is a container for PHListItems and only those.

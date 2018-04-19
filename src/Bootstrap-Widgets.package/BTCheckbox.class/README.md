@@ -1,1 +1,0 @@
-A BTCheckbox is a simple button displaying a single checkmark when it's active.

@@ -1,0 +1,19 @@
+{
+	"category" : "Pheno-Widgets",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "TB 3/6/2017 13:41",
+	"instvars" : [
+		"suggestionsDropdown",
+		"suggestionsList",
+		"activeSuggestionIndex",
+		"onlyAllowsExactMatches",
+		"suggestionsAsynchronusBlock",
+		"displayAllWhenEmpty" ],
+	"name" : "PHTextCompletion",
+	"pools" : [
+		 ],
+	"super" : "PHTextArea",
+	"type" : "normal" }

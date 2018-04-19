@@ -1,0 +1,15 @@
+{
+	"category" : "Pheno-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "TB 4/26/2017 21:53",
+	"instvars" : [
+		"minSize",
+		"naturalSize" ],
+	"name" : "PHSizeRequest",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

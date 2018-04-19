@@ -1,0 +1,14 @@
+{
+	"category" : "Pheno-Widgets",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "TB 3/23/2017 14:58",
+	"instvars" : [
+		 ],
+	"name" : "PHTag",
+	"pools" : [
+		 ],
+	"super" : "PHBadge",
+	"type" : "normal" }

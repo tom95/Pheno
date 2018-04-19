@@ -1,4 +1,0 @@
-*Bootstrap-Core
-isApplicationError
-
-	^ false

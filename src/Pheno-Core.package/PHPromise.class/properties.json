@@ -1,0 +1,21 @@
+{
+	"category" : "Pheno-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"ThrowAllErrors" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"onError",
+		"value",
+		"resolvers",
+		"mutex",
+		"state",
+		"error",
+		"rejectors",
+		"rejecters" ],
+	"name" : "PHPromise",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,1 @@
+A PHNavigationStack is a stack keeping track of PHPages, allowing to store them and navigate forward and backward between them.

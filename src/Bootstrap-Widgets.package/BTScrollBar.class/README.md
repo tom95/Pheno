@@ -1,1 +1,0 @@
-A BTScrollBar is a simple scrollbar. It supports scrolling by drag'N'drop if it has a BTScrollArea.

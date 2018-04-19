@@ -1,0 +1,1 @@
+A PHNotification is a container that can be displayed on top of a toplevel for a given duration until it disappears by itself.

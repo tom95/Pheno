@@ -1,1 +1,0 @@
-When you put BTButtons in a BTButtonGroup, they will be rendered as joined.

@@ -1,0 +1,4 @@
+*Pheno-Core
+isApplicationError
+
+	^ false

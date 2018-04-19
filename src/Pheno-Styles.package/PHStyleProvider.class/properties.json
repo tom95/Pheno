@@ -1,0 +1,14 @@
+{
+	"category" : "Pheno-Styles",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "TB 12/5/2017 23:04",
+	"instvars" : [
+		"styles" ],
+	"name" : "PHStyleProvider",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

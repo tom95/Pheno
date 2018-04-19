@@ -1,0 +1,4 @@
+*Pheno-Styles
+isWidget
+
+	^ false

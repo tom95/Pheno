@@ -1,0 +1,14 @@
+{
+	"category" : "Pheno-Widgets",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "TB 3/23/2017 17:12",
+	"instvars" : [
+		"tags" ],
+	"name" : "PHTagList",
+	"pools" : [
+		 ],
+	"super" : "PHWidget",
+	"type" : "normal" }

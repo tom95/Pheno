@@ -1,0 +1,14 @@
+{
+	"category" : "Pheno-ToolBuilder",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PHPluggableList",
+	"pools" : [
+		 ],
+	"super" : "PluggableListMorphPlus",
+	"type" : "normal" }

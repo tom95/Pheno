@@ -1,0 +1,14 @@
+{
+	"category" : "Pheno-Widgets",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PHTransparentSVGMorph",
+	"pools" : [
+		 ],
+	"super" : "SVGMorph",
+	"type" : "normal" }

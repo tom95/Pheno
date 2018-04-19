@@ -1,0 +1,14 @@
+{
+	"category" : "Pheno-Styles",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PHRenderer",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

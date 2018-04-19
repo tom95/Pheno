@@ -1,0 +1,14 @@
+{
+	"category" : "Pheno-Examples",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PHCheckboxExample",
+	"pools" : [
+		 ],
+	"super" : "PHExample",
+	"type" : "normal" }

@@ -1,0 +1,1 @@
+A PHFloatingDialog is the superclass for contextual displays of widgets that float over toplevel content.

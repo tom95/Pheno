@@ -1,0 +1,14 @@
+{
+	"category" : "Pheno-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"clickableWidget" ],
+	"name" : "PHClickableTests",
+	"pools" : [
+		 ],
+	"super" : "PHEventTestCase",
+	"type" : "normal" }

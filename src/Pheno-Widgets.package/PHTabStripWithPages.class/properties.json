@@ -1,0 +1,15 @@
+{
+	"category" : "Pheno-Widgets",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "TB 4/10/2018 17:24",
+	"instvars" : [
+		"navigationBar",
+		"stackedContainer" ],
+	"name" : "PHTabStripWithPages",
+	"pools" : [
+		 ],
+	"super" : "PHWidget",
+	"type" : "normal" }

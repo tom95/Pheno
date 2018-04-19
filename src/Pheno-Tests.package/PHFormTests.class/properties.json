@@ -1,0 +1,16 @@
+{
+	"category" : "Pheno-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"window",
+		"inputs",
+		"button" ],
+	"name" : "PHFormTests",
+	"pools" : [
+		 ],
+	"super" : "PHEventTestCase",
+	"type" : "normal" }

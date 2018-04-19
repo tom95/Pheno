@@ -1,0 +1,17 @@
+{
+	"category" : "Pheno-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "TB 3/23/2017 15:06",
+	"instvars" : [
+		"hovered",
+		"active",
+		"initiateDragOf",
+		"hadMouseDown" ],
+	"name" : "PHClickable",
+	"pools" : [
+		 ],
+	"super" : "PHWidget",
+	"type" : "normal" }

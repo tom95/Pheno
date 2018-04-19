@@ -1,0 +1,4 @@
+*Pheno-Core
+isPHModel
+
+	^ false

@@ -1,0 +1,14 @@
+{
+	"category" : "Pheno-Styles",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PHSqueakTheme",
+	"pools" : [
+		 ],
+	"super" : "PHTheme",
+	"type" : "normal" }

@@ -1,0 +1,1 @@
+A PHButton is a clickable with text and a background. Literally a button.

@@ -1,0 +1,17 @@
+{
+	"category" : "Pheno-Widgets",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"FormCache",
+		"SVGCache" ],
+	"commentStamp" : "TB 4/13/2018 21:27",
+	"instvars" : [
+		"svg",
+		"cachedForm",
+		"svgColor" ],
+	"name" : "PHIcon",
+	"pools" : [
+		 ],
+	"super" : "PHWidget",
+	"type" : "normal" }

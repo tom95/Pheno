@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfPheno",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfPheno",
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"type" : "normal" }

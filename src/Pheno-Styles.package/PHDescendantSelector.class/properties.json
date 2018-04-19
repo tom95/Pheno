@@ -1,0 +1,15 @@
+{
+	"category" : "Pheno-Styles",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"childSelector",
+		"parentSelector" ],
+	"name" : "PHDescendantSelector",
+	"pools" : [
+		 ],
+	"super" : "PHStyleSelector",
+	"type" : "normal" }

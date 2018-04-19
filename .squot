@@ -1,10 +1,10 @@
 OrderedDictionary {
-	'src\/BaselineOfBootstrap.package' : #SquotCypressCodeSerializer,
-	'src\/Bootstrap-Core.package' : #SquotCypressCodeSerializer,
-	'src\/Bootstrap-Examples.package' : #SquotCypressCodeSerializer,
-	'src\/Bootstrap-Styles.package' : #SquotCypressCodeSerializer,
-	'src\/Bootstrap-Styling-Tests.package' : #SquotCypressCodeSerializer,
-	'src\/Bootstrap-Tests.package' : #SquotCypressCodeSerializer,
-	'src\/Bootstrap-ToolBuilder.package' : #SquotCypressCodeSerializer,
-	'src\/Bootstrap-Widgets.package' : #SquotCypressCodeSerializer
+	'src\/BaselineOfPheno.package' : #SquotCypressCodeSerializer,
+	'src\/Pheno-Core.package' : #SquotCypressCodeSerializer,
+	'src\/Pheno-Examples.package' : #SquotCypressCodeSerializer,
+	'src\/Pheno-Styles.package' : #SquotCypressCodeSerializer,
+	'src\/Pheno-Styles-Tests.package' : #SquotCypressCodeSerializer,
+	'src\/Pheno-Tests.package' : #SquotCypressCodeSerializer,
+	'src\/Pheno-ToolBuilder.package' : #SquotCypressCodeSerializer,
+	'src\/Pheno-Widgets.package' : #SquotCypressCodeSerializer
 }

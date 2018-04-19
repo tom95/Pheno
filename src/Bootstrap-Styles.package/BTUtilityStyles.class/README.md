@@ -1,1 +1,0 @@
-A BTUtilityStyles is a collection of styles in the global style lookup chain with a priority of #application (means they override theme styles). Call #update to refresh the global instance after changes

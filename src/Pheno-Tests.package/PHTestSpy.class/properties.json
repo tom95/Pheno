@@ -1,0 +1,18 @@
+{
+	"category" : "Pheno-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"event",
+		"arguments",
+		"fulfilled",
+		"actual",
+		"negated" ],
+	"name" : "PHTestSpy",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

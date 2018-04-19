@@ -1,0 +1,27 @@
+{
+	"category" : "Pheno-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"ModuleAvailable" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"layout",
+		"font",
+		"width",
+		"text",
+		"height",
+		"ellipsize",
+		"wrap",
+		"cursor",
+		"selectionBound",
+		"lineSpacing",
+		"alignment",
+		"extent",
+		"lines",
+		"occluderRegions" ],
+	"name" : "PHComplexTextLayout",
+	"pools" : [
+		 ],
+	"super" : "PHTextLayout",
+	"type" : "normal" }

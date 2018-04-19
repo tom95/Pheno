@@ -1,0 +1,15 @@
+{
+	"category" : "Pheno-Widgets",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "TB 3/23/2017 17:08",
+	"instvars" : [
+		"widgets",
+		"currentWidget" ],
+	"name" : "PHStackedContainer",
+	"pools" : [
+		 ],
+	"super" : "PHWidget",
+	"type" : "normal" }
