@@ -1,1 +1,0 @@
-A BTDropdown is your typical dropdown, also called combobox. Fill it with BTDropdownItems only.

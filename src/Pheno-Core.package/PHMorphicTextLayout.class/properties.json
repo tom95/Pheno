@@ -1,0 +1,19 @@
+{
+	"category" : "Bootstrap-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "TB 3/23/2017 17:23",
+	"instvars" : [
+		"selectionBound",
+		"cursor",
+		"width",
+		"paragraph",
+		"text",
+		"origin" ],
+	"name" : "PHMorphicTextLayout",
+	"pools" : [
+		 ],
+	"super" : "PHTextLayout",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "Bootstrap-Examples",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PHLabelExample",
+	"pools" : [
+		 ],
+	"super" : "PHExample",
+	"type" : "normal" }

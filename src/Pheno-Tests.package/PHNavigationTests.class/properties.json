@@ -1,0 +1,14 @@
+{
+	"category" : "Bootstrap-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PHNavigationTests",
+	"pools" : [
+		 ],
+	"super" : "PHEventTestCase",
+	"type" : "normal" }

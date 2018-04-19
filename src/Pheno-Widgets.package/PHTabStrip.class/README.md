@@ -1,0 +1,1 @@
+A PHTabStrip is the container class for tabs. Refer to PHTab for a nice picture. It does not display pages though, use PHTabNavigation for that.

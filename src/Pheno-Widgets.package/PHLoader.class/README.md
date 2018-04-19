@@ -1,0 +1,1 @@
+A PHLoader is a rotating loading icon

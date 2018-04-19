@@ -1,0 +1,24 @@
+{
+	"category" : "Bootstrap-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"ModuleAvailable" ],
+	"commentStamp" : "TB 3/23/2017 17:23",
+	"instvars" : [
+		"layout",
+		"font",
+		"width",
+		"text",
+		"height",
+		"ellipsize",
+		"wrap",
+		"cursor",
+		"selectionBound",
+		"lineSpacing",
+		"alignment" ],
+	"name" : "PHPangoTextLayout",
+	"pools" : [
+		 ],
+	"super" : "PHTextLayout",
+	"type" : "normal" }

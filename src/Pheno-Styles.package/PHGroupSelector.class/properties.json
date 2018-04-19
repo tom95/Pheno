@@ -1,0 +1,14 @@
+{
+	"category" : "Bootstrap-Styles",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"selectors" ],
+	"name" : "PHGroupSelector",
+	"pools" : [
+		 ],
+	"super" : "PHStyleSelector",
+	"type" : "normal" }

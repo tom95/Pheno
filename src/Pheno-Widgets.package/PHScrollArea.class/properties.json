@@ -1,0 +1,17 @@
+{
+	"category" : "Bootstrap-Widgets",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "TB 3/23/2017 17:08",
+	"instvars" : [
+		"container",
+		"policy",
+		"scrollBars",
+		"inStickyMode" ],
+	"name" : "PHScrollArea",
+	"pools" : [
+		 ],
+	"super" : "PHWidget",
+	"type" : "normal" }

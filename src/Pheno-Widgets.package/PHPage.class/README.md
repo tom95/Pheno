@@ -1,0 +1,1 @@
+A PHPage is a generic container with a 1d layout. Use `PHPage row` for a horizontal layout and `PHPage column` for a vertical one.

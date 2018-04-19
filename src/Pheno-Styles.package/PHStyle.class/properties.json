@@ -1,0 +1,15 @@
+{
+	"category" : "Bootstrap-Styles",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"selector",
+		"properties" ],
+	"name" : "PHStyle",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

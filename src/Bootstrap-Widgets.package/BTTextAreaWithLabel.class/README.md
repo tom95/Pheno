@@ -1,1 +1,0 @@
-A BTTextAreaWithLabel is a container having a text area next to a label, acting as a convenience wrapper for quick UI building.

@@ -1,0 +1,1 @@
+A PHWritableTagList additionally to the functionality of a PHTagList allows to enter new tags.

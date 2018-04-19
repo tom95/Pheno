@@ -1,1 +1,0 @@
-A BTTextLayout is an abstract class that provides all functionality required to render text with a cursor.

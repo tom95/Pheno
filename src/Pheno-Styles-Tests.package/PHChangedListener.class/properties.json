@@ -1,0 +1,14 @@
+{
+	"category" : "Bootstrap-Styling-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"receivedChanged" ],
+	"name" : "PHChangedListener",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

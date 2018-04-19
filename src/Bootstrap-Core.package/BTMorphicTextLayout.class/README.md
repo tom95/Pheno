@@ -1,1 +1,0 @@
-A BTMorphicTextLayout is the implementation of a text layout using Squeak's Paragraph class.

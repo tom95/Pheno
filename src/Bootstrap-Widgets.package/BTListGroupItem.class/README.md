@@ -1,1 +1,0 @@
-A BTListGroupItem is the button you will want to use in conjunction with a BTListGroup.

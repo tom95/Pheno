@@ -1,1 +1,0 @@
-A BTButton is a clickable with text and a background. Literally a button.

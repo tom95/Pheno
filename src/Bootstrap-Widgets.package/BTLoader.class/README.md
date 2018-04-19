@@ -1,1 +1,0 @@
-A BTLoader is a rotating loading icon

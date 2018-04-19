@@ -1,0 +1,14 @@
+{
+	"category" : "Bootstrap-ToolBuilder",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PHPluggableButton",
+	"pools" : [
+		 ],
+	"super" : "PluggableButtonMorphPlus",
+	"type" : "normal" }

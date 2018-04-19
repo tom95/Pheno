@@ -1,1 +1,0 @@
-A BTPage is a generic container with a 1d layout. Use `BTPage row` for a horizontal layout and `BTPage column` for a vertical one.

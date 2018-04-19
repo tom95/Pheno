@@ -1,0 +1,14 @@
+{
+	"category" : "Bootstrap-Styling-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PHStyleTests",
+	"pools" : [
+		 ],
+	"super" : "PHTestCase",
+	"type" : "normal" }

@@ -16,9 +16,16 @@ Metacello new
 
 Finally, launch a couple examples using e.g.
 ```smalltalk
-BTLabelExample open.
-BTColorStylesExample open.
+PHLabelExample open.
+PHColorStylesExample open.
 
 " to browse all examples, run: "
 Browser newOnCategory: 'Bootstrap-Examples'.
+```
+
+## Migrating from `BT` Prefix
+Here are two handy scripts to run on your repo if you used the `BT` instead of the `PH` prefix:
+```bash
+ack -l 'BT[^\s]' | xargs perl -pi -E 's/BT([^\s])/PH\1/g'
+find . | grep BT | xargs rename -e 's/BT/PH/'
 ```

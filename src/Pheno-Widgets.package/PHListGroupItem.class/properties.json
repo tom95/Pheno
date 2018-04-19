@@ -1,0 +1,14 @@
+{
+	"category" : "Bootstrap-Widgets",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "TB 3/23/2017 15:17",
+	"instvars" : [
+		 ],
+	"name" : "PHListGroupItem",
+	"pools" : [
+		 ],
+	"super" : "PHClickable",
+	"type" : "normal" }

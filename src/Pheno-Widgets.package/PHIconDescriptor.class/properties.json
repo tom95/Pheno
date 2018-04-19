@@ -1,0 +1,16 @@
+{
+	"category" : "Bootstrap-Widgets",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"svg",
+		"color",
+		"size" ],
+	"name" : "PHIconDescriptor",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

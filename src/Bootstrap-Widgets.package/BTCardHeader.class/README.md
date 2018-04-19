@@ -1,1 +1,0 @@
-A BTCardHeader is only useful as first widget of a card. It may contain titles or close buttons on that card.

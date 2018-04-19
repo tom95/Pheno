@@ -1,0 +1,17 @@
+{
+	"category" : "Bootstrap-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "TB 3/12/2017 08:00",
+	"instvars" : [
+		"negated",
+		"subject",
+		"operator",
+		"expectedValue" ],
+	"name" : "PHMatcher",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,1 @@
+A PHStyleProvider contains one or many PHStyle's. It can be attached to a widget with a priority. When trying to determine a style property in a widget, the widget tree will be traversed from that widget to the root, querying each PHStyleProvider with a higher or equal priority to the last valid, for a PHStyle that matches the widget.

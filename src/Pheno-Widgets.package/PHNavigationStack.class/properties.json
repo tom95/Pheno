@@ -1,0 +1,16 @@
+{
+	"category" : "Bootstrap-Widgets",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "TB 3/23/2017 14:14",
+	"instvars" : [
+		"stack",
+		"current",
+		"application" ],
+	"name" : "PHNavigationStack",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

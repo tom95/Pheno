@@ -1,0 +1,1 @@
+A PHSizeRequestCache caches results to preferredSizeForWidth: queries.

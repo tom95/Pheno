@@ -1,0 +1,1 @@
+When you put PHButtons in a PHButtonGroup, they will be rendered as joined.

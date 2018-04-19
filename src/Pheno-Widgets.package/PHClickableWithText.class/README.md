@@ -1,0 +1,1 @@
+A PHClickableWithText is a clickable that contains a label by default.

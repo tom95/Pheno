@@ -1,0 +1,14 @@
+{
+	"category" : "Bootstrap-Styles",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PHBootstrapTheme",
+	"pools" : [
+		 ],
+	"super" : "PHTheme",
+	"type" : "normal" }

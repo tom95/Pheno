@@ -1,0 +1,14 @@
+{
+	"category" : "Bootstrap-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "TB 3/23/2017 17:23",
+	"instvars" : [
+		 ],
+	"name" : "PHTextLayout",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

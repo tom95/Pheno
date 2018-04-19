@@ -1,0 +1,14 @@
+{
+	"category" : "Bootstrap-Widgets",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JH 3/30/2017 17:35",
+	"instvars" : [
+		 ],
+	"name" : "PHDivider",
+	"pools" : [
+		 ],
+	"super" : "PHWidget",
+	"type" : "normal" }
