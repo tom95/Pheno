@@ -6,4 +6,5 @@
 		"testStrip" : "TB 3/12/2017 13:18",
 		"testStripUnescape" : "TB 3/12/2017 15:30",
 		"testTagWithWeirdContent" : "TB 3/12/2017 15:19",
-		"testUnescape" : "TB 3/12/2017 15:30" } }
+		"testUnescape" : "TB 3/12/2017 15:30",
+		"testUnknownTag" : "TB 4/20/2018 13:38" } }

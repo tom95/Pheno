@@ -9,8 +9,8 @@ nextTagFrom: aStream to: aText
 	[
 		contentsBefore := aStream upTo: $<.
 		aText append: contentsBefore.
-		aStream peek = $/ ifFalse: [self nextTagFrom: aStream to: aText].
-	] doWhileFalse: [aStream peek = $/].
+		(aStream peek ~= $/ and: [aStream atEnd not]) ifTrue: [self nextTagFrom: aStream to: aText].
+	] doWhileTrue: [aStream peek ~= $/ and: [aStream atEnd not]].
 	
 	attributes do: [:attr | aText addAttribute: attr from: startIndex to: aText string size].
 	
