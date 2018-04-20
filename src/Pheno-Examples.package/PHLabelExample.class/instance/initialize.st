@@ -32,4 +32,7 @@ initialize
 			when: #clicked
 			evaluate: [self topLevel displayNotification: 'hi' type: #success]);
 		
-		add: (PHLabel text: self sampleText)
+		add: (PHLabel text: self sampleText);
+		
+		"see PHMarkupParser>>attitributeFor:value: for a list of supported <span> attributes or parseTagAttributesFrom: for supported tags"
+		add: (PHLabel text: '<b>Bold text</b> followed by <span color="#f00">red text</span>', String cr, 'and then <i>some italics on the next line!</i>.')
