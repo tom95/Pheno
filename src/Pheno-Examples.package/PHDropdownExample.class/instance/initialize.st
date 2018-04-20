@@ -12,5 +12,5 @@ initialize
 		add: ((PHDropdownItem label: 'Profile')
 			when: #clicked send: #displayNotification:type: to: self withArguments: {'Profile'. #info});
 		add: ((PHDropdownItem label: 'Logout')
-			when: #clicked send: #displayNotification:type: to: self withArguments: {'Settings'. #info});
+			when: #clicked send: #displayNotification:type: to: self withArguments: {'Logout'. #info});
 		attachTo: button
