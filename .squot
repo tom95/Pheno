@@ -2,7 +2,6 @@ OrderedDictionary {
 	'src\/BaselineOfPheno.package' : #SquotCypressCodeSerializer,
 	'src\/Pheno-Core.package' : #SquotCypressCodeSerializer,
 	'src\/Pheno-Examples.package' : #SquotCypressCodeSerializer,
-	'src\/Pheno-Styles-Tests.package' : #SquotCypressCodeSerializer,
 	'src\/Pheno-Styles.package' : #SquotCypressCodeSerializer,
 	'src\/Pheno-Tests.package' : #SquotCypressCodeSerializer,
 	'src\/Pheno-ToolBuilder.package' : #SquotCypressCodeSerializer,
