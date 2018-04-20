@@ -4,11 +4,11 @@ initialize
 	| app page1 page2 page3 |
 	super initialize.
 	
-	page1 := PHApplicationPage new.
+	page1 := PHPage new.
 	app := PHPageNavigationContainer firstPage: page1.
 	
-	page3 := PHApplicationPage new add: (PHLabel heading: 'Page 3!').
-	page2 := PHApplicationPage new
+	page3 := PHPage new add: (PHLabel heading: 'Page 3!').
+	page2 := PHPage new
 		add: (PHLabel heading: 'Page 2!');
 		add: ((PHButton label: 'To Page 3') when: #clicked send: #openPage:with: to: app withArguments: {page3. nil}).
 	page1

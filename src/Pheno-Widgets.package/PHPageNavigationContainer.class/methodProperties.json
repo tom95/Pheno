@@ -1,0 +1,26 @@
+{
+	"class" : {
+		"firstPage:" : "TB 5/9/2017 18:36",
+		"firstPage:with:" : "TB 5/9/2017 18:36",
+		"new" : "ek 4/21/2017 10:41" },
+	"instance" : {
+		"confirm:" : "TB 5/23/2017 10:34",
+		"contentContainer" : "ek 4/21/2017 10:41",
+		"extent:" : "TB 4/9/2017 15:23",
+		"goBack" : "TB 4/7/2017 17:56",
+		"goForward" : "TB 4/7/2017 17:56",
+		"header" : "JH 4/11/2017 15:53",
+		"initializeWithPage:with:" : "TB 4/10/2018 17:41",
+		"loadingWidget" : "TB 4/7/2017 18:47",
+		"loadingWidget:" : "TB 4/7/2017 18:47",
+		"navigationStack" : "JH 4/11/2017 15:53",
+		"openBookmark:" : "TB 5/30/2017 10:34",
+		"openPage" : "JH 4/11/2017 15:53",
+		"openPage:" : "TB 5/30/2017 10:31",
+		"openPage:with:" : "lcj 6/2/2017 14:38",
+		"position:" : "TB 4/9/2017 15:26",
+		"privateOpenPage:" : "ek 4/21/2017 10:41",
+		"searchbarWidth" : "JH 4/11/2017 15:54",
+		"startLoadingOperation" : "TB 4/9/2017 15:28",
+		"stopLoadingOperation" : "TB 4/9/2017 15:24",
+		"updateBreadcrumbs" : "lcj 5/19/2017 14:40" } }

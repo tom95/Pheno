@@ -1,0 +1,1 @@
+A BTApplication is a special toplevel facilitating navigation via forward/backward buttons and optional breadcrumbs.

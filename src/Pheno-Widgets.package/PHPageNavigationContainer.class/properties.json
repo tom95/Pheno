@@ -1,0 +1,20 @@
+{
+	"category" : "Pheno-Widgets",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"navigationStack",
+		"header",
+		"openPage",
+		"breadcrumbs",
+		"contentContainer",
+		"loadingOperationCounter",
+		"loadingWidget" ],
+	"name" : "PHPageNavigationContainer",
+	"pools" : [
+		 ],
+	"super" : "BTWidget",
+	"type" : "normal" }
