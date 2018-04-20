@@ -17,4 +17,5 @@ outlineThemeColorVariationFor: aClassSymbol
 			(PHClassSelector for: selector state: #active),
 			(PHClassSelector for: selector state: #selected))
 			backgroundColor: (color adjustBrightness: -0.1);
-			borderColor: (color adjustBrightness: -0.1)]
+			borderColor: (color adjustBrightness: -0.1);
+			color: (self foregroundColorForBackgroundColor: (color adjustBrightness: -0.1))]

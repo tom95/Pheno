@@ -4,6 +4,7 @@ initialize
 	super initialize.
 	
 	self
+		removeStyleClass: #iconButton;
 		addStyleClass: #checkbox;
 		addFallbackStyles: (PHStyleProvider new
 			add: ((PHStyle for: #checkbox)
