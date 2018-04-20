@@ -14,5 +14,6 @@ internalText: aString
 			nextPut: $" ].
 	prefix nextPut: $>.
 	
-	self layout text: prefix contents, aString, '</span>'.
-	self layoutChanged; changed
+	prefix nextPutAll: aString; nextPutAll: '</span>'.
+	
+	self layout text: prefix contents ifChanged: [self layoutChanged; changed]
