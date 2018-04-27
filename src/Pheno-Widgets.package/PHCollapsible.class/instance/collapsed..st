@@ -4,6 +4,12 @@ collapsed: aBoolean
 	collapsed := aBoolean.
 	container hasSubmorphs ifFalse: [^self].
 	
+	" if the world is nil, we're not on screen yet and in particular animating won't work, so we display immediately "
+	self world ifNil: [
+		self visible: aBoolean not.
+		collapsed := aBoolean.
+		^ self].
+	
 	widgetHeight := (container firstSubmorph preferredSizeForWidth: self width) minSize y + self paddingAsPoint y.
 	
 	endHeight := collapsed ifFalse: [widgetHeight] ifTrue: [0].

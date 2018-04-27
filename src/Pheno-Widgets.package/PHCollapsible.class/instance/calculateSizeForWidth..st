@@ -5,7 +5,9 @@ calculateSizeForWidth: aNumber
 	fullSize := animating or: [collapsed not].
 	
 	^ container hasSubmorphs
-		ifFalse: [PHSizeRequest fixed: self minSize + self paddingAsPoint]
+		ifFalse: [ | size |
+			size := self minSize + self paddingAsPoint.
+			PHSizeRequest fixed: (size x @ (fullSize ifTrue: [size y] ifFalse: [0]))]
 		ifTrue: [ | preferred |
 			preferred := (container firstSubmorph calculateSizeForWidth: aNumber - self paddingAsPoint x) + self paddingAsPoint.
 			fullSize
