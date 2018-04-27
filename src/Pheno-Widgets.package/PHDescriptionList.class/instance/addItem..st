@@ -1,5 +1,5 @@
-as yet unclassified
+items
 addItem: anItemTuple
-	" e.g. {'label' asText allBold. 'description'} or {'label'. PHTextArea new} or {PHIcon iconEdit. PHTextArea new} "
+	" e.g. {'<b>label</b>'. 'description'} or {'label'. PHTextArea new} or {PHIcon iconEdit. PHTextArea new} "
 	
 	self addItem: anItemTuple second asWidget labeled: anItemTuple first asWidget

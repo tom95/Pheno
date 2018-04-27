@@ -1,4 +1,4 @@
-as yet unclassified
+items
 addItem: aWidget labeled: aLabelWidget
 
 	| newWidth |

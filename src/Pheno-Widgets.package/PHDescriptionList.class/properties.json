@@ -4,7 +4,7 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "TB 4/27/2018 12:09",
 	"instvars" : [
 		"maxMinWidth" ],
 	"name" : "PHDescriptionList",

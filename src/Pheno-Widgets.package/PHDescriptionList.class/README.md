@@ -1,0 +1,1 @@
+A PHDescriptionList is a container for key-value pair like user interfaces. It automatically resizes all widget on its left side to have the same minimum width, so that they appear in a clean, table-like layout.
