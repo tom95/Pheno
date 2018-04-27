@@ -1,0 +1,14 @@
+{
+	"category" : "Pheno-Widgets",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"maxMinWidth" ],
+	"name" : "PHDescriptionList",
+	"pools" : [
+		 ],
+	"super" : "PHWidget",
+	"type" : "normal" }
