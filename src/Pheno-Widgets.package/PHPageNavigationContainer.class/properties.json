@@ -16,5 +16,5 @@
 	"name" : "PHPageNavigationContainer",
 	"pools" : [
 		 ],
-	"super" : "BTWidget",
+	"super" : "PHWidget",
 	"type" : "normal" }
