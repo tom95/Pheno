@@ -5,6 +5,7 @@
 		"clickableWidget" : "TB 3/6/2017 21:27",
 		"setUp" : "TB 3/6/2017 21:27",
 		"testHovered" : "TB 3/8/2017 17:03",
+		"testHoveredWhileDragging" : "pre 5/3/2018 12:19",
 		"testMouseDownAndUp" : "JH 4/24/2017 11:08",
 		"testMouseLeftWhileClicked" : "JH 4/24/2017 11:08",
 		"testOnlyMouseDown" : "JH 4/24/2017 11:08",
