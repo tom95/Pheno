@@ -1,6 +1,7 @@
 event handling
 mouseUp: anEvent
 
+	super mouseUp: anEvent.
 	(self containsPoint: anEvent position)
 		ifTrue: [
 			hadMouseDown ifTrue: [
