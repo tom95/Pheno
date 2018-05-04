@@ -1,0 +1,14 @@
+{
+	"category" : "Pheno-Tests-Styles",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"receivedChanged" ],
+	"name" : "PHChangedListener",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

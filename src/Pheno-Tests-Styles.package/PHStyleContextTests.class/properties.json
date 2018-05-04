@@ -1,0 +1,18 @@
+{
+	"category" : "Pheno-Tests-Styles",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"context",
+		"redStyle",
+		"blueStyle",
+		"orangeButtonStyle",
+		"previousGlobalStyleContext" ],
+	"name" : "PHStyleContextTests",
+	"pools" : [
+		 ],
+	"super" : "PHTestCase",
+	"type" : "normal" }

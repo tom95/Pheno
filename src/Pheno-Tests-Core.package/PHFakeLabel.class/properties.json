@@ -1,0 +1,14 @@
+{
+	"category" : "Pheno-Tests-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"numberOfLetters" ],
+	"name" : "PHFakeLabel",
+	"pools" : [
+		 ],
+	"super" : "PHWidget",
+	"type" : "normal" }

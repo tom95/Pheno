@@ -1,0 +1,14 @@
+{
+	"category" : "Pheno-Tests-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PHScrollAreaTests",
+	"pools" : [
+		 ],
+	"super" : "PHTestCase",
+	"type" : "normal" }

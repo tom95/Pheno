@@ -1,0 +1,14 @@
+{
+	"category" : "Pheno-Tests-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"layout" ],
+	"name" : "PHMorphicTextLayoutTests",
+	"pools" : [
+		 ],
+	"super" : "PHTestCase",
+	"type" : "normal" }

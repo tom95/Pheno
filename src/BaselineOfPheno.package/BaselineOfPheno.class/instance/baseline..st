@@ -13,9 +13,10 @@ baseline: spec
 			package: 'Pheno-Core' with: [spec requires: #('Pheno-Styles' 'JSON' 'SVG-Morphic')];
 			package: 'Pheno-Widgets' with: [spec requires: #('Pheno-Core' 'Pheno-ToolBuilder')];
 			package: 'Pheno-Examples' with: [spec requires: #('Pheno-Widgets')];
-			package: 'Pheno-Tests' with: [spec requires: #('Pheno-Widgets')].
+			package: 'Pheno-Tests-Core' with: [spec requires: #('Pheno-Widgets')];
+			package: 'Pheno-Tests-Styles' with: [spec requires: #('Pheno-Tests-Core')].
 		
 		spec
 			group: 'minimal' with: #('Pheno-Widgets');
 			group: 'default' with: #('Pheno-Examples');
-			group: 'tests' with: #('Pheno-Tests')]
+			group: 'tests' with: #('Pheno-Tests-Core' 'Pheno-Tests-Styles')]
