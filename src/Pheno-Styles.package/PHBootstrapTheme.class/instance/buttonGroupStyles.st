@@ -16,5 +16,9 @@ buttonGroupStyles
 		borderRadius: (Rectangle left: 0 right: 0.25rem top: 0 bottom: 0.25rem);
 		borderWidth: 1.
 	
+	(self for: #buttonGroup asStyle > (PHClassSelector for: #button state: #(lastChild firstChild)))
+		borderRadius: 0.25rem;
+		borderWidth: 1.
+	
 	(self for: #buttonGroup asStyle > (PHClassSelector for: #button state: #hover))
 		borderWidth: 1

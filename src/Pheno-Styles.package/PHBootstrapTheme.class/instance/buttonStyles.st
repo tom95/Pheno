@@ -13,7 +13,9 @@ buttonStyles
 	(self for: #(button btButton))
 		padding: 0.75rem @ 0.625rem.
 	
-	(self for: #button state: #(disabled))
+	(self for: (PHClassSelector for: #button state: #(disabled)),
+		(PHClassSelector for: #button state: #(disabled hover)),
+		(PHClassSelector for: #button state: #(disabled hover active)))
 		backgroundColor: #afb5ba;
 		borderColor: #afb5ba.
 	
