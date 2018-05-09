@@ -10,4 +10,7 @@ initialize
 		add: PHIcon iconAlign_center;
 		add: (PHIconButton name: #iconEdit);
 		add: (PHIconButton name: #iconFont);
-		add: (PHLabel text: 'Check out https://fontawesome.com/icons for a full list of icon names. The names are changed when imported to the image, e.g. instead of the icon ''align-center'' write ''iconAlign_center''')
+		add: (PHLabel text: 'Check out https://fontawesome.com/icons for a full list of icon names. The names are changed when imported to the image, e.g. instead of the icon ''align-center'' write ''iconAlign_center''');
+		
+		" define and cache your own icons: "
+		add: self customThumbsUpIcon

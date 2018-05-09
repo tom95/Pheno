@@ -1,11 +1,13 @@
 caching
-fromCache: aNameString ifAbsentPut: aBlock
+fromCache: aNameSymbol ifAbsentPut: aBlock
 
 	| cache |
 	cache := SVGCache ifNil: [SVGCache := Dictionary new].
 	
-	^ self new svg: (cache at: aNameString ifAbsentPut: [
-		PHTransparentSVGMorph new
-			createFromSVGDocument: (XMLDOMParser parseDocumentFrom: aBlock value readStream);
-			color: Color transparent;
-			yourself])
+	^ self new
+		iconName: aNameSymbol;
+		svg: (cache at: aNameSymbol ifAbsentPut: [
+			PHTransparentSVGMorph new
+				createFromSVGDocument: (XMLDOMParser parseDocumentFrom: aBlock value readStream);
+				color: Color transparent;
+				yourself])

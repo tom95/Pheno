@@ -2,7 +2,7 @@
 	"class" : {
 		"cachedFormSvg:color:size:" : "TB 12/10/2017 01:41",
 		"clearCache" : "TB 12/10/2017 01:32",
-		"fromCache:ifAbsentPut:" : "TB 12/7/2017 00:27",
+		"fromCache:ifAbsentPut:" : "TB 5/9/2018 16:33",
 		"icon500px" : "TB 12/5/2017 16:47",
 		"iconAddress_book" : "TB 12/5/2017 16:47",
 		"iconAddress_book_o" : "TB 12/5/2017 16:47",
@@ -798,6 +798,8 @@
 		"changeIconName:" : "TB 4/7/2018 20:30",
 		"drawOn:" : "TB 4/13/2018 12:24",
 		"formForSize:color:" : "TB 12/10/2017 01:37",
+		"iconName" : "TB 5/9/2018 16:32",
+		"iconName:" : "TB 5/9/2018 16:32",
 		"initialize" : "TB 12/6/2017 23:58",
 		"svg" : "TB 12/5/2017 16:53",
 		"svg:" : "TB 12/5/2017 16:53",

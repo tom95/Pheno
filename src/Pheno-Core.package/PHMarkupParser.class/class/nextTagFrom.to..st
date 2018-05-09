@@ -8,7 +8,7 @@ nextTagFrom: aStream to: aText
 	
 	[
 		contentsBefore := aStream upTo: $<.
-		aText append: contentsBefore.
+		aText append: (PHMarkupParser unescape: contentsBefore).
 		(aStream peek ~= $/ and: [aStream atEnd not]) ifTrue: [self nextTagFrom: aStream to: aText].
 	] doWhileTrue: [aStream peek ~= $/ and: [aStream atEnd not]].
 	
