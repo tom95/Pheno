@@ -1,5 +1,5 @@
 drawing
-drawBorderOn: aCanvas style: aStyle bounds: aRectangle
+drawBorderOn: aCanvas style: aStyle bounds: aRectangle shape: aPointArray
 
 	| boxSizing width |
 	aStyle borderColor isTransparent ifFalse: [
@@ -11,4 +11,5 @@ drawBorderOn: aCanvas style: aStyle bounds: aRectangle
 			bounds: (aRectangle perform: boxSizing with: (width scaleBy: 0.5)) compressed
 			color: aStyle borderColor
 			radius: aStyle borderRadius withScalingFactor
-			width: width]
+			width: width
+			shape: aPointArray]

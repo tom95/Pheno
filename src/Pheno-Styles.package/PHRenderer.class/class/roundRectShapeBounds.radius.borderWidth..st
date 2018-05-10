@@ -9,64 +9,64 @@ roundRectShapeBounds: aRectangle radius: radius borderWidth: width
 		" top left corner "
 		radius top > 0 ifTrue: [
 			points
-				add: 0 @ radius top;
-				add: 0 @ circle top;
-				add: circle top @ 0;
-				add: radius top @ 0].
+				add: aRectangle left @ (aRectangle top + radius top);
+				add: aRectangle left @ (aRectangle top + circle top);
+				add: aRectangle left + circle top @ aRectangle top;
+				add: aRectangle left + radius top @ aRectangle top].
 
 		" top line "
 		points
-			add: radius top @ 0;
-			add: radius top @ 0;
-			add: radius top @ 0;
-			add: aRectangle width - radius right @ 0].
+			add: aRectangle left + radius top @ aRectangle top;
+			add: aRectangle left + radius top @ aRectangle top;
+			add: aRectangle left + radius top @ aRectangle top;
+			add: aRectangle right - radius right @ aRectangle top].
 
 	width right > 0 ifTrue: [
 		" top right corner "
 		radius right > 0 ifTrue: [
 			points
-				add: aRectangle width - radius right @ 0;
-				add: aRectangle width - circle right @ 0;
-				add: aRectangle width @ circle right;
-				add: aRectangle width @ radius right].
+				add: aRectangle right - radius right @ aRectangle top;
+				add: aRectangle right - circle right @ aRectangle top;
+				add: aRectangle right @ (aRectangle top + circle right);
+				add: aRectangle right @ (aRectangle top + radius right)].
 
 		" right line "
 		points
-			add: aRectangle width @ radius right;
-			add: aRectangle width @ radius right;
-			add: aRectangle width @ radius right;
-			add: aRectangle width @ (aRectangle height - radius bottom)].
+			add: aRectangle right @ (aRectangle top + radius right);
+			add: aRectangle right @ (aRectangle top + radius right);
+			add: aRectangle right @ (aRectangle top + radius right);
+			add: aRectangle right @ (aRectangle bottom - radius bottom)].
 
 	width bottom > 0 ifTrue: [
 		" bottom right corner "
 		radius bottom > 0 ifTrue: [
 			points
-				add: aRectangle width @ (aRectangle height - radius bottom);
-				add: aRectangle width @ (aRectangle height - circle bottom);
-				add: aRectangle width - circle bottom @ aRectangle height;
-				add: aRectangle width - radius bottom @ aRectangle height].
+				add: aRectangle right @ (aRectangle bottom - radius bottom);
+				add: aRectangle right @ (aRectangle bottom - circle bottom);
+				add: aRectangle right - circle bottom @ aRectangle bottom;
+				add: aRectangle right - radius bottom @ aRectangle bottom].
 
 		" bottom line "
 		points
-			add: aRectangle width - radius bottom @ aRectangle height;
-			add: aRectangle width - radius bottom @ aRectangle height;
-			add: aRectangle width - radius bottom @ aRectangle height;
-			add: radius left @ aRectangle height].
+			add: aRectangle right - radius bottom @ aRectangle bottom;
+			add: aRectangle right - radius bottom @ aRectangle bottom;
+			add: aRectangle right - radius bottom @ aRectangle bottom;
+			add: aRectangle left + radius left @ aRectangle bottom].
 
 	width left > 0 ifTrue: [
 		" bottom left corner "
 		radius left > 0 ifTrue: [
 			points
-				add: radius left @ aRectangle height;
-				add: circle left @ aRectangle height;
-				add: 0 @ (aRectangle height - circle left);
-				add: 0 @ (aRectangle height - radius left)].
+				add: aRectangle left + radius left @ aRectangle bottom;
+				add: aRectangle left + circle left @ aRectangle bottom;
+				add: aRectangle left @ (aRectangle bottom - circle left);
+				add: aRectangle left @ (aRectangle bottom - radius left)].
 
 		" left line "
 		points
-			add: 0 @ (aRectangle height - radius left);
-			add: 0 @ (aRectangle height - radius left);
-			add: 0 @ (aRectangle height - radius left);
-			add: 0 @ radius top].
+			add: aRectangle left @ (aRectangle bottom - radius left);
+			add: aRectangle left @ (aRectangle bottom - radius left);
+			add: aRectangle left @ (aRectangle bottom - radius left);
+			add: aRectangle left @ (aRectangle top + radius top)].
 	
 	^ points asPointArray

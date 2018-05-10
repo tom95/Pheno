@@ -1,4 +1,6 @@
 drawing
 drawFullOn: aCanvas bounds: aRectangle
 
-	PHRenderer drawFullOn: aCanvas style: self bounds: aRectangle
+	self
+		drawBackgroundOn: aCanvas bounds: aRectangle;
+		drawBorderOn: aCanvas bounds: aRectangle
