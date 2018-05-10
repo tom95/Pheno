@@ -1,0 +1,9 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"arrowTipSize" : "TB 5/10/2018 11:00",
+		"drawOn:" : "TB 5/10/2018 11:15",
+		"initialize" : "TB 5/10/2018 11:14",
+		"openPositionFor:" : "TB 5/10/2018 12:15",
+		"outerBounds" : "TB 5/10/2018 11:00" } }

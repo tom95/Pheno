@@ -1,12 +1,12 @@
 private
-roundRectShapeBounds: aRectangle radius: radius borderWidth: width
-	"note:  none of the values will be scaled. Call #withScalingFactor on radius/width before passing"
+roundRectShapeWithTipBounds: aRectangle radius: radius borderWidth: width tipSize: tipSize
+	"note: none of the values will be scaled. call #withScalingFactor on radius/width/tipSize before passing"
 
 	| circle points |
 	circle := radius scaleBy: 0.5522847.
 	points := OrderedCollection new.
 	
-	width top > 0 ifTrue: [
+	width top > 0 ifTrue: [ | tipTop  tipStart tipEnd |
 		" top left corner "
 		radius top > 0 ifTrue: [
 			points
@@ -14,12 +14,35 @@ roundRectShapeBounds: aRectangle radius: radius borderWidth: width
 				add: aRectangle left @ (aRectangle top + circle top);
 				add: aRectangle left + circle top @ aRectangle top;
 				add: aRectangle left + radius top @ aRectangle top].
-
+		
+		tipStart := aRectangle left + (aRectangle width / 2) - tipSize @ aRectangle top.
+		tipEnd := aRectangle left + (aRectangle width / 2) + tipSize @ aRectangle top.
+		tipTop := aRectangle left + (aRectangle width / 2) @ (aRectangle top - tipSize).
+		
 		" top line "
 		points
 			add: aRectangle left + radius top @ aRectangle top;
 			add: aRectangle left + radius top @ aRectangle top;
 			add: aRectangle left + radius top @ aRectangle top;
+			add: tipStart.
+		
+		" arrow tip "
+		points
+			add: tipStart;
+			add: tipStart;
+			add: tipStart;
+			add: tipTop.
+			
+		points
+			add: tipTop;
+			add: tipTop;
+			add: tipTop;
+			add: tipEnd.
+			
+		points
+			add: tipEnd;
+			add: tipEnd;
+			add: tipEnd;
 			add: aRectangle right - radius right @ aRectangle top].
 
 	width right > 0 ifTrue: [

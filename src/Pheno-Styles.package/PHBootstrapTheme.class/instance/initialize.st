@@ -27,4 +27,6 @@ initialize
 		tabStyles;
 		listGroupStyles;
 		checkboxStyles;
-		scrollAreaStyles
+		scrollAreaStyles;
+		popoverStyles;
+		tooltipStyles

@@ -7,7 +7,7 @@
 		"drawBorderOn:bounds:color:radius:width:" : "TB 5/10/2018 10:25",
 		"drawBorderOn:bounds:color:radius:width:shape:" : "TB 5/10/2018 10:35",
 		"drawBorderOn:style:bounds:shape:" : "TB 5/10/2018 10:17",
-		"roundRectShapeBounds:radius:borderWidth:" : "TB 5/10/2018 10:47",
-		"roundRectShapeWithTipBounds:radius:borderWidth:" : "TB 5/10/2018 10:02" },
+		"roundRectShapeBounds:radius:borderWidth:" : "TB 5/10/2018 11:27",
+		"roundRectShapeWithTipBounds:radius:borderWidth:tipSize:" : "TB 5/10/2018 11:26" },
 	"instance" : {
 		 } }

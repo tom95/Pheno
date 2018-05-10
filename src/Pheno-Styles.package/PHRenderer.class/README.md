@@ -1,0 +1,1 @@
+A PHRenderer contains an assortment of drawing helpers on its class side.

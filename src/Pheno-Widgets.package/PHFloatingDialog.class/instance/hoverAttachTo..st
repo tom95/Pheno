@@ -4,5 +4,5 @@ hoverAttachTo: aClickable
 	
 	aClickable when: #hovered evaluate: [:hovered :event |
 		self owner
-			ifNil: [self openFor: aClickable event: event]
+			ifNil: [self openFor: aClickable event: event takeFocus: false]
 			ifNotNil: [self delete]]
