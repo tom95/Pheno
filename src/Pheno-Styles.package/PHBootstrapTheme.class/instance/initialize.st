@@ -30,4 +30,5 @@ initialize
 		scrollAreaStyles;
 		popoverStyles;
 		tooltipStyles;
-		haloStyles
+		haloStyles;
+		progressBarStyles

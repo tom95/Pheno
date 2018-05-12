@@ -1,0 +1,15 @@
+{
+	"category" : "Pheno-Widgets",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"percentage",
+		"fillStyleContext" ],
+	"name" : "PHProgressBar",
+	"pools" : [
+		 ],
+	"super" : "PHWidget",
+	"type" : "normal" }

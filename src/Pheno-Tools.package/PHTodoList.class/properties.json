@@ -1,0 +1,16 @@
+{
+	"category" : "Pheno-Tools",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"itemsPage",
+		"newItemArea",
+		"progressBar" ],
+	"name" : "PHTodoList",
+	"pools" : [
+		 ],
+	"super" : "PHExample",
+	"type" : "normal" }

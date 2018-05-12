@@ -1,0 +1,15 @@
+{
+	"category" : "Pheno-Tools",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"checkbox",
+		"label" ],
+	"name" : "PHTodoListItem",
+	"pools" : [
+		 ],
+	"super" : "PHWidget",
+	"type" : "normal" }
