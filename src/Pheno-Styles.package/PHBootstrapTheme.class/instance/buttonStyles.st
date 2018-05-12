@@ -9,6 +9,9 @@ buttonStyles
 		spacing: 0.25rem;
 		color: #fff.
 	
+	(self for: #(button small))
+		padding: 0.5rem @ 0.5rem.
+	
 	self flag: #fixme. "should drop this asap. see CodeHolder>>buttonHeight for the sad story"
 	(self for: #(button btButton))
 		padding: 0.75rem @ 0.625rem.
