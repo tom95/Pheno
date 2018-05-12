@@ -1,0 +1,14 @@
+{
+	"category" : "Pheno-Widgets",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "TB 5/12/2018 11:39",
+	"instvars" : [
+		 ],
+	"name" : "PHMorphContainer",
+	"pools" : [
+		 ],
+	"super" : "PHWidget",
+	"type" : "normal" }
