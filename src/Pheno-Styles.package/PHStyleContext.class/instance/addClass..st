@@ -1,5 +1,6 @@
 classes
 addClass: aString
 
-	self classes add: aString.
-	self changed
+	self
+		basicAddClass: aString;
+		changed

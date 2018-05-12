@@ -48,22 +48,22 @@ keyStroke: anEvent
 		^ self pasteUpMorphHandlingTabAmongFields ifNotNilDo: [:p | p tabHitWithEvent: anEvent]].
 	
 	self editable ifTrue: [
-		self triggerChanged.
-		
 		(key = '<backspace>' or: [key = '<Shift-backspace>']) ifTrue: [
-			^ self deleteBeforeCursor].
+			^ self deleteBeforeCursor; triggerChanged.].
 		key = '<delete>' ifTrue: [
-			^ self deleteAfterCursor].
+			^ self deleteAfterCursor; triggerChanged].
 		"FIXME appears to be Ctrl-backspace ???"
 		(key = '<Cmd-h>' or: [key = '<Ctrl-backspace>']) ifTrue: [
-			^ self deleteNextWord: -1].
+			^ self deleteNextWord: -1; triggerChanged].
 		key = '<Ctrl-delete>' ifTrue: [
-			^ self deleteNextWord: 1].
+			^ self deleteNextWord: 1; triggerChanged].
 		key = '<Cmd-v>' ifTrue: [
-			^ self insertAtCursor: Clipboard clipboardText].
+			^ self insertAtCursor: Clipboard clipboardText; triggerChanged].
 		key = '<Cmd-x>' ifTrue: [
-			Clipboard clipboardText: self selectedText. ^ self deleteBeforeCursor].
+			Clipboard clipboardText: self selectedText. ^ self deleteBeforeCursor; triggerChanged].
 		
 		(anEvent controlKeyPressed or: [anEvent commandKeyPressed]) ifFalse: [
-			self insertAtCursor: anEvent keyCharacter.
-			self placeCursorAt: self cursor + 1]].
+			self
+				insertAtCursor: anEvent keyCharacter;
+				placeCursorAt: self cursor + 1;
+				triggerChanged]].

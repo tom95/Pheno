@@ -1,8 +1,6 @@
 cursor
 updateCursor
 	| bounds p |
-	cursor ifNil: [ ^self ].
-	
 	bounds := self selectionBounds.
 	p := self paragraph.
 	

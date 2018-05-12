@@ -4,7 +4,7 @@ withClass: aClassSymbol do: aBlock
 	^ (self hasClass: aClassSymbol)
 		ifTrue: [aBlock value: self]
 		ifFalse: [ | return |
-			self addClass: aClassSymbol.
+			self basicAddClass: aClassSymbol.
 			return := aBlock value: self.
-			self removeClass: aClassSymbol.
+			self basicRemoveClass: aClassSymbol.
 			return]

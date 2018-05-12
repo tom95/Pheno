@@ -1,19 +1,22 @@
 text
 internalText: aString
 
-	| prefix |
-	prefix := '' writeStream.
-	prefix nextPutAll: '<span'.
+	| stringWithStyles |
+	(aString isText or: [self styleAttributes isEmpty]) ifTrue: [
+		^ self layout text: aString ifChanged: [self layoutChanged; changed]].
+	
+	stringWithStyles := '' writeStream.
+	stringWithStyles nextPutAll: '<span'.
 	
 	self styleAttributes keysAndValuesDo: [ :key : value |  
-		prefix
+		stringWithStyles
 			space;
 			nextPutAll: key;
 			nextPutAll: '="';
 			nextPutAll: value;
 			nextPut: $" ].
-	prefix nextPut: $>.
+	stringWithStyles nextPut: $>.
 	
-	prefix nextPutAll: aString; nextPutAll: '</span>'.
+	stringWithStyles nextPutAll: aString; nextPutAll: '</span>'.
 	
-	self layout text: prefix contents ifChanged: [self layoutChanged; changed]
+	self layout text: stringWithStyles contents ifChanged: [self layoutChanged; changed]
