@@ -1,0 +1,14 @@
+{
+	"category" : "Pheno-Tools",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PHHaloMorph",
+	"pools" : [
+		 ],
+	"super" : "HaloMorph",
+	"type" : "normal" }

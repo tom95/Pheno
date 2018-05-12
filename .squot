@@ -6,5 +6,6 @@ OrderedDictionary {
 	'src\/Pheno-Tests-Core.package' : #SquotCypressCodeSerializer,
 	'src\/Pheno-Tests-Styles.package' : #SquotCypressCodeSerializer,
 	'src\/Pheno-ToolBuilder.package' : #SquotCypressCodeSerializer,
+	'src\/Pheno-Tools.package' : #SquotCypressCodeSerializer,
 	'src\/Pheno-Widgets.package' : #SquotCypressCodeSerializer
 }

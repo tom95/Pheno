@@ -1,0 +1,4 @@
+accessing
+haloClass
+
+	^ #PHHaloMorph

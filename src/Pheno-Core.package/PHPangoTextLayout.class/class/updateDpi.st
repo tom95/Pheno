@@ -1,3 +1,3 @@
 system startup
 updateDpi
-	self primSetDpi: PHWidget scalingFactor * 96
+	self primSetDpi: PHStyleContext scalingFactor * 96

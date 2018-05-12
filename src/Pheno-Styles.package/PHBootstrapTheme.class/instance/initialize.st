@@ -29,4 +29,5 @@ initialize
 		checkboxStyles;
 		scrollAreaStyles;
 		popoverStyles;
-		tooltipStyles
+		tooltipStyles;
+		haloStyles

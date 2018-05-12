@@ -1,0 +1,14 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addDebugHandle" : "TB 5/12/2018 21:36",
+		"addDismissHandle" : "TB 5/12/2018 21:36",
+		"addDuplicateHandle" : "TB 5/12/2018 21:36",
+		"addFontHandle" : "TB 5/12/2018 21:56",
+		"addGrabHandle" : "TB 5/12/2018 21:36",
+		"addGrowHandle" : "TB 5/12/2018 21:50",
+		"addHandles" : "TB 5/12/2018 21:58",
+		"addLayoutHandle" : "TB 5/12/2018 21:55",
+		"doFont:with:" : "TB 5/12/2018 22:25",
+		"doLayout:with:" : "TB 5/12/2018 22:50" } }

@@ -1,4 +1,4 @@
 constants
 scrollSpeed
 
-	^ 20 * PHWidget scalingFactor
+	^ 20 * PHStyleContext scalingFactor

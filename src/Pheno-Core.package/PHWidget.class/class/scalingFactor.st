@@ -1,3 +1,5 @@
 constants
 scalingFactor
-	^ScalingFactor ifNil: [1]
+	" deprecated. use PHStyleContext scalingFactor "
+
+	^ PHStyleContext scalingFactor

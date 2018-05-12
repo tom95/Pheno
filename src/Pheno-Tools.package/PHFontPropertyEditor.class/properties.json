@@ -1,0 +1,17 @@
+{
+	"category" : "Pheno-Tools",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"boldButton",
+		"italicButton",
+		"fontSizeDropdown",
+		"target" ],
+	"name" : "PHFontPropertyEditor",
+	"pools" : [
+		 ],
+	"super" : "PHPopover",
+	"type" : "normal" }

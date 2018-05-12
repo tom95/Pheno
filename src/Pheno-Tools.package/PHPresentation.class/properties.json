@@ -1,0 +1,16 @@
+{
+	"category" : "Pheno-Tools",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"slides",
+		"toolbar",
+		"pageCounter" ],
+	"name" : "PHPresentation",
+	"pools" : [
+		 ],
+	"super" : "PHTool",
+	"type" : "normal" }

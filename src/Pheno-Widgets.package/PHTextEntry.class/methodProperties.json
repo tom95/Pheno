@@ -20,6 +20,7 @@
 		"editable" : "al 4/27/2017 10:39",
 		"editable:" : "al 4/27/2017 10:39",
 		"editor" : "ek 4/21/2017 10:50",
+		"haloClass" : "TB 5/12/2018 19:58",
 		"handlesKeyboard:" : "ek 4/21/2017 10:50",
 		"handlesMouseDown:" : "ek 4/21/2017 10:50",
 		"hasFocus" : "ek 4/21/2017 10:50",
@@ -58,5 +59,6 @@
 		"triggerConfirmed:" : "TB 5/3/2017 19:36",
 		"triggerFocused" : "TB 5/5/2017 15:32",
 		"updateText:" : "TB 12/7/2017 01:06",
+		"wantsFontHaloHandle" : "TB 5/12/2018 21:50",
 		"wantsKeyboardFocus" : "ek 4/21/2017 10:57",
 		"wouldAcceptKeyboardFocusUponTab" : "ek 4/21/2017 10:57" } }

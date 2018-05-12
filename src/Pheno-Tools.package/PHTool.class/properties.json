@@ -1,0 +1,14 @@
+{
+	"category" : "Pheno-Tools",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PHTool",
+	"pools" : [
+		 ],
+	"super" : "PHWidget",
+	"type" : "normal" }

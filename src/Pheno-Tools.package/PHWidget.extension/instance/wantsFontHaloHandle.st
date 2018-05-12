@@ -1,0 +1,4 @@
+*Pheno-Tools
+wantsFontHaloHandle
+
+	^ false

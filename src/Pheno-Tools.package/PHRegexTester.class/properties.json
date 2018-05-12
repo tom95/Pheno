@@ -1,0 +1,14 @@
+{
+	"category" : "Pheno-Tools",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"regex" ],
+	"name" : "PHRegexTester",
+	"pools" : [
+		 ],
+	"super" : "PHTool",
+	"type" : "normal" }

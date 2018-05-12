@@ -1,0 +1,4 @@
+cursor
+wantsFontHaloHandle
+
+	^ true

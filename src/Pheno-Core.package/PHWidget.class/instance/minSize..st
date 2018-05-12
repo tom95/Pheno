@@ -1,4 +1,4 @@
 layout
 minSize: aPoint
-	minSize := aPoint asPoint * PHWidget scalingFactor.
+	minSize := aPoint asPoint * PHStyleContext scalingFactor.
 	self extent: minSize

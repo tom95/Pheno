@@ -1,0 +1,12 @@
+{
+	"class" : {
+		"openFor:event:" : "TB 5/12/2018 22:21" },
+	"instance" : {
+		"fontSizes" : "TB 5/12/2018 22:17",
+		"initialize" : "TB 5/12/2018 22:33",
+		"openFor:event:" : "TB 5/12/2018 22:24",
+		"setFontSize:" : "TB 5/12/2018 22:33",
+		"target" : "TB 5/12/2018 22:24",
+		"toggleBold" : "TB 5/12/2018 22:29",
+		"toggleItalic" : "TB 5/12/2018 22:29",
+		"updateProperties" : "TB 5/12/2018 22:20" } }

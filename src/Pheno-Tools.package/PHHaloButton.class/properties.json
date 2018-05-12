@@ -1,0 +1,14 @@
+{
+	"category" : "Pheno-Tools",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"hasMouse" ],
+	"name" : "PHHaloButton",
+	"pools" : [
+		 ],
+	"super" : "PHButton",
+	"type" : "normal" }

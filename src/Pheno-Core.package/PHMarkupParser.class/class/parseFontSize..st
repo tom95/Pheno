@@ -9,6 +9,6 @@ parseFontSize: aString
 	
 	index := #('xx-small' 'x-small' 'small' 'medium' 'large' 'x-large' 'xx-large')
 		indexOf: size
-		ifAbsent: [^ (size asNumber / 1024 * PHWidget scalingFactor) floor].
+		ifAbsent: [^ (size asNumber / 1024 * PHStyleContext scalingFactor) floor].
 	
-	^ self baseFontSize * (1.2 raisedTo: index - 4)
+	^ PHStyleContext baseFontSize withScalingFactor * (1.2 raisedTo: index - 4)

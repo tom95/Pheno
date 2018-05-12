@@ -1,8 +1,10 @@
 private
-roundRectShapeBounds: aRectangle radius: radius borderWidth: width
+roundRectShapeBounds: aRectangle radius: r borderWidth: width
 	"note:  none of the values will be scaled. Call #withScalingFactor on radius/width before passing"
 
-	| circle points |
+	| circle points radius maxRadius |
+	maxRadius := (aRectangle width min: aRectangle height) / 2.
+	radius := Rectangle left: (r left min: maxRadius) right: (r right min: maxRadius) top: (r top min: maxRadius) bottom: (r bottom min: maxRadius).
 	circle := radius scaleBy: 0.5522847.
 	points := OrderedCollection new.
 	
