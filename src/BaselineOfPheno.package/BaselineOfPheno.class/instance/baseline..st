@@ -14,7 +14,8 @@ baseline: spec
 			package: 'Pheno-Widgets' with: [spec requires: #('Pheno-Core' 'Pheno-ToolBuilder')];
 			package: 'Pheno-Examples' with: [spec requires: #('Pheno-Widgets')];
 			package: 'Pheno-Tests-Core' with: [spec requires: #('Pheno-Widgets')];
-			package: 'Pheno-Tests-Styles' with: [spec requires: #('Pheno-Tests-Core')].
+			package: 'Pheno-Tests-Styles' with: [spec requires: #('Pheno-Tests-Core')];
+			package: 'Pheno-Tools' with: [spec requires: #('Pheno-Widgets')].
 		
 		spec
 			group: 'minimal' with: #('Pheno-Widgets');
