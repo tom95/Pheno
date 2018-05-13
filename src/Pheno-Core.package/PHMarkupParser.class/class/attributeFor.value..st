@@ -5,7 +5,7 @@ attributeFor: aName value: aValue
 	(#('font_family' 'face') includes: aName) ifTrue: [ ^TextFontReference toFont: (StrikeFont familyName: aValue pointSize: TextStyle defaultFont pointSize) ].
 	(#('font' 'font_desc') includes: aName) ifTrue: [ | parts size |
 		parts := aValue splitInteger.
-		size := parts second isZero ifTrue: [ TextStyle defaultFont pointSize ] ifFalse: [parts second].
+		size := parts second isZero ifTrue: [PHStyleContext baseFontSize] ifFalse: [parts second].
 		^TextFontReference toFont: (StrikeFont familyName: parts first pointSize: size)].
 	(#('font_style' 'style') includes: aName) ifTrue: [
 		" italic, normal, oblique "

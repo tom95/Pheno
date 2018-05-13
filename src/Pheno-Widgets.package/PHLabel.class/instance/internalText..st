@@ -2,6 +2,8 @@ text
 internalText: aString
 
 	| stringWithStyles |
+	self updateFontStyles.
+	
 	(aString isText or: [self styleAttributes isEmpty]) ifTrue: [
 		^ self layout text: aString ifChanged: [self layoutChanged; changed]].
 	

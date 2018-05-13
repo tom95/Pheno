@@ -1,4 +1,4 @@
-attributes
-margin: aValue
+helper
+margin: aNumberOrPointOrRectangle
 
-	self setProperty: #margin to: (self numberToRectangle: aValue)
+	^ self setProperty: #margin to: (self numberToRectangle: aNumberOrPointOrRectangle)

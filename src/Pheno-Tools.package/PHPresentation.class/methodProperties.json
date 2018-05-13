@@ -4,10 +4,13 @@
 	"instance" : {
 		"addSlide" : "TB 5/12/2018 19:32",
 		"addText" : "TB 5/12/2018 19:37",
+		"applyPresentationStyles:model:" : "TB 5/13/2018 01:55",
 		"currentSlide" : "TB 5/12/2018 19:28",
-		"initialize" : "TB 5/12/2018 19:40",
+		"editStyles" : "TB 5/13/2018 01:53",
+		"initialize" : "TB 5/13/2018 01:25",
 		"openPresentation" : "TB 5/12/2018 19:51",
 		"savePresentation" : "TB 5/12/2018 19:40",
 		"showNextSlide" : "TB 5/12/2018 19:29",
 		"showPreviousSlide" : "TB 5/12/2018 19:30",
+		"styleTemplate" : "TB 5/13/2018 01:42",
 		"updateCounter" : "TB 5/12/2018 19:27" } }

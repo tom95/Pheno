@@ -1,4 +1,4 @@
-attributes
+helper
 margin
 
 	^ self getProperty: #margin

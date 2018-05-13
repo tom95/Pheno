@@ -3,8 +3,7 @@ alertStyles
 
 	(self for: #alert)
 		padding: 20 @ 12;
-		borderWidth: 1;
-		margin: (Rectangle left: 0 right: 0 top: 0 bottom: 16).
+		borderWidth: 1.
 	
 	self themeColors with: self themeColorTypes do: [:color :type | | selector |
 		selector := {#alert. type}.

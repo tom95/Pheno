@@ -15,4 +15,8 @@ initializeWithLayoutClass: aClass
 	
 	self
 		addStyleClass: #label;
-		addFallbackStyles: ((PHStyle for: #label) color: #inherit)
+		addFallbackStyles: ((PHStyle for: #label)
+			color: #inherit;
+			fontWeight: #inherit;
+			fontSize: #inherit;
+			fontStyle: #inherit)

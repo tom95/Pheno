@@ -1,9 +1,6 @@
 styles
 textStyles
 	
-	(self for: #label)
-		color: #inherit.
-	
 	(self for: #(label selection))
 		backgroundColor: (self defaultSelectedColor alpha: 0.4).
 	

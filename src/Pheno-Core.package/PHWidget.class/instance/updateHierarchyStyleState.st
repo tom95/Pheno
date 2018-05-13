@@ -14,4 +14,5 @@ updateHierarchyStyleState
 		even := even not].
 
 	self firstSubmorph styleContext stateFirstChild: true.
-	self lastSubmorph styleContext stateLastChild: true
+	self lastSubmorph styleContext stateLastChild: true.
+	self updateStyleProperties

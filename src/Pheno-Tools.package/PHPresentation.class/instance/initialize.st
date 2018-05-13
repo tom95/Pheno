@@ -28,6 +28,9 @@ initialize
 			add: ((PHButton icon: #iconParagraph)
 				when: #clicked send: #addText to: self);
 			
+			add: ((PHButton icon: #iconEyedropper)
+				when: #clicked send: #editStyles to: self);
+			
 			add: PHWidget spacer;
 			
 			add: ((PHButton icon: #iconSave)
@@ -37,6 +40,7 @@ initialize
 				when: #clicked send: #openPresentation to: self));
 			
 			add: (slides := PHStackedContainer new
+				addUserStyles: (presentationStyles := PHStyleProvider new);
 				expand: true);
-				
+			
 			addSlide
