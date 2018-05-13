@@ -42,7 +42,7 @@ keyStroke: anEvent
 		^Clipboard clipboardText: self selectedText].
 	key = '<escape>' ifTrue: [
 		^ self triggerCancelled].
-	(key = '<cr>' and: [self multiLine not]) ifTrue: [
+	((key = '<cr>' and: [self multiLine not]) or: [key = '<Cmd-s>']) ifTrue: [
 		^ self triggerConfirmed: self text].
 	(key = '<tab>' or: [key = '<Shift-tab>']) ifTrue: [
 		^ self pasteUpMorphHandlingTabAmongFields ifNotNilDo: [:p | p tabHitWithEvent: anEvent]].
