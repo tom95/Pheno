@@ -27,4 +27,7 @@ haloStyles
 		backgroundColor: #'1E88E5'.
 	
 	(self for: #(haloButton haloFontHandle))
-		backgroundColor: #'8E24AA'
+		backgroundColor: #'8E24AA'.
+		
+	(self for: #(haloButton haloCssHandle))
+		backgroundColor: #'6D4C41'

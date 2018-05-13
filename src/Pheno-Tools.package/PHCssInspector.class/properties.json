@@ -1,0 +1,17 @@
+{
+	"category" : "Pheno-Tools",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"classes",
+		"styleProperties",
+		"target",
+		"allStyles" ],
+	"name" : "PHCssInspector",
+	"pools" : [
+		 ],
+	"super" : "PHWidget",
+	"type" : "normal" }

@@ -1,0 +1,11 @@
+{
+	"class" : {
+		"openFor:" : "TB 5/13/2018 11:35" },
+	"instance" : {
+		"addClass:" : "TB 5/13/2018 11:45",
+		"allStylePropertiesDo:" : "TB 5/13/2018 11:32",
+		"initialize" : "TB 5/13/2018 11:48",
+		"removeClass:" : "TB 5/13/2018 11:46",
+		"target" : "TB 5/13/2018 11:39",
+		"target:" : "TB 5/13/2018 11:29",
+		"updateTarget" : "TB 5/13/2018 11:43" } }

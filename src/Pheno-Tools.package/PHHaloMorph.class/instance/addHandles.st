@@ -7,6 +7,7 @@ addHandles
 		addDebugHandle;
 		addDuplicateHandle;
 		addGrabHandle;
-		addLayoutHandle.
+		addLayoutHandle;
+		addCssHandle.
 	
 	self target wantsFontHaloHandle ifTrue: [self addFontHandle]
