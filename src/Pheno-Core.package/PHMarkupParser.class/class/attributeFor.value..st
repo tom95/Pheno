@@ -1,7 +1,7 @@
 private
 attributeFor: aName value: aValue
 
-	(#('font_size' 'size') includes: aName) ifTrue: [^ self defaultFontAtSize: (self parseFontSize: aValue)].
+	(#('font_size' 'size') includes: aName) ifTrue: [^ self defaultFontAtSize: (self parseFontSize: aValue pangoUnits: true)].
 	(#('font_family' 'face') includes: aName) ifTrue: [ ^TextFontReference toFont: (StrikeFont familyName: aValue pointSize: TextStyle defaultFont pointSize) ].
 	(#('font' 'font_desc') includes: aName) ifTrue: [ | parts size |
 		parts := aValue splitInteger.

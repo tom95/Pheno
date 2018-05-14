@@ -1,4 +1,4 @@
 styling
 bold
 
-	self style: 'weight' set: 'bold'
+	self addApplicationStyles: (PHStyle forAny fontWeight: 'bold')

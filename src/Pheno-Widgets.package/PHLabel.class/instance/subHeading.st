@@ -1,4 +1,4 @@
 styling
 subHeading
 
-	self style: 'size' set: 'large'
+	self addApplicationStyles: (PHStyle forAny fontSize: 'large')

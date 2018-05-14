@@ -1,4 +1,4 @@
 attributes
-fontSize: aNumber
+fontSize: aNumberOrString
 
-	^ self setProperty: #fontSize to: aNumber
+	^ self setProperty: #fontSize to: (self parseFontSize: aNumberOrString)

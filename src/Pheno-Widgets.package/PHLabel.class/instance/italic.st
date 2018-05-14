@@ -1,4 +1,4 @@
 styling
 italic
 
-	self style: 'style' set: 'italic'
+	self addApplicationStyles: (PHStyle forAny fontStyle: 'italic')

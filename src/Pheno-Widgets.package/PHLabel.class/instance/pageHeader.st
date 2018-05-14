@@ -1,6 +1,4 @@
 styling
 pageHeader
 
-	self
-		style: 'weight' set: 'bold';
-		style: 'size' set: 'xx-large'
+	self addApplicationStyles: (PHStyle forAny fontSize: 'xx-large'; fontWeight: 'bold')

@@ -1,5 +1,5 @@
 private
-parseFontSize: aString
+parseFontSize: aString pangoUnits: aBoolean
 
 	| index size |
 	size := aString.
@@ -9,6 +9,6 @@ parseFontSize: aString
 	
 	index := #('xx-small' 'x-small' 'small' 'medium' 'large' 'x-large' 'xx-large')
 		indexOf: size
-		ifAbsent: [^ (size asNumber / 1024) withScalingFactor floor].
+		ifAbsent: [^ (size asNumber / (aBoolean ifTrue: [1024] ifFalse: [1])) withScalingFactor floor].
 	
-	^ PHStyleContext baseFontSize withScalingFactor * (1.2 raisedTo: index - 4)
+	^ self baseFontSize withScalingFactor * (1.2 raisedTo: index - 4)

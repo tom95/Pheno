@@ -1,7 +1,4 @@
 styling
 secondarySubHeading
 
-	self
-		style: 'style' set: 'italic';
-		style: 'color' set: ('#', Color lightGray printHtmlString);
-		style: 'size' set: 'large'
+	self addApplicationStyles: (PHStyle forAny fontSize: 'large'; fontStyle: 'italic'; color: Color lightGray)

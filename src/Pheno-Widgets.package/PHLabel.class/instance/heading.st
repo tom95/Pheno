@@ -1,4 +1,4 @@
 styling
 heading
 
-	self style: 'size' set: 'xx-large'
+	self addApplicationStyles: (PHStyle forAny fontSize: 'xx-large')

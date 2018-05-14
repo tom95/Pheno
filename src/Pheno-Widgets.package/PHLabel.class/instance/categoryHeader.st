@@ -2,6 +2,5 @@ styling
 categoryHeader
 
 	self
-		style: 'weight' set: 800;
-		style: 'size' set: 'small';
+		addApplicationStyles: (PHStyle forAny fontWeight: 'bold'; fontSize: 'small');
 		text: self text asUppercase

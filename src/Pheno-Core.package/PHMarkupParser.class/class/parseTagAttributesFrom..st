@@ -12,8 +12,8 @@ parseTagAttributesFrom: aStream
 	tagName = 's' ifTrue: [attributes add: TextEmphasis struckOut].
 	tagName = 'tt' ifTrue: [attributes add: (TextFontReference toFont:
 		((UserInterfaceTheme current get: #standardCodeFont) ifNil: [TextStyle defaultFont]))].
-	tagName = 'small' ifTrue: [attributes add: (self defaultFontAtSize: (self parseFontSize: 'small'))].
-	tagName = 'big' ifTrue: [attributes add: (self defaultFontAtSize: (self parseFontSize: 'large'))].
+	tagName = 'small' ifTrue: [attributes add: (self defaultFontAtSize: (self parseFontSize: 'small' pangoUnits: true))].
+	tagName = 'big' ifTrue: [attributes add: (self defaultFontAtSize: (self parseFontSize: 'large' pangoUnits: true))].
 	self flag: #todo. " sup, sub "
 	
 	aStream last = $> ifTrue: [^ attributes].

@@ -1,4 +1,4 @@
 styling
 subcategoryHeader
 
-	self style: 'weight' set: 200
+	self addApplicationStyles: (PHStyle forAny fontWeight: '200')

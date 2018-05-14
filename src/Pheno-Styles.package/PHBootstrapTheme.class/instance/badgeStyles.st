@@ -6,6 +6,7 @@ badgeStyles
 		color: #fff;
 		spacing: 5;
 		fontWeight: 'bold';
+		fontSize: 'smaller';
 		backgroundColor: #'343a40'.
 	
 	self themeColors with: self themeColorTypes do: [:color :type |

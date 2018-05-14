@@ -1,4 +1,4 @@
 styling
 small
 
-	self style: 'size' set: 'small'
+	self addApplicationStyles: (PHStyle forAny fontSize: 'small')
