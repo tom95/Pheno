@@ -1,5 +1,5 @@
-helper
-parseFontSize: aString
+as yet unclassified
+parseFontSize: aString baseFontSize: aNumber
 
 	| index size |
 	aString == #inherit ifTrue: [^ aString].
@@ -13,4 +13,4 @@ parseFontSize: aString
 		indexOf: size
 		ifAbsent: [^ size asNumber withScalingFactor floor].
 	
-	^ self baseFontSize withScalingFactor * (1.2 raisedTo: index - 4)
+	^ aNumber withScalingFactor * (1.2 raisedTo: index - 4)

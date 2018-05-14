@@ -9,6 +9,6 @@ parseFontSize: aString pangoUnits: aBoolean
 	
 	index := #('xx-small' 'x-small' 'small' 'medium' 'large' 'x-large' 'xx-large')
 		indexOf: size
-		ifAbsent: [^ (size asNumber / (aBoolean ifTrue: [1024] ifFalse: [1])) withScalingFactor floor].
+		ifAbsent: [^ [(size asNumber / (aBoolean ifTrue: [1024] ifFalse: [1])) withScalingFactor floor] on: NumberParserError do: [self baseFontSize withScalingFactor]].
 	
 	^ self baseFontSize withScalingFactor * (1.2 raisedTo: index - 4)
