@@ -17,4 +17,7 @@ createMinimalToolbar
 				when: #clicked send: #savePresentation to: self);
 				
 			add: ((PHButton icon: #iconFolder_open)
-				when: #clicked send: #openPresentation to: self)
+				when: #clicked send: #openPresentation to: self);
+			
+			add: ((PHButton icon: #iconCompress)
+				when: #clicked send: #leavePresentationMode to: self)
