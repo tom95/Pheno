@@ -1,4 +1,0 @@
-*Pheno-Tools
-haloClass
-
-	^ #PHHaloMorph
