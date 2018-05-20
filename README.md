@@ -23,6 +23,11 @@ PHColorStylesExample open.
 Browser newOnCategory: 'Pheno-Examples'.
 ```
 
+## Upgrading from v1.0.0
+* `PHLabel>>text:` no longer parses markup. Use `PHLabel>>markup:`
+* `PHLabel>>style:set:` and `PHLabel>>style:` and the `#styleAttributes` accessor have been removed
+* Strongly consider running `PHStyleContext class>>configureForScalingFactor:fontNamed:` after installing a TTF font, for the intended experience (may be advised to save the image first, to ensure everything is legible after. Please report a bug and attach a screenshot if anything goes wrong)
+
 ## Migrating from `BT` Prefix
 Here are two handy scripts to run on your repo if you used the `BT` instead of the `PH` prefix:
 ```bash
