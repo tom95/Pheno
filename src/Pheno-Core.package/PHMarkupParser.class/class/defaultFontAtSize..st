@@ -1,4 +1,4 @@
 private
 defaultFontAtSize: aNumber
 
-	^ TextFontReference toFont: (TextStyle default fontOfPointSize: aNumber)
+	^ TextFontReference toFont: (PHStyleContext fontForSize: aNumber floor)

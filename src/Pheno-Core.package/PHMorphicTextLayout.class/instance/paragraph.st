@@ -4,7 +4,7 @@ paragraph
 	^ paragraph ifNil: [
 		paragraph := NewParagraph new
 			compose: self text asText
-			style: TextStyle default copy
+			style: PHStyleContext defaultTextStyle
 			from: 1
 			in: (origin extent: (self width < 0
 				ifTrue: [self maximumContainerExtent x]

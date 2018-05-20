@@ -2,7 +2,7 @@ initialize-release
 initializeWithLayoutClass: aClass
 
 	layout := aClass new
-		font: aClass defaultFont;
+		font: PHStyleContext defaultFont;
 		lineSpacing: 4;
 		yourself.
 	text := ''.

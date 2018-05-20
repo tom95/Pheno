@@ -1,14 +1,14 @@
 {
 	"class" : {
-		"attributeFor:value:" : "TB 5/14/2018 15:21",
-		"baseFontSize" : "TB 5/14/2018 16:23",
-		"defaultFontAtSize:" : "ek 4/20/2017 14:46",
+		"attributeFor:value:" : "TB 5/15/2018 20:52",
+		"baseFontSize" : "TB 5/15/2018 20:53",
+		"defaultFontAtSize:" : "TB 5/15/2018 21:13",
 		"markupToText:" : "ek 4/20/2017 14:47",
 		"nextTagFrom:to:" : "TB 5/6/2018 15:17",
 		"parseAttributeValueFrom:" : "ek 4/20/2017 14:47",
 		"parseColor:" : "ek 4/20/2017 14:48",
 		"parseFontSize:pangoUnits:" : "TB 5/14/2018 16:03",
-		"parseTagAttributesFrom:" : "TB 5/14/2018 15:21",
+		"parseTagAttributesFrom:" : "TB 5/15/2018 20:53",
 		"strip:" : "ek 4/20/2017 14:50",
 		"unescape:" : "ek 4/20/2017 14:51",
 		"unescapeNextHtmlEntityFrom:" : "ek 4/20/2017 14:51" },

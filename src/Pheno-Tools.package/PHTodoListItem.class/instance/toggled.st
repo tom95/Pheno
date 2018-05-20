@@ -3,4 +3,6 @@ toggled
 
 	self triggerEvent: #toggleChecked.
 	
-	label style: 'strikethrough' set: self isChecked
+	self isChecked
+		ifTrue: [label addAttribute: TextEmphasis struckOut]
+		ifFalse: [label removeAttribute: TextEmphasis struckOut]

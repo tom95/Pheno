@@ -11,7 +11,7 @@ parseTagAttributesFrom: aStream
 	tagName = 'b' ifTrue: [attributes add: TextEmphasis bold].
 	tagName = 's' ifTrue: [attributes add: TextEmphasis struckOut].
 	tagName = 'tt' ifTrue: [attributes add: (TextFontReference toFont:
-		((UserInterfaceTheme current get: #standardCodeFont) ifNil: [TextStyle defaultFont]))].
+		((UserInterfaceTheme current get: #standardCodeFont) ifNil: [PHStyleContext defaultFont]))].
 	tagName = 'small' ifTrue: [attributes add: (self defaultFontAtSize: (self parseFontSize: 'small' pangoUnits: true))].
 	tagName = 'big' ifTrue: [attributes add: (self defaultFontAtSize: (self parseFontSize: 'large' pangoUnits: true))].
 	self flag: #todo. " sup, sub "

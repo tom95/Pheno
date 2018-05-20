@@ -64,6 +64,6 @@ keyStroke: anEvent
 		
 		(anEvent controlKeyPressed or: [anEvent commandKeyPressed]) ifFalse: [
 			self
-				insertAtCursor: anEvent keyCharacter;
+				insertAtCursor: anEvent keyCharacter asString;
 				placeCursorAt: self cursor + 1;
 				triggerChanged]].

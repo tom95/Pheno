@@ -1,4 +1,4 @@
 styling
 pointSize: aNumber
 
-	self style: 'size' set: (aNumber * 1024) rounded
+	self addApplicationStyles: (PHStyle forAny fontSize: aNumber)

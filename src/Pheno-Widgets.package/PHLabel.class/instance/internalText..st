@@ -1,24 +1,15 @@
 text
 internalText: aString
 
-	| stringWithStyles |
-	self updateFontStyles.
+	| styled |
+	styled := aString isText
+		ifTrue: [Text string: aString string runs: aString runs copy]
+		ifFalse: [aString asText].
 	
-	(aString isText or: [self styleAttributes isEmpty]) ifTrue: [
-		^ self layout text: aString ifChanged: [self layoutChanged; changed]].
+	self styleContext fontSize ~= PHStyleContext baseFontSize ifTrue: [
+		styled addAttribute: (TextFontReference toFont: self styleContext font)].
 	
-	stringWithStyles := '' writeStream.
-	stringWithStyles nextPutAll: '<span'.
+	self styleContext fontWeight ~= 'normal' ifTrue: [styled addAttribute: TextEmphasis bold].
+	self styleContext fontStyle  ~= 'normal' ifTrue: [styled addAttribute: TextEmphasis italic].
 	
-	self styleAttributes keysAndValuesDo: [ :key : value |  
-		stringWithStyles
-			space;
-			nextPutAll: key;
-			nextPutAll: '="';
-			nextPutAll: value;
-			nextPut: $" ].
-	stringWithStyles nextPut: $>.
-	
-	stringWithStyles nextPutAll: aString; nextPutAll: '</span>'.
-	
-	self layout text: stringWithStyles contents ifChanged: [self layoutChanged; changed]
+	self layout text: styled ifChanged: [self layoutChanged; changed]

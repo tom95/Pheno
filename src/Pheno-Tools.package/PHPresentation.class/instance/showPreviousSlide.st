@@ -1,5 +1,4 @@
 as yet unclassified
 showPreviousSlide
 
-	slides currentWidget submorphBefore ifNotNil: [:slide  | slides selectWidget: slide].
-	self updateCounter
+	slides currentWidget submorphBefore ifNotNil: [:slide  | self showSlideWidget: slide]

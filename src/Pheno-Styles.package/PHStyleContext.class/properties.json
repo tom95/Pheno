@@ -3,6 +3,7 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
+		"DefaultTextStyle",
 		"GlobalStyleContext",
 		"MAX_STATES",
 		"NUM_STATES",

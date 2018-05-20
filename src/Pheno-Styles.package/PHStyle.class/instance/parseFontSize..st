@@ -11,6 +11,6 @@ parseFontSize: aString
 	
 	index := PHStyleContext fontSizeStrings
 		indexOf: size
-		ifAbsent: [^ size asNumber withScalingFactor floor].
+		ifAbsent: [^ size asNumber floor].
 	
-	^ self baseFontSize withScalingFactor * (1.2 raisedTo: index - 4)
+	^ PHStyleContext baseFontSize * (1.2 raisedTo: index - 4)

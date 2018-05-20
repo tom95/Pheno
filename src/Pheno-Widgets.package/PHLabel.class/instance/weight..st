@@ -1,4 +1,4 @@
 styling
 weight: aStringOrNumber
 
-	self style: 'weight' set: aStringOrNumber asString
+	self addApplicationStyles: (PHStyle forAny fontWeight: aStringOrNumber)

@@ -1,0 +1,15 @@
+{
+	"category" : "Pheno-Tools",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"onEnterDo",
+		"onLeaveDo" ],
+	"name" : "PHSlide",
+	"pools" : [
+		 ],
+	"super" : "PHWidget",
+	"type" : "normal" }

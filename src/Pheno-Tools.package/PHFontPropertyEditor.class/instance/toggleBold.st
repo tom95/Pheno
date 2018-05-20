@@ -1,5 +1,5 @@
 as yet unclassified
 toggleBold
 
-	self target style: 'weight' set: ((self target style: 'weight') = 'bold' ifTrue: ['normal'] ifFalse: ['bold']).
+	self target toggleAttribute: TextEmphasis bold from: 1 to: self target size.
 	self updateProperties

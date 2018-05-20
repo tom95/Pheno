@@ -1,4 +1,4 @@
 as yet unclassified
 addSlide
 
-	self addSlide: PHWidget new
+	^ self addSlide: PHSlide new

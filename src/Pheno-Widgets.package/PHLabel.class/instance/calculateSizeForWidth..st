@@ -7,4 +7,4 @@ calculateSizeForWidth: aNumber
 	
 	min := min max: self minSize.
 	
-	^ (PHSizeRequest min: min natural: (nat max: min)) + self paddingAsPoint
+	^ (PHSizeRequest min: min natural: (nat max: min)) + self paddingAsPoint withScalingFactor

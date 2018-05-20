@@ -23,11 +23,6 @@ initialize
 		add: ((PHLabel text: 'text size 33') pointSize: 33);
 		add: ((PHLabel text: 'text size 5') pointSize: 5);
 		
-		" note: only supported with the pango backend "
-		add: ((PHLabel text: 'raleway')
-			font: 'raleway';
-			pointSize: 20);
-		
 		add: ((PHLink text: 'Click me pls')
 			when: #clicked
 			evaluate: [self topLevel displayNotification: 'hi' type: #success]);
@@ -35,4 +30,4 @@ initialize
 		add: (PHLabel text: self sampleText);
 		
 		"see PHMarkupParser>>attitributeFor:value: for a list of supported <span> attributes or parseTagAttributesFrom: for supported tags"
-		add: (PHLabel text: '<b>Bold text</b> followed by <span color="#f00">red text</span>', String cr, 'and then <i>some italics on the next line!</i>.')
+		add: (PHLabel markup: '<b>Bold text</b> followed by <span color="#f00">red text</span>', String cr, 'and then <i>some italics on the next line!</i>.')

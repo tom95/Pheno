@@ -2,8 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addSlide" : "ek 5/14/2018 12:25",
-		"addSlide:" : "ek 5/14/2018 12:25",
+		"addSlide" : "TB 5/16/2018 08:43",
+		"addSlide:" : "TB 5/15/2018 21:24",
+		"addSlideWithCenterBox" : "TB 5/15/2018 20:02",
+		"addSlideWithLayout" : "TB 5/15/2018 20:02",
 		"addText" : "TB 5/12/2018 19:37",
 		"applyPresentationStyles:model:" : "TB 5/13/2018 01:55",
 		"copyCurrentSlide" : "lcj 5/14/2018 11:48",
@@ -15,9 +17,13 @@
 		"initialize" : "ek 5/14/2018 16:47",
 		"leavePresentationMode" : "ek 5/14/2018 16:47",
 		"openPresentation" : "TB 5/12/2018 19:51",
+		"removeSlideAt:" : "TB 5/15/2018 23:23",
 		"savePresentation" : "TB 5/12/2018 19:40",
-		"showNextSlide" : "TB 5/12/2018 19:29",
-		"showPreviousSlide" : "TB 5/12/2018 19:30",
+		"showNextSlide" : "TB 5/16/2018 08:45",
+		"showPreviousSlide" : "TB 5/16/2018 08:45",
+		"showSlide:" : "TB 5/16/2018 08:45",
+		"showSlideWidget:" : "TB 5/16/2018 08:46",
+		"slides" : "TB 5/16/2018 08:48",
 		"styleTemplate" : "TB 5/13/2018 01:42",
 		"tooglePresentationMode" : "ek 5/14/2018 13:32",
 		"updateCounter" : "TB 5/12/2018 19:27" } }
