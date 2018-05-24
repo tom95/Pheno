@@ -10,7 +10,7 @@ keyboardFocusChange: weHaveFocus
 			self
 				startBlinking;
 				triggerFocused]
-		ifFalse: [self stopBlinking].
+		ifFalse: [self stopBlinking; clearSelection].
 	
 	self styleContext stateActive: weHaveFocus.
 	self changed
