@@ -1,4 +1,4 @@
 accessing
 alignment: aSymbol
 
-	self flag: #todo
+	alignment := aSymbol

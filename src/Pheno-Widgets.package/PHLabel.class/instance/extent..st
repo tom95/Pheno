@@ -1,6 +1,6 @@
 geometry
 extent: aPoint
 
-	layoutWidth := aPoint x.
-	self layout width: aPoint x.
+	layoutWidth := aPoint x - self paddingAsPoint x withScalingFactor.
+	self layout width: layoutWidth.
 	super extent: aPoint

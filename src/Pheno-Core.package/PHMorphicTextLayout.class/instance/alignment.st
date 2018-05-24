@@ -1,4 +1,4 @@
 accessing
 alignment
 
-	^ #left
+	^ alignment

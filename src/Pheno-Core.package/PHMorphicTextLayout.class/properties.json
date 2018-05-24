@@ -11,7 +11,8 @@
 		"width",
 		"paragraph",
 		"text",
-		"origin" ],
+		"origin",
+		"alignment" ],
 	"name" : "PHMorphicTextLayout",
 	"pools" : [
 		 ],

@@ -6,4 +6,5 @@ initialize
 	cursor := 0.
 	selectionBound := 0.
 	text := ' '. "see comment in text:"
-	origin := 0 asPoint
+	origin := 0 asPoint.
+	alignment := #left
