@@ -6,6 +6,8 @@ drawOn: aCanvas
 		selectionColor := context color.
 		selectionBackground := context backgroundColor].
 	
+	self styleContext drawFullOn: aCanvas bounds: self bounds.
+	
 	self
 		drawOn: aCanvas
 		selectionColor: selectionColor

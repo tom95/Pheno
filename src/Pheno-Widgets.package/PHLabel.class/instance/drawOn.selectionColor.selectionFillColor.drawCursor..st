@@ -2,6 +2,8 @@ drawing
 drawOn: aCanvas selectionColor: aColor selectionFillColor: anotherColor drawCursor: aBoolean
 
 	| transform |
+	self styleContext  drawFullOn: aCanvas bounds: self bounds.
+	
 	transform := self angle ~= 0
 		ifTrue: [
 			(MatrixTransform2x3 withOffset: self extent / 2 + self layoutBounds origin + aCanvas origin)
