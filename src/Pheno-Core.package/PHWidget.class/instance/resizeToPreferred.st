@@ -1,5 +1,5 @@
 layout
 resizeToPreferred
 	| preferred |
-	preferred := self preferredSizeForWidth: 9e8.
+	preferred := self preferredSizeForWidth: self class maximumWidth.
 	self extent: preferred naturalSize

@@ -3,7 +3,7 @@ initialize
 
 	super initialize.
 	
-	entry := PHTextArea new.
+	entry := PHTextArea new multiLine: true; minRows: 7.
 	
 	self
 		add: (PHButtonGroup new
