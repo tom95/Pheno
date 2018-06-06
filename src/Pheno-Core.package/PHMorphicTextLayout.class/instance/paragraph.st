@@ -10,6 +10,6 @@ paragraph
 				ifTrue: [self maximumContainerExtent x]
 				ifFalse: [self width]) @ self maximumContainerExtent y).
 		
-		self width < 0 ifTrue: [paragraph adjustRightX].
+		(self width < 0 or: [self alignmentCanShrink]) ifTrue: [paragraph adjustRightX].
 		self updateCursor.
 		paragraph]
