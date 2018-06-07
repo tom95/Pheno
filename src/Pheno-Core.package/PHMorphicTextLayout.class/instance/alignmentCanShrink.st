@@ -1,4 +1,4 @@
 accessing
 alignmentCanShrink
 
-	^ #(left right) includes: self alignment
+	^ self alignment == #left
