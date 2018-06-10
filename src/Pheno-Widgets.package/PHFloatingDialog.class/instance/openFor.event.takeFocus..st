@@ -3,7 +3,7 @@ openFor: aTargetWidget event: anEvent takeFocus: aBoolean
 
 	self
 		position: (self openPositionFor: aTargetWidget);
-		openInWorld.
+		openInWorld: anEvent hand world.
 	
 	(aBoolean and: [anEvent notNil]) ifTrue: [ | inputSubmorphs |
 		inputSubmorphs := submorphs select: [:submorph | submorph isFormInput].

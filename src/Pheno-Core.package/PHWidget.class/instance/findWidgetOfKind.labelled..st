@@ -6,6 +6,6 @@ findWidgetOfKind: aClass labelled: aString
 		(morph isKindOf: aClass) ifTrue: [
 			(((morph respondsTo: #text)
 				ifTrue: [morph text]
-				ifFalse: [(self findSubmorph: morph ofKind: PHLabel) ifNotNilDo: #text ifNil: ['']]) includesSubstring: aString) ifTrue: [^ morph]]].
+				ifFalse: [(self findWidgetOfKind: PHLabel) ifNotNilDo: #text ifNil: ['']]) includesSubstring: aString) ifTrue: [^ morph]]].
 	
 	(NotFound object: aClass) signal

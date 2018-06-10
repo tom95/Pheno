@@ -1,0 +1,14 @@
+{
+	"category" : "Pheno-Tests-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PHDropdownTests",
+	"pools" : [
+		 ],
+	"super" : "PHEventTestCase",
+	"type" : "normal" }
