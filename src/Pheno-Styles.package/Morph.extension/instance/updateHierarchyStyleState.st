@@ -2,6 +2,7 @@
 updateHierarchyStyleState
 
 	| even |
+	self styleContext invalidateCache.
 	self hasSubmorphs ifFalse: [^ self].
 	
 	even := false.

@@ -1,4 +1,4 @@
 helper
 inherit: aPropertySymbol
 
-	properties at: aPropertySymbol put: #inherit
+	self setProperty: aPropertySymbol to: #inherit
