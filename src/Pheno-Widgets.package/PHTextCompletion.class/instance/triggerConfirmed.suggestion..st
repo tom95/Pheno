@@ -1,9 +1,10 @@
 events
-triggerConfirmed: aString suggestion: aPHTextCompletionSuggestion
+triggerConfirmed: aString suggestion: aTextCompletionSuggestion
 
 	| plainString |
 	plainString := PHMarkupParser strip: aString.
+	self triggerCompleted: aTextCompletionSuggestion.
 	self
 		text: plainString;
 		closeSuggestionPopup;
-		triggerEvent: #confirmed withArguments: {plainString. aPHTextCompletionSuggestion}
+		triggerEvent: #confirmed withArguments: {plainString. aTextCompletionSuggestion}

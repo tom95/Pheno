@@ -6,5 +6,5 @@ markupForResult: aString
 	start isZero ifTrue: [^ aString].
 	
 	end := start + self text size - 1.
-
-	^ (aString first: start - 1), '<b>', (aString copyFrom: start to: end), '</b>', (aString allButFirst: end)
+	
+	^ aString asText addAttribute: TextEmphasis bold from: start to: end
