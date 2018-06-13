@@ -1,4 +1,4 @@
 *Pheno-Styles
 rem
 
-	^ self * PHStyleContext baseFontSize withScalingFactor
+	^ self * PHStyleContext baseFontSize
