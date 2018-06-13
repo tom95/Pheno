@@ -1,4 +1,4 @@
 events
 triggerCompleted: aCompletionSuggestion
 
-	^ self triggerEvent: #completed with: aCompletionSuggestion data
+	^ self triggerEvent: #completed with: (aCompletionSuggestion ifNotNil: #data)

@@ -8,4 +8,4 @@ testSuggestionsFilteredShortSuggestions
 	displayed := self displayedSuggestions.
 	
 	(self expect: displayed) to not contain: #('b' 'B').
-	(self expect: displayed) to containExactly: #('a' 'A' 'ANANAS')
+	(self expect: displayed) to contain: #('a' 'A' 'ANANAS')

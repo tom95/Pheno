@@ -7,4 +7,4 @@ testSuggestionsFiltered
 	displayed := self displayedSuggestions.
 	
 	(self expect: displayed) to not contain: #('Austria' 'Australia' 'Argentina').
-	(self expect: displayed) to containExactly: #('Andorra' 'Germany' 'France'  'Albania')
+	(self expect: displayed) to containExactly: #('Andorra' 'France' 'Albania'  'Germany')
