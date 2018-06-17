@@ -1,0 +1,14 @@
+{
+	"category" : "Pheno-Tools",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"answerItems" ],
+	"name" : "PHQuizPage",
+	"pools" : [
+		 ],
+	"super" : "PHWidget",
+	"type" : "normal" }

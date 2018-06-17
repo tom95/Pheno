@@ -1,0 +1,14 @@
+{
+	"class" : {
+		"example" : "lcj 6/14/2018 17:31" },
+	"instance" : {
+		"addPage:" : "lcj 6/13/2018 19:07",
+		"currentPageIndex" : "lcj 6/13/2018 16:45",
+		"currentPageIndex:" : "lcj 6/13/2018 18:55",
+		"initialExtent" : "lcj 6/14/2018 16:14",
+		"initialize" : "lcj 6/14/2018 16:31",
+		"nextPage" : "lcj 6/13/2018 18:58",
+		"pages" : "lcj 6/13/2018 16:35",
+		"pages:" : "lcj 6/13/2018 16:35",
+		"previousPage" : "lcj 6/13/2018 18:58",
+		"updatePage" : "lcj 6/13/2018 18:53" } }

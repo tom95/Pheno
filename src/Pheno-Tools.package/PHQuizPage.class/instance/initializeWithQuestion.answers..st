@@ -1,0 +1,25 @@
+as yet unclassified
+initializeWithQuestion: aString answers: anArray
+
+	| answerButtons |
+	super initialize.
+	
+	answerButtons := PHPage column.
+	answerItems := anArray.
+	
+	answerItems do: [:a | | button |
+		answerButtons add: (button := (PHButton text: a answerText)
+			vertical: false;
+			align: #(fill fill);
+			expand: true).
+		button
+			when: #clicked
+			send: #displayCorrectResponsesFor:on:chosenAnswer:on:
+			to: self
+			withArguments: {answerItems. answerButtons. a. button}].
+	
+	self
+		add: ((PHLabel subcategoryHeader: aString) align: #(center center));
+		add: answerButtons;
+		withLayout;
+		vertical: true

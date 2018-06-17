@@ -1,0 +1,16 @@
+{
+	"category" : "Pheno-Tools",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"pageArea",
+		"pages",
+		"currentPageIndex" ],
+	"name" : "PHQuiz",
+	"pools" : [
+		 ],
+	"super" : "PHTool",
+	"type" : "normal" }

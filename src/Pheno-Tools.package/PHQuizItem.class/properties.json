@@ -1,0 +1,15 @@
+{
+	"category" : "Pheno-Tools",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"answerText",
+		"correct" ],
+	"name" : "PHQuizItem",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
