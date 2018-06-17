@@ -25,7 +25,8 @@
 		"providers",
 		"classes",
 		"parent",
-		"states" ],
+		"states",
+		"propertyCache" ],
 	"name" : "PHStyleContext",
 	"pools" : [
 		 ],
