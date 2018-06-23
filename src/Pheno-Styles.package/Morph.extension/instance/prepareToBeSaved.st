@@ -6,5 +6,5 @@ prepareToBeSaved
 	self formerOwner: nil.
 	self formerPosition: nil.
 	self removeProperty: #undoGrabCommand.
-	fullBounds := nil
+	fullBounds := nil.
 	self removeProperty: #styleContext
