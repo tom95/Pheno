@@ -11,7 +11,8 @@
 		"activeSuggestionIndex",
 		"onlyAllowsExactMatches",
 		"suggestionsAsynchronusBlock",
-		"displayAllWhenEmpty" ],
+		"displayAllWhenEmpty",
+		"openSuggestionsOnFocus" ],
 	"name" : "PHTextCompletion",
 	"pools" : [
 		 ],
