@@ -2,7 +2,6 @@ drawing
 fullDrawOn: aCanvas
 transform: aTransform
 color: aColor
-fillColor: aFillColor
 selectionColor: aSelectionColor
 selectionFillColor: aSelectionFillColor
 clip: aRectangle
@@ -23,8 +22,5 @@ finalPosition: aPoint
 		positionWhenComposed: aPoint.
 	
 	area := aTransform offset extent: self extent.
-	
-	aFillColor ifNotNilDo: [ :color |
-		aCanvas fillRectangle: area fillStyle: color ].
 	
 	aCanvas paragraph: p bounds: (aPoint extent: area extent) color: aColor
