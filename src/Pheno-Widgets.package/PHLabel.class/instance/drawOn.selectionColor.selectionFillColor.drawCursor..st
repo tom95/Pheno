@@ -15,7 +15,6 @@ drawOn: aCanvas selectionColor: aColor selectionFillColor: anotherColor drawCurs
 		fullDrawOn: aCanvas
 		transform: transform
 		color: self styleContext color
-		fillColor: self styleContext backgroundColor
 		selectionColor: aColor
 		selectionFillColor: anotherColor
 		clip: (aCanvas clipRect translateBy: aCanvas origin)

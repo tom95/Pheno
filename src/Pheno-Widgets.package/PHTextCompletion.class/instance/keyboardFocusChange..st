@@ -4,5 +4,5 @@ keyboardFocusChange: weHaveFocus
 	super keyboardFocusChange: weHaveFocus.
 	
 	weHaveFocus
-		ifTrue: [self updateSuggestions]
+		ifTrue: [self openSuggestionsOnFocus ifTrue: [self updateSuggestions]]
 		ifFalse: [self closeSuggestionPopup]

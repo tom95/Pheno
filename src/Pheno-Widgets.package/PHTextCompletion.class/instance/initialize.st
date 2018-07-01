@@ -6,6 +6,7 @@ initialize
 	displayAllWhenEmpty := false.
 	suggestionsList := #().
 	suggestionsDropdown := PHDropdown new.
+	openSuggestionsOnFocus := true.
 	
 	super initialize.
 	
