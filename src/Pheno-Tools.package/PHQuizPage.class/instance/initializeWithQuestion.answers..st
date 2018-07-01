@@ -4,6 +4,7 @@ initializeWithQuestion: aString answers: anArray
 	| answerButtons |
 	super initialize.
 	
+	question := aString.
 	answerButtons := PHPage column.
 	answerItems := anArray.
 	
@@ -19,7 +20,7 @@ initializeWithQuestion: aString answers: anArray
 			withArguments: {answerItems. answerButtons. a. button}].
 	
 	self
-		add: ((PHLabel subcategoryHeader: aString) align: #(center center));
+		add: ((PHLabel subcategoryHeader: self question) align: #(center center));
 		add: answerButtons;
 		withLayout;
 		vertical: true

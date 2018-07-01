@@ -1,8 +1,5 @@
 event handling
 relativeCoordinates: aPoint
 
-	| containerBottom containerTop |
-	containerTop := container topLeft y.
-	containerBottom := container bottomRight y.
-	
-	^ self scrollOffset x @ ((containerTop - aPoint y) / (containerTop - containerBottom))
+	^ ((container left - aPoint x) / (container left - container right))
+		@ ((container top - aPoint y) / (container top - container bottom))

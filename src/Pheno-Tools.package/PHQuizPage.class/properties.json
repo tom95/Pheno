@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"answerItems" ],
+		"answerItems",
+		"question" ],
 	"name" : "PHQuizPage",
 	"pools" : [
 		 ],

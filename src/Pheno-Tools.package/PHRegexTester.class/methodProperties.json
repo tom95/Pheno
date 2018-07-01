@@ -1,7 +1,9 @@
 {
 	"class" : {
-		 },
+		"new" : "lcj 6/26/2018 18:39",
+		"newWithNoLine" : "lcj 6/26/2018 18:39" },
 	"instance" : {
-		"addTestLine" : "TB 5/11/2018 21:23",
-		"initialize" : "lcj 5/13/2018 21:09",
+		"addTestLine" : "lcj 6/26/2018 12:34",
+		"addTestLineFor:" : "lcj 6/26/2018 12:32",
+		"initialize" : "lcj 6/26/2018 13:31",
 		"matchRegex" : "TB 5/11/2018 21:24" } }
