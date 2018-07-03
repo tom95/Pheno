@@ -9,7 +9,8 @@
 		"slides",
 		"toolbar",
 		"pageCounter",
-		"presentationStyles" ],
+		"presentationStyles",
+		"previousWindow" ],
 	"name" : "PHPresentation",
 	"pools" : [
 		 ],

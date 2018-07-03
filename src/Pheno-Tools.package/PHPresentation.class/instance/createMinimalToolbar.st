@@ -11,13 +11,9 @@ createMinimalToolbar
 				add: ((PHButton icon: #iconArrow_right)
 					when: #clicked send: #showNextSlide to: self));
 			
-			add: PHWidget spacer;
+			add: self createPageCounter;
 			
-			add: ((PHButton icon: #iconSave)
-				when: #clicked send: #savePresentation to: self);
-				
-			add: ((PHButton icon: #iconFolder_open)
-				when: #clicked send: #openPresentation to: self);
+			add: PHWidget spacer;
 			
 			add: ((PHButton icon: #iconCompress)
 				when: #clicked send: #leavePresentationMode to: self)

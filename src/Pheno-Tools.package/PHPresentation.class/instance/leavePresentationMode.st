@@ -2,4 +2,6 @@ as yet unclassified
 leavePresentationMode
 
 	self remove: toolbar.
-	self addMorphFront: (toolbar := self createToolbar)
+	self addMorphFront: (toolbar := self createToolbar).
+	DisplayScreen fullScreenOff.
+	previousWindow addMorphFront: self

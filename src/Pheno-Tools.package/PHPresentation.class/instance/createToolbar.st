@@ -13,10 +13,9 @@ createToolbar
 				
 				add: ((PHButton icon: #iconArrow_right)
 					when: #clicked send: #showNextSlide to: self));
-					
-			add: (pageCounter := PHLabel new
-				align: #(center center));
-				
+			
+			add: self createPageCounter;
+			
 			add: ((PHButton icon: #iconImage)
 				when: #clicked send: #addImage to: self);
 			
