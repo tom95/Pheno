@@ -2,6 +2,8 @@ as yet unclassified
 exportWithPrefix: aString
 	" gm convert aString*.png combined.pdf "
 
+	self showFirstSlide.
+
 	slides submorphs doWithIndex: [:slide :index | | form destForm |
 		form := slide imageForm.
 		destForm := Form extent: form extent depth: 32.

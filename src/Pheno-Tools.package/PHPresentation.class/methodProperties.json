@@ -5,7 +5,7 @@
 		"addSlide" : "TB 5/16/2018 08:43",
 		"addSlide:" : "TB 7/3/2018 18:26",
 		"addSlideWithCenterBox" : "TB 5/15/2018 20:02",
-		"addSlideWithCenterBoxAndTitle:" : "lcj 7/10/2018 20:35",
+		"addSlideWithCenterBoxAndTitle:" : "lcj 7/12/2018 22:18",
 		"addSlideWithLayout" : "TB 5/15/2018 20:02",
 		"addSlides:" : "lcj 7/10/2018 14:09",
 		"addText" : "TB 5/12/2018 19:37",
@@ -17,7 +17,7 @@
 		"currentSlide" : "TB 5/12/2018 19:28",
 		"editStyles" : "TB 5/13/2018 01:53",
 		"enterPresentationMode" : "TB 7/3/2018 20:43",
-		"exportWithPrefix:" : "TB 7/4/2018 01:08",
+		"exportWithPrefix:" : "lcj 7/12/2018 22:05",
 		"initialize" : "TB 7/3/2018 18:13",
 		"leavePresentationMode" : "TB 7/3/2018 20:43",
 		"openPresentation" : "TB 5/12/2018 19:51",
@@ -30,4 +30,5 @@
 		"showSlideWidget:" : "TB 5/16/2018 08:46",
 		"slides" : "TB 5/16/2018 08:48",
 		"styleTemplate" : "TB 5/13/2018 01:42",
+		"titleSize" : "lcj 7/12/2018 22:18",
 		"updateCounter" : "TB 7/3/2018 18:06" } }
