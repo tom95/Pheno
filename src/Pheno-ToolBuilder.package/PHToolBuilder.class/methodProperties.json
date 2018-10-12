@@ -1,6 +1,8 @@
 {
 	"class" : {
-		 },
+		"isActiveBuilder" : "pre 10/12/2018 14:47",
+		"wantsToBeDefaultMorphicToolbuilder" : "pre 10/12/2018 14:46",
+		"wantsToBeDefaultMorphicToolbuilder:" : "pre 10/12/2018 14:49" },
 	"instance" : {
 		"buttonClass" : "TB 4/4/2018 12:13",
 		"listClass" : "TB 4/4/2018 12:19",
