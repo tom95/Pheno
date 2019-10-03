@@ -3,14 +3,14 @@ setUp
 	super setUp.
 
 	world := (PasteUpMorph newWorldForProject: nil)
-		extent: 300@200;
-		viewBox: (0@0 extent: 300@200);
+		extent: self worldSize;
+		viewBox: (0 @ 0 extent: self worldSize);
 		yourself.
 	
 	(world instVarNamed: #worldState)
 		instVarNamed: #canvas
-		put: (Form extent: 300@200 depth: 32) getCanvas. 
-
+		put: (Form extent: self worldSize depth: 32) getCanvas. 
+	
 	hand := PHTestHandMorph new.
 	world
 		removeHand: world firstHand; "the default hand"

@@ -6,7 +6,7 @@ testDisconnectPrimaryClickable
 	" unset the button as primary clickable "
 	window primaryFormClickable: nil.
 	
-	self mouseClick: inputs first buttons: #(left).
+	self click: inputs first.
 	self keyStroke: inputs first key: Character cr.
 	
 	self checkSpies
