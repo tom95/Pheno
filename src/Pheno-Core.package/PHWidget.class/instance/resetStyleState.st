@@ -1,4 +1,4 @@
-*Pheno-Styles
+styles
 resetStyleState
 
 	^ self removeProperty: #styleContext

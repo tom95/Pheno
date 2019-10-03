@@ -1,4 +1,4 @@
-*Pheno-Styles
+styles
 useCustomTheme: aStyleProvider
 
 	self valueOfProperty: #customTheme ifPresentDo: [:provider |

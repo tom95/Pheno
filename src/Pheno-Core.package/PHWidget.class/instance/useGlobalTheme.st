@@ -1,4 +1,4 @@
-*Pheno-Styles
+styles
 useGlobalTheme
 
 	self valueOfProperty: #customTheme ifPresentDo: [:provider |

@@ -1,4 +1,4 @@
-*Pheno-Styles
+styles
 convertPaddingToRectangle: anObject
 	
 	anObject isRectangle ifTrue: [^ anObject].

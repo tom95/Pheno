@@ -1,4 +1,4 @@
-*Pheno-Styles
+styles
 removeStyleClass: aSymbol
 
 	self styleContext removeClass: aSymbol

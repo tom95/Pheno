@@ -1,4 +1,4 @@
-*Pheno-Styles
+styles
 addStyleClasses: aCollectionOfSymbols
 	
 	" nil check for direct usage from toolbuilder specs "

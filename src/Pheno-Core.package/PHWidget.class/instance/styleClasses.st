@@ -1,4 +1,4 @@
-*Pheno-Styles
+styles
 styleClasses
 
 	^ self styleContext classes

@@ -1,4 +1,4 @@
-*Pheno-Styles
+change reporting
 addedMorph: aMorph
 
 	aMorph isWidget ifTrue: [

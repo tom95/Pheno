@@ -1,4 +1,4 @@
-*Pheno-Styles
+styles
 updateHierarchyStyleState
 
 	| even |

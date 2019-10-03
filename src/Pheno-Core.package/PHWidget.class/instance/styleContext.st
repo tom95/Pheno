@@ -1,4 +1,4 @@
-*Pheno-Styles
+styles
 styleContext
 
 	^ self valueOfProperty: #styleContext ifAbsentPut: [ | context |
