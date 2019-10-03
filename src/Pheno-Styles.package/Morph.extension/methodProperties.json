@@ -2,20 +2,5 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addStyleClass:" : "TB 4/4/2018 11:48",
-		"addStyleClasses:" : "TB 4/4/2018 11:48",
-		"addedMorph:" : "TB 5/13/2018 00:51",
 		"assureWidgetParent" : "TB 4/4/2018 11:58",
-		"convertPaddingToRectangle:" : "TB 4/20/2018 10:50",
-		"isWidget" : "TB 4/6/2018 13:53",
-		"prepareToBeSaved" : "TB 6/23/2018 22:35",
-		"removeStyleClass:" : "TB 4/4/2018 14:32",
-		"resetStyleState" : "TB 4/4/2018 11:49",
-		"styleClasses" : "TB 4/4/2018 11:49",
-		"styleContext" : "TB 4/4/2018 11:49",
-		"update:" : "TB 4/4/2018 11:49",
-		"updateHierarchyStyleState" : "TB 6/13/2018 16:24",
-		"updateStyleProperties" : "TB 4/4/2018 12:08",
-		"updateStylePropertiesReal" : "TB 4/4/2018 14:42",
-		"useCustomTheme:" : "TB 4/4/2018 11:49",
-		"useGlobalTheme" : "TB 4/4/2018 11:49" } }
+		"isWidget" : "TB 4/6/2018 13:53" } }

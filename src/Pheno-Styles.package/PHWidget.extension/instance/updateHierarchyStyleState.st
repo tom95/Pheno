@@ -6,7 +6,7 @@ updateHierarchyStyleState
 	self hasSubmorphs ifFalse: [^ self].
 	
 	even := false.
-	self submorphsDo: [:child |
+	self childWidgetsDo: [:child |
 		child styleContext
 			stateFirstChild: false;
 			stateLastChild: false;
@@ -14,6 +14,6 @@ updateHierarchyStyleState
 			stateOddChild: even not.
 		even := even not].
 	
-	self firstSubmorph styleContext stateFirstChild: true.
-	self lastSubmorph styleContext stateLastChild: true.
+	self firstSubmorph isWidget ifTrue: [self firstSubmorph styleContext stateFirstChild: true].
+	self lastSubmorph isWidget ifTrue: [self lastSubmorph styleContext stateLastChild: true].
 	self updateStyleProperties

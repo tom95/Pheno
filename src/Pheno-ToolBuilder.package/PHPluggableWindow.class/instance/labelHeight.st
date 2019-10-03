@@ -6,5 +6,4 @@ labelHeight
 	(model notNil and: [model respondsTo: #desiredWindowLabelHeightIn:]) ifTrue:
 		[(aHeight := model desiredWindowLabelHeightIn: self) ifNotNil: [^ aHeight]].
 	
-	labelArea updateStylePropertiesReal.
-	^ (label height max: self class boxExtent y) + labelArea layoutInset directionsAsPoint y + (self borderWidth * 2)
+	^ (label height max: self class boxExtent y) + labelArea layoutInset + (self borderWidth * 2)

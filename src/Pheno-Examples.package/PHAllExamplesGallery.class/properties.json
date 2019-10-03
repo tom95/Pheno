@@ -1,14 +1,14 @@
 {
-	"category" : "Pheno-Tools",
+	"category" : "Pheno-Examples",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"hasMouse" ],
-	"name" : "PHHaloButton",
+		 ],
+	"name" : "PHAllExamplesGallery",
 	"pools" : [
 		 ],
-	"super" : "PHButton",
+	"super" : "PHWidget",
 	"type" : "normal" }

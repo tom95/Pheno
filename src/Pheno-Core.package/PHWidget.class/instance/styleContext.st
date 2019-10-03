@@ -1,4 +1,0 @@
-styles
-styleContext
-
-	^ styleContext

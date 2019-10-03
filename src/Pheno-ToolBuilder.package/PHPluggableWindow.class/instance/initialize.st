@@ -6,5 +6,4 @@ initialize
 	disabled := false.
 	activeNotifications := OrderedCollection new.
 	
-	super initialize.
-	self updateStylePropertiesReal
+	super initialize
