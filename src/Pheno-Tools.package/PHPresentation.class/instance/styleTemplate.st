@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 styleTemplate
 
 	^ '"See PHStyle for a full list of properties"

@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testRemoveProvider
 
 	| padding widget provider |

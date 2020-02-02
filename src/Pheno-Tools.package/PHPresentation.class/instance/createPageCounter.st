@@ -1,4 +1,4 @@
-as yet unclassified
+initialize-release
 createPageCounter
 
 	pageCounter := PHLabel new align: #(center center).

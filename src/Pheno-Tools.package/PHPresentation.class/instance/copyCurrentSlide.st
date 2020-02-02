@@ -1,4 +1,4 @@
-as yet unclassified
+toolbar commands
 copyCurrentSlide
 
 	slides add: (self currentSlide shallowCopy).

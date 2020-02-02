@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testMatchClass
 
 	context := PHStyleContext new

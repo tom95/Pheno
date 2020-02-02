@@ -2,7 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"returnsAnEmptyIconForUnknownIconNames" : "TB 12/10/2017 15:30",
 		"setUp" : "TB 12/7/2017 19:32",
 		"tearDown" : "TB 12/7/2017 19:31",
 		"testAllInherit" : "TB 12/10/2017 13:55",

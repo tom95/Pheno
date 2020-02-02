@@ -1,4 +1,4 @@
-as yet unclassified
+colors
 correctColorFromPixelValue: p
 	" Color class' colorFromPixelValue:depth: thinks colors are transparent when they're black "
 

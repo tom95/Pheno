@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 addItem: aString
 
 	itemsPage add:

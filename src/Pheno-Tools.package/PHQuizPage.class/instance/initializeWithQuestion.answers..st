@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 initializeWithQuestion: aString answers: anArray
 
 	| answerButtons |

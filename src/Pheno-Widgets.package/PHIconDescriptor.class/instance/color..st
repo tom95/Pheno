@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 color: aColor
 
 	color := aColor

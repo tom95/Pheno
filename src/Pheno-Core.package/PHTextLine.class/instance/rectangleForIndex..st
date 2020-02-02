@@ -1,4 +1,4 @@
-as yet unclassified
+computing
 rectangleForIndex: aNumber
 
 	| x text |

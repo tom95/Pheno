@@ -1,4 +1,4 @@
-as yet unclassified
+comparing
 = anIconDescriptor
 
 	^ self svg == anIconDescriptor svg and:

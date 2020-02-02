@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testForegroundForBackground
 
 	(self expect: (PHStyleProvider foregroundColorForBackgroundColor: Color yellow)) to equal: PHStyleProvider textColorDark.

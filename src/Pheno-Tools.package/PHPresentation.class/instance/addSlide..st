@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 addSlide: aWidget
 
 	slides add: (aWidget

@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 currentSlide
 
 	^ slides currentWidget

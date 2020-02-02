@@ -1,5 +1,6 @@
-as yet unclassified
+examples
 example
+	"PHQuiz example"
 	
 	| item1 item2 item3 item4 item5 page1 page2 page3 question |
 	item1 := PHQuizItem text: 'aaac' correct: false.
