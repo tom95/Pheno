@@ -1,4 +1,4 @@
-as yet unclassified
+event handling
 keyboardFocusChange: weHaveFocus
 
 	super keyboardFocusChange: weHaveFocus.

@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 createMenuBox
 	^ (self createBox: (self createBoxForm: #windowMenuButton))
 		actionSelector: #offerWindowMenu;

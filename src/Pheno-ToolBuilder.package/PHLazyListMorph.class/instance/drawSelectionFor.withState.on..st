@@ -1,4 +1,4 @@
-as yet unclassified
+drawing
 drawSelectionFor: index withState: aStateSymbol on: aCanvas
 	
 	| selectionDrawBounds |

@@ -1,4 +1,4 @@
-as yet unclassified
+panes
 addMorph: aMorph fullFrame: aFrame
 
 	super addMorph: aMorph fullFrame: aFrame.

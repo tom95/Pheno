@@ -1,4 +1,4 @@
-as yet unclassified
+instance creation
 child: aChildSelector parent:  aParentSelector
 
 	^ self new

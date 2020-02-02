@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 enabled: aBool
 	enabled := aBool.
 	self styleContext stateDisabled: enabled not.

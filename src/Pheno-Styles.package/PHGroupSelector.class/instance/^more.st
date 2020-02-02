@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 > aSelector
 
 	self selectors last > aSelector.

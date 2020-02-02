@@ -1,4 +1,4 @@
-as yet unclassified
+list management
 drawBoundsForRow: row
 	"calculate the bounds that row should be drawn at.  This might be outside our bounds!"
 	| topLeft drawBounds |

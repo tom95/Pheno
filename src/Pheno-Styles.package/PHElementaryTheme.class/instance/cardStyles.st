@@ -1,4 +1,4 @@
-as yet unclassified
+styles
 cardStyles
 
 	(self for: #card)

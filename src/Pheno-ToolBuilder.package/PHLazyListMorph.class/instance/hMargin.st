@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 hMargin
 
 	^ self layoutInset left

@@ -1,3 +1,3 @@
-as yet unclassified
+initialization
 textColor
 	^ self styleContext color

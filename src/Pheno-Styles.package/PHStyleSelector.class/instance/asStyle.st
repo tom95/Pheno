@@ -1,4 +1,4 @@
-as yet unclassified
+converting
 asStyle
 
 	^ self

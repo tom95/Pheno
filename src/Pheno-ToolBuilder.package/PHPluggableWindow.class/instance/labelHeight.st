@@ -1,4 +1,4 @@
-as yet unclassified
+label
 labelHeight
 	"Answer the height for the window label.  The standard behavior is at bottom; a hook is provided so that models can stipulate other heights, in support of various less-window-looking demos."
 

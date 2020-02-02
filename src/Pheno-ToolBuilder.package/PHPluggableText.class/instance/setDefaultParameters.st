@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 setDefaultParameters
 
 	super setDefaultParameters.

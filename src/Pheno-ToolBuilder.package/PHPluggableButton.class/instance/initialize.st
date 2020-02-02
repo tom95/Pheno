@@ -1,4 +1,4 @@
-as yet unclassified
+initialize-release
 initialize
 
 	self styleContext addClass: #button.

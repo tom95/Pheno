@@ -1,4 +1,4 @@
-as yet unclassified
+drawing
 displayFilterOn: canvas for: row in: drawBounds font: font
 	"Draw filter matches if any."
 	

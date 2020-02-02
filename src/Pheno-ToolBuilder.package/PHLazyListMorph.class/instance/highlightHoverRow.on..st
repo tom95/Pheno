@@ -1,4 +1,4 @@
-as yet unclassified
+drawing
 highlightHoverRow: row on: aCanvas
 	| drawBounds  |
 	drawBounds := self drawBoundsForRow: row.

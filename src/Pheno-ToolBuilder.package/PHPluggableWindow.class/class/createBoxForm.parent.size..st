@@ -1,4 +1,4 @@
-as yet unclassified
+initializing
 createBoxForm: aButtonSymbol parent: aParentStyleContext size: aNumber
 
 	| context |

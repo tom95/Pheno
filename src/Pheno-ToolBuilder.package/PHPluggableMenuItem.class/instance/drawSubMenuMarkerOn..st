@@ -1,4 +1,4 @@
-as yet unclassified
+drawing
 drawSubMenuMarkerOn: aCanvas 
 
 	self hasSubMenu ifTrue: [

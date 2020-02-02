@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 isEnabled: aBoolean
 
 	isEnabled = aBoolean ifTrue: [^ self].

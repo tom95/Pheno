@@ -1,4 +1,4 @@
-as yet unclassified
+user interface
 applyUserInterfaceTheme
 
 	super applyUserInterfaceTheme.

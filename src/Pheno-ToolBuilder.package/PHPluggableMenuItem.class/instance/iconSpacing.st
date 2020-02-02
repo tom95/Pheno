@@ -1,4 +1,4 @@
-as yet unclassified
+layout
 iconSpacing
 
 	self flag: #fixme. "not very nice. move this into some style prop/class"

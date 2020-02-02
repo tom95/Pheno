@@ -1,4 +1,4 @@
-as yet unclassified
+control
 popUpAdjacentTo: rightOrLeftPoint forHand: hand from: sourceItem 
 	"Present this menu at the given point under control of the given hand."
 	

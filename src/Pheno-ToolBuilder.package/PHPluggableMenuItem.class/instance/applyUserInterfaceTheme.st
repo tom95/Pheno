@@ -1,4 +1,4 @@
-as yet unclassified
+updating
 applyUserInterfaceTheme
 
 	super applyUserInterfaceTheme.

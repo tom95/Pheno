@@ -1,4 +1,4 @@
-as yet unclassified
+construction
 addTitle: aString icon: aForm updatingSelector: aSelector updateTarget: aTarget 
 	"Add a title line at the top of this menu Make aString its initial contents. If aSelector is not nil, then periodically obtain fresh values for its contents by sending aSelector to aTarget."
 	

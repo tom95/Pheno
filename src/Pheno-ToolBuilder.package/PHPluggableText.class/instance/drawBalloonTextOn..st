@@ -1,4 +1,4 @@
-as yet unclassified
+drawing
 drawBalloonTextOn: aCanvas 
 	"Show balloon text in the text morph if it has no contents."
 	textMorph contents ifNotEmpty: [ ^ self ].

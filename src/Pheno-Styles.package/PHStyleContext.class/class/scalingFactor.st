@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 scalingFactor
 
 	^ ScalingFactor ifNil: [1]

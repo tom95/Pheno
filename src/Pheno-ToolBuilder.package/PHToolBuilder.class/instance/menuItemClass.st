@@ -1,4 +1,4 @@
-as yet unclassified
+widget classes
 menuItemClass
 
 	^ PHPluggableMenuItem

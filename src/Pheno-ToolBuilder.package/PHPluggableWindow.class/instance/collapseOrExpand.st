@@ -1,4 +1,4 @@
-as yet unclassified
+resize/collapse
 collapseOrExpand
 	"Collapse or expand the window, depending on existing state"
 	| cf |

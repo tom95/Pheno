@@ -1,4 +1,4 @@
-as yet unclassified
+drawing
 drawBackgroundOn: aCanvas 
 
 	self styleContext drawFullOn: aCanvas bounds: self bounds

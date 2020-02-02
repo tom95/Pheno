@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 createCollapseBox
 	^ (self createBox: (self createBoxForm: #windowCollapseButton))
 		actionSelector: #collapseOrExpand;

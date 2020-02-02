@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 themeColorTypes
 
 	^ #(primary secondary success info warning danger light dark)

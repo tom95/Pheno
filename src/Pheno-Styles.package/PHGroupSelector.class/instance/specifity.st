@@ -1,4 +1,4 @@
-as yet unclassified
+matching
 specifity
 
 	^ self selectors inject: 0 into: [:max :selector | max max: selector specifity]

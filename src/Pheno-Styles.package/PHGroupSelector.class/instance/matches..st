@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 matches: aStyleContext
 
 	^ self selectors anySatisfy: [:selector | selector matches:  aStyleContext]

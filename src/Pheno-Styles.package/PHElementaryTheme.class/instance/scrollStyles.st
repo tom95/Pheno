@@ -1,4 +1,4 @@
-as yet unclassified
+styles
 scrollStyles
 
 	(self for: #slider asStyle > #sliderHandle)

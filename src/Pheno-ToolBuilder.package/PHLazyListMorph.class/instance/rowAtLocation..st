@@ -1,4 +1,4 @@
-as yet unclassified
+list management
 rowAtLocation: aPoint
 	"return the number of the row at aPoint"
 	| y |

@@ -1,4 +1,4 @@
-as yet unclassified
+private
 convertPaddingToRectangle: anObject
 	
 	anObject isRectangle ifTrue: [^ anObject].

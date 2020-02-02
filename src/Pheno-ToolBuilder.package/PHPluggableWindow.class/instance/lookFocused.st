@@ -1,4 +1,4 @@
-as yet unclassified
+focus
 lookFocused
 
 	super lookFocused.

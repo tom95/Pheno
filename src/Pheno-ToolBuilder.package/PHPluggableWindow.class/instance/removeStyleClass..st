@@ -1,4 +1,4 @@
-as yet unclassified
+styles
 removeStyleClass: aSymbol
 
 	self styleContext removeClass: aSymbol
