@@ -1,4 +1,4 @@
-as yet unclassified
+measuring
 widthOf: aCharacter
 
 	^ self class characterWidth

@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testStartExpanded
 
 	| collapsible label |

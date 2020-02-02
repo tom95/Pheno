@@ -1,4 +1,4 @@
-*Pheno-Core
+*Pheno-Core-testing
 isApplicationError
 
 	^ false

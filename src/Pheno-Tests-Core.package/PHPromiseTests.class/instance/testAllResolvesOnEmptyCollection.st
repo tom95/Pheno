@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testAllResolvesOnEmptyCollection
 	| grouped |
 	grouped := PHPromise all: {}.

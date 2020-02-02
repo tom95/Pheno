@@ -1,4 +1,4 @@
-as yet unclassified
+updating
 updateUtilityStyles
 
 	Utilities ifNotNilDo: [:oldStyles | self global removeProvider: oldStyles].

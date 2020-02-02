@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testTextObject
 	
 	textEntry text: 'test text abc def ghi'.

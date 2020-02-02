@@ -1,4 +1,4 @@
-as yet unclassified
+cursor
 lineNumberOfIndex: aNumber
 
 	| line |

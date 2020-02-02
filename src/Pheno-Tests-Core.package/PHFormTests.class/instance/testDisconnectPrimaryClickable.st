@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testDisconnectPrimaryClickable
 	(self expect: inputs first) to send: #confirmed.
 	(self expect: button) to not send: #clickedWithEvent.

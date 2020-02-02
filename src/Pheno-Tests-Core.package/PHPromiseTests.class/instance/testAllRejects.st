@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testAllRejects
 	| a b grouped e |
 	e := PHTestApplicationException new.

@@ -1,4 +1,4 @@
-as yet unclassified
+accessing - fonts
 parseFontSize: aString baseFontSize: aNumber
 
 	| index size |

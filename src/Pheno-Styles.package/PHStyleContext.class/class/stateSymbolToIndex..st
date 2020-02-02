@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 stateSymbolToIndex: aSymbol
 
 	" dont forget to enter new values in #initialize as well "

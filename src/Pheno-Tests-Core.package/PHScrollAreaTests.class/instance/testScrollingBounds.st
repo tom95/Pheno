@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testScrollingBounds
 	| child scroll topLevel |
 	child := self widget minSize: 100 asPoint.

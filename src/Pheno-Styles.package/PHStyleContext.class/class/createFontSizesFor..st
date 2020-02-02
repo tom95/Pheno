@@ -1,4 +1,4 @@
-as yet unclassified
+accessing - fonts
 createFontSizesFor: aFont
 
 	aFont isTTCFont ifFalse: [self error: 'Creating scaled versions of fonts is only supported for truetype fonts'].

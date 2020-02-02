@@ -1,4 +1,4 @@
-as yet unclassified
+failures
 expectedFailures
 
 	^ #(testOccluderRegionsFullLine testBugLastLineDisappears testCursorRectangleAtLineEnd)

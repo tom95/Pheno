@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testUnknownTag
 	
 	(self expect: (PHMarkupParser markupToText: '<unknown>abc</unknown>')) to equal: 'abc'.

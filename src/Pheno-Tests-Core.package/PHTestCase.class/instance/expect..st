@@ -1,4 +1,4 @@
-as yet unclassified
+assertions
 expect: anObject
 	^PHTestMatcher new
 		subject: anObject;

@@ -1,4 +1,4 @@
-as yet unclassified
+user interface
 initialExtent
 
 	^ (500 @ 200) withScalingFactor

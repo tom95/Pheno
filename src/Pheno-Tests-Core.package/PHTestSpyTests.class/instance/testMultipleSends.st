@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testMultipleSends
 	| subject spy |
 	subject := Object new.

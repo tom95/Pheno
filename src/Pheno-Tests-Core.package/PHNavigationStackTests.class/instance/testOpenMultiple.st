@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testOpenMultiple
 	stack
 		open: page1 with: nil;

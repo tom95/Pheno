@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testAllowExactMatch
 	| completion |
 	completion := self completionWidget onlyAllowsExactMatches: true; text: 'Germany'.

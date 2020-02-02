@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 completionWidgetWithShortSuggestions
 
 	^ completionWidget := PHTextCompletion new suggestionsList: {

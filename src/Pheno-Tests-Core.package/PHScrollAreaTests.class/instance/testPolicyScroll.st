@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testPolicyScroll
 	| child scroll topLevel |
 	child := self widget minSize: 100 asPoint.

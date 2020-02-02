@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testOpen
 	stack open: page1 with: nil.
 	

@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testSetIcon
 
 	PHIconButton new iconName: #iconEdit.

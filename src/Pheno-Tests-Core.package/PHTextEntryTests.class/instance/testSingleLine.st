@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testSingleLine
 	textEntry multiLine: false.
 	

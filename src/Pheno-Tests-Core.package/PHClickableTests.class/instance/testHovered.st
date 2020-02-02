@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testHovered
 	| clickable |
 	clickable := self clickableWidget.

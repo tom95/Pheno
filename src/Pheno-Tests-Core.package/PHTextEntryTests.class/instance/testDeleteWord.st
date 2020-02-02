@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testDeleteWord
 	
 	textEntry text: 'abcdef g'.

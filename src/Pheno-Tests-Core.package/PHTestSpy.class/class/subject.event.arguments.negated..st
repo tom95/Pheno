@@ -1,4 +1,4 @@
-as yet unclassified
+instance creation
 subject: anObject event: aSymbol arguments: aCollection negated: aBoolean
 	| class |
 	class := self new
