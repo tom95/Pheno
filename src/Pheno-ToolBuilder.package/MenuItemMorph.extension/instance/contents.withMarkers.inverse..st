@@ -1,4 +1,4 @@
-as yet unclassified
+*Pheno-ToolBuilder-accessing-override
 contents: aString withMarkers: aBool inverse: inverse 
 	"Set the menu item entry. If aBool is true, parse aString for embedded markers."
 
@@ -20,6 +20,4 @@ contents: aString withMarkers: aBool inverse: inverse
 				ifFalse: [self offImage].
 	super contents:  (aString copyFrom: markerIndex + 1 to: aString size).
 	"And set the marker"
-	marker := ImageMorph new image: marker.
-	marker position: self left + self layoutInset left @ (self top + ((self height / 2) - (marker height / 2))).
-	self addMorphFront: marker
+	self addMorphFront: (self createMarkerMorphFor: marker).

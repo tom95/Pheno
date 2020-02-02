@@ -6,7 +6,7 @@
 	"instance" : {
 		"applyUserInterfaceTheme" : "TB 4/4/2018 14:14",
 		"colorToUse" : "TB 4/4/2018 14:15",
-		"contents:withMarkers:inverse:" : "TB 4/4/2018 14:15",
+		"createMarkerMorphFor:" : "ct 2/2/2020 13:26",
 		"drawBackgroundOn:" : "TB 4/4/2018 14:15",
 		"drawIconOn:" : "TB 4/4/2018 14:15",
 		"drawLabelOn:" : "TB 4/4/2018 14:16",
@@ -15,7 +15,8 @@
 		"initialize" : "TB 4/4/2018 14:17",
 		"isEnabled:" : "TB 4/4/2018 14:18",
 		"isSelected:" : "TB 4/4/2018 14:18",
+		"layoutInsetRectangle" : "ct 2/1/2020 19:08",
 		"minHeight" : "TB 4/4/2018 14:18",
-		"minWidth" : "TB 4/4/2018 14:18",
+		"minWidth" : "ct 2/1/2020 19:08",
 		"offImage" : "TB 4/4/2018 14:20",
 		"onImage" : "TB 4/4/2018 14:20" } }
