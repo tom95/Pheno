@@ -2,5 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
+		"addStyleClass:" : "tobe 10/3/2019 11:18",
+		"addStyleClasses:" : "tobe 10/3/2019 11:18",
 		"assureWidgetParent" : "TB 4/4/2018 11:58",
-		"isWidget" : "TB 4/6/2018 13:53" } }
+		"isWidget" : "TB 4/6/2018 13:53",
+		"styleContext" : "tobe 10/3/2019 11:19" } }

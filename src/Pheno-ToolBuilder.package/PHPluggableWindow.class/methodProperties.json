@@ -3,7 +3,6 @@
 		"createBoxForm:parent:size:" : "TB 4/4/2018 12:30" },
 	"instance" : {
 		"addMorph:fullFrame:" : "TB 4/7/2018 08:57",
-		"addStyleClass:" : "tobe 10/3/2019 11:39",
 		"applyUserInterfaceTheme" : "TB 4/4/2018 12:29",
 		"assureWidgetParent" : "TB 4/7/2018 09:08",
 		"collapseOrExpand" : "TB 4/4/2018 14:30",
@@ -30,7 +29,6 @@
 		"morphExtent:" : "TB 4/13/2018 21:55",
 		"removeStyleClass:" : "tobe 10/3/2019 11:39",
 		"setFramesForLabelArea" : "TB 4/4/2018 14:31",
-		"styleContext" : "tobe 10/3/2019 11:35",
 		"systemWindowExtent:" : "TB 4/13/2018 21:55",
 		"topLevel" : "TB 4/7/2018 09:02",
 		"update:" : "TB 4/4/2018 14:37",

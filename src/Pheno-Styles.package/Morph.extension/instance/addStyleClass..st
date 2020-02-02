@@ -1,4 +1,4 @@
-as yet unclassified
+*Pheno-Styles
 addStyleClass: aSymbol
 
 	self styleContext addClass: aSymbol
