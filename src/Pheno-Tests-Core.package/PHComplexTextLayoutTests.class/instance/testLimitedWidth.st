@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testLimitedWidth
 
 	| layout string |

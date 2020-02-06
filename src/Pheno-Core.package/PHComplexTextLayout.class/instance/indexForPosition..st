@@ -1,4 +1,4 @@
-as yet unclassified
+cursor
 indexForPosition: aPoint
 
 	self lines do: [:line |

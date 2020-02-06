@@ -1,4 +1,4 @@
-as yet unclassified
+drawing
 drawIconOn: aCanvas 
 
 	self hasIcon ifTrue: [

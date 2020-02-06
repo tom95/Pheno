@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 percentage: aNumber
 
 	percentage := aNumber.

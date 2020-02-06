@@ -1,4 +1,4 @@
-as yet unclassified
+computing
 indexForPosition: aNumber
 
 	| x text |

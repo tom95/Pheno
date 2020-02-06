@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testSameWorld
 
 	| window dropdown |

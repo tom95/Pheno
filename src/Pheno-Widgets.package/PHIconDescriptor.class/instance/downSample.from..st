@@ -1,4 +1,4 @@
-as yet unclassified
+colors
 downSample: aForm from: aFactor
 
 	| x y f |

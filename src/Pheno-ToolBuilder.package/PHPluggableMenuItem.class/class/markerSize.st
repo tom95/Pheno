@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 markerSize
 
 	^ 16 withScalingFactor

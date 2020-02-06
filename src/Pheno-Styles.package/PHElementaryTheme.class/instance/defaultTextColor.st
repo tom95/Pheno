@@ -1,4 +1,4 @@
-as yet unclassified
+colors
 defaultTextColor
 
 	^ Color fromString: '#303030'

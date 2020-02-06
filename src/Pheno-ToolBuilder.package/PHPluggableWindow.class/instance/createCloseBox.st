@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 createCloseBox
 	^ (self createBox: (self createBoxForm: #windowCloseButton))
 		actionSelector: #closeBoxHit;

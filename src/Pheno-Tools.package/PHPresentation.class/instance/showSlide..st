@@ -1,4 +1,4 @@
-as yet unclassified
+presenting
 showSlide: aNumber
 
 	self showSlideWidget: (slides submorphs at: aNumber)

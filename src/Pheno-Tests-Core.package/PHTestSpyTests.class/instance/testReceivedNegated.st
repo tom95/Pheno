@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testReceivedNegated
 	| subject spy |
 	subject := Object new.

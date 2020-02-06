@@ -1,4 +1,4 @@
-as yet unclassified
+styles
 buttonGroupStyles
 
 	(self for: #buttonGroup)

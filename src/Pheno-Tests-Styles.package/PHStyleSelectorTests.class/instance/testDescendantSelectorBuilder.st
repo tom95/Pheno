@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testDescendantSelectorBuilder
 
 	| actual expected |

@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testArrowSelectSuggestion
 	| completion |
 	#(true false) do: [ :onlyCompletions |

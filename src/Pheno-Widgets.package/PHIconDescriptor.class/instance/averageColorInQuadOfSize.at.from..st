@@ -1,4 +1,4 @@
-as yet unclassified
+colors
 averageColorInQuadOfSize: aNumber at: aPoint from: aForm
 
 	| alpha blue green num red |

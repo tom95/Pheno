@@ -1,4 +1,4 @@
-as yet unclassified
+updating
 update: aSymbol
 	
 	super update: aSymbol.

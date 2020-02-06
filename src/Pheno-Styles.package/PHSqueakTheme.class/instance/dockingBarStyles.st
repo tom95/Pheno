@@ -1,4 +1,4 @@
-as yet unclassified
+styles
 dockingBarStyles
 
 	(self for: #dockingBar)

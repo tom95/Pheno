@@ -1,4 +1,4 @@
-as yet unclassified
+copying
 , aSelector
 
 	self add: aSelector asStyle.

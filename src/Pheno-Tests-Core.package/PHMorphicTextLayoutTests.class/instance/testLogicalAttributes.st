@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testLogicalAttributes
 
 	layout text: 'a bc a abcd'.

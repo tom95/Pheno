@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 matches: aStyleContext
 
 	^ self subclassResponsibility

@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 setFramesForLabelArea
 	"an aid to converting old instances, but then I found  
 	convertAlignment (jesse welton's note)"

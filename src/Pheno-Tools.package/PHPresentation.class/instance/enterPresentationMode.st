@@ -1,4 +1,4 @@
-as yet unclassified
+toolbar commands
 enterPresentationMode
 
 	self remove: toolbar.

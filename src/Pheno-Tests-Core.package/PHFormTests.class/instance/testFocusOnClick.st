@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testFocusOnClick
 	(self expect: inputs first hasFocus) to; be: false.
 	

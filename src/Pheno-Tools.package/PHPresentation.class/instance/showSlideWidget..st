@@ -1,4 +1,4 @@
-as yet unclassified
+presenting
 showSlideWidget: aWidget
 
 	slides currentWidget ifNotNil: [:current | (current respondsTo: #leave) ifTrue: [current leave]].

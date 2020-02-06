@@ -1,4 +1,4 @@
-as yet unclassified
+updating
 updateCollapseBox
 
 	collapseBox labelGraphic: (self createBoxForm: (self isCollapsed

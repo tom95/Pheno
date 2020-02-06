@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 displayedSuggestions
 
 	^ completionWidget suggestionsDropdown submorphs

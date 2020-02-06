@@ -1,4 +1,4 @@
-as yet unclassified
+class initialization
 initialize
 
 	" dont forget to enter new values to #stateSymbolToIndex: as well "

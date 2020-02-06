@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 preSelectionColor
 	^ self styleContext withStateHoverDo: #color

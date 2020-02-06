@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 colorToUse
 
 	^ self styleContext color

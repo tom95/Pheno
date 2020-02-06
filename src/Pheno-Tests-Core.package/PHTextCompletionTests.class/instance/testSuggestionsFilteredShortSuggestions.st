@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testSuggestionsFilteredShortSuggestions
 	| completion displayed |
 	completion := self completionWidgetWithShortSuggestions openInWorld; yourself.

@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testAddAttributeForSelection
 	
 	textEntry text: 'test text abc def ghi'.

@@ -1,4 +1,4 @@
-as yet unclassified
+actions
 displayCorrectResponsesFor: anArray on: anOtherArray chosenAnswer: anAnswer on: aButton
 
 	anAnswer isCorrect ifFalse: [aButton addStyleClass: #danger; changed].

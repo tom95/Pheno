@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testIncorrectArguments
 	| subject spy |
 	subject := Object new.

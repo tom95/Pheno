@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testInitialDoesntCrash
 	stack goBack.
 	(self expect: [stack goBack]) to not raise: Error.  

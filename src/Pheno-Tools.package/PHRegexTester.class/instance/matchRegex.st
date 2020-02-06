@@ -1,4 +1,4 @@
-as yet unclassified
+matching
 matchRegex
 
 	(self submorphs allButFirst: 2) do: [:row |

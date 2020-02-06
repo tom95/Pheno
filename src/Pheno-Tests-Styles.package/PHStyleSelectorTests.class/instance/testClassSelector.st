@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testClassSelector
 
 	| selector |

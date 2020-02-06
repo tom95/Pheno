@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 theme: aTheme
 
 	Theme ifNotNilDo: [:oldTheme | self global removeProvider: oldTheme].

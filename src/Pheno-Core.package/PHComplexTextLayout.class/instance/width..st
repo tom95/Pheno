@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 width: aNumber
 
 	width ~= aNumber ifTrue: [

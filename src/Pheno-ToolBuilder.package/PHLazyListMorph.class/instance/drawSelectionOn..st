@@ -1,4 +1,4 @@
-as yet unclassified
+drawing
 drawSelectionOn: aCanvas
 	
 	self styleContext withStateActiveDo: [:context |

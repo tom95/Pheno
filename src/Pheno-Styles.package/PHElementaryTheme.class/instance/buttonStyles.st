@@ -1,4 +1,4 @@
-as yet unclassified
+styles
 buttonStyles
 
 	(self for: #button)

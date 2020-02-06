@@ -1,4 +1,4 @@
-as yet unclassified
+presenting
 openPresentation
 
 	| newSlides stream |

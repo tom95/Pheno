@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testOneActiveTabAtATime
 	| navigation topLevel |
 	navigation := PHTabStrip new.

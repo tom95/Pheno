@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 addClass: aString
 
 	self target addStyleClass: aString asSymbol.

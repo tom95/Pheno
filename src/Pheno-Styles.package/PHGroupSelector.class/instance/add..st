@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 add: aSelector
 
 	self selectors add: aSelector

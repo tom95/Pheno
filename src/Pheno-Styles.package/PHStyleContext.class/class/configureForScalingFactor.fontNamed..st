@@ -1,4 +1,4 @@
-as yet unclassified
+scaling
 configureForScalingFactor: aNumber fontNamed: aSymbol
 
 	| style defaultFont |

@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 lineSpacing: aNumber
 
 	lineSpacing ~= aNumber ifTrue: [

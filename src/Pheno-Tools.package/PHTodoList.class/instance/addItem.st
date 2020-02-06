@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 addItem
 
 	self addItem: newItemArea text.

@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 height
 
 	^ self class fontHeight

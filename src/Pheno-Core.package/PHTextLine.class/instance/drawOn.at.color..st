@@ -1,4 +1,4 @@
-as yet unclassified
+drawing
 drawOn: aCanvas at: aPoint color: aColor
 
 	| x text |

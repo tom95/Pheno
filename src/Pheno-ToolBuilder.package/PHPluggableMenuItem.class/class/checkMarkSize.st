@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 checkMarkSize
 
 	^ 14 withScalingFactor

@@ -1,4 +1,4 @@
-as yet unclassified
+layout
 minHeight
 	| iconHeight |
 	iconHeight := self hasIcon

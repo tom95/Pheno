@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testActivatesPrimaryClickable
 	(self expect: inputs first) to; send: #confirmed.
 	(self expect: button) to; send: #clickedWithEvent.

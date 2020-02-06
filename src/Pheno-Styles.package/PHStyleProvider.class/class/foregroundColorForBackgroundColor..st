@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 foregroundColorForBackgroundColor: aColor
 	"transform color into YIQ colorspace and see if we prefer using light or dark text on this background. Copied from bootstrap."
 

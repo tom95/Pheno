@@ -1,4 +1,4 @@
-as yet unclassified
+private
 applyPresentationStyles: aString model: aModel
 
 	| oldStyles |

@@ -1,4 +1,4 @@
-as yet unclassified
+styles
 windowStyles
 
 	(self for: #window)

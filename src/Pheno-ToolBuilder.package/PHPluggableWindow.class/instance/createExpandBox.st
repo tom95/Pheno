@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 createExpandBox
 	^ (self createBox: (self createBoxForm: #windowExpandButton))
 		actionSelector: #expandBoxHit;

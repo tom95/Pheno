@@ -1,4 +1,4 @@
-as yet unclassified
+toolbar commands
 exportWithPrefix: aString
 	" gm convert aString*.png combined.pdf "
 

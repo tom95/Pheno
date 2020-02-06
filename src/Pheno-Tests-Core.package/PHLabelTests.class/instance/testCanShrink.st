@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testCanShrink
 	| label topLevel labelFullWidth |
 	label := (PHLabel text: 'lorem ipsum dolor sit amet consecutor amet clericus dactus ductus doctus').

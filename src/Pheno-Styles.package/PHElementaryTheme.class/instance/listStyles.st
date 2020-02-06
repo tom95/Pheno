@@ -1,4 +1,4 @@
-as yet unclassified
+styles
 listStyles
 
 	(self for: #list)

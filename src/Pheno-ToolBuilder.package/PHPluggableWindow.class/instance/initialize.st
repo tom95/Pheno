@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 initialize
 
 	self styleContext addClass: #window.

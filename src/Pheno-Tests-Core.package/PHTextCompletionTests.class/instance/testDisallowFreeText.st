@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testDisallowFreeText
 	| completion |
 	completion := self completionWidget

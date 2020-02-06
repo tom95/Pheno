@@ -1,4 +1,4 @@
-as yet unclassified
+presenting
 showFirstSlide
 
 	slides selectWidgetAt: 1.

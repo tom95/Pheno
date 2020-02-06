@@ -1,4 +1,4 @@
-as yet unclassified
+helpers
 min: aPoint natural: anotherPoint
 
 	^ self new

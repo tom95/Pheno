@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testOnlyMouseDown
 	| clickable |
 	clickable := self clickableWidget.

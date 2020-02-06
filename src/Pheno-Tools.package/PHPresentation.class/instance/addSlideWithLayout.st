@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 addSlideWithLayout
 
 	^ self addSlide withLayout; vertical: true

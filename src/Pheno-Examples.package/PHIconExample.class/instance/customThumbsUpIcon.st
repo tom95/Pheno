@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 customThumbsUpIcon
 
 	^ PHIcon fromCache: #xPhenoExampleThumbsUp ifAbsentPut: ['<?xml version="1.0" encoding="utf-8"?>

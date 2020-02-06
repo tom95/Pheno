@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testTabFocus
 	self mousePress: inputs first buttons: #(left).
 	(self expect: inputs first hasFocus) to; be: true.

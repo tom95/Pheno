@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testAcceptTheTextSqueakStyle
 	textEntry multiLine: true.
 	

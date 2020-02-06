@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testAllowFreeText
 	| completion |
 	completion := self completionWidget onlyAllowsExactMatches: false; text: 'My Custom Value'.

@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testCanShrinkInsideWindow
 	| label topLevel labelFullWidth extra |
 	

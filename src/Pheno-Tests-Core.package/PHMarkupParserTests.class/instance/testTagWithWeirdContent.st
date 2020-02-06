@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testTagWithWeirdContent
 	| text |
 	text := PHMarkupParser markupToText: 'abc<i abc="<i>\"abc"  >def</i>ghi'.

@@ -1,4 +1,4 @@
-as yet unclassified
+assertions
 arguments: expected match: actual
 	actual size < expected size ifTrue: [ ^false ].
 	

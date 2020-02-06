@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testMarkupToTextContentsOnly
 	| text |
 	text := PHMarkupParser markupToText: 'abc<u>def<i>ghi</i>jkl</u>mno<p>pqr</p>stu<i><b>vwx</b></i>'.

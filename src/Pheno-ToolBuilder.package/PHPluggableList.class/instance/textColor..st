@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 textColor: aColor
 
 	self listMorph color: self textColor.

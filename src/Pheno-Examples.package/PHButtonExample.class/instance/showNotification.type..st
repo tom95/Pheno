@@ -1,4 +1,4 @@
-as yet unclassified
+actions
 showNotification: aMessageString type: aColorTypeSymbol
 
 	self topLevel displayNotification: aMessageString asString type: aColorTypeSymbol

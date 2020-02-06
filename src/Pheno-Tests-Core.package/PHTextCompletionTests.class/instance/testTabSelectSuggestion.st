@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testTabSelectSuggestion
 	| completion |
 	completion := self completionWidget

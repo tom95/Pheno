@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 addSlides: aCollectionOfWidget
 
 	aCollectionOfWidget do: [ :widget |

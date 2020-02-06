@@ -1,4 +1,4 @@
-as yet unclassified
+comparing
 = anotherLine
 
 	(self origin = anotherLine origin and: [self corner = anotherLine corner]) ifFalse: [^ false].

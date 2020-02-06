@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testTooMuchBack
 	stack
 		open: page1 with: nil;

@@ -1,4 +1,4 @@
-as yet unclassified
+styles
 updateStyleProperties
 
 	self updateStylePropertiesReal

@@ -1,4 +1,4 @@
-as yet unclassified
+comparing
 hash
 
 	self flag: #fixme. "not idea how collision-poor this is"

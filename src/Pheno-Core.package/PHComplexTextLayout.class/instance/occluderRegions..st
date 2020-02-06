@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 occluderRegions: aCollection
 
 	occluderRegions := aCollection

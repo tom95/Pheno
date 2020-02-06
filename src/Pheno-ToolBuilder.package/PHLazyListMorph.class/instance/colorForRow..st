@@ -1,4 +1,4 @@
-as yet unclassified
+drawing
 colorForRow: row
 	
 	^(selectedRow notNil and: [ row = selectedRow])

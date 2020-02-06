@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testCorrectEmptyHeight
 	
 	(self expect: textEntry) to not changeIts: #height during: [

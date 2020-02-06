@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 data: anObject
 
 	data := anObject

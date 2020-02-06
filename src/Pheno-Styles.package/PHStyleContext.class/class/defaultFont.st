@@ -1,4 +1,4 @@
-as yet unclassified
+accessing - fonts
 defaultFont
 
 	^ self defaultTextStyle defaultFont
