@@ -1,0 +1,15 @@
+{
+	"category" : "Pheno-Tests-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"IsActive",
+		"WidgetsHeap" ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PHDummyToolBuilder",
+	"pools" : [
+		 ],
+	"super" : "PHToolBuilder",
+	"type" : "normal" }

@@ -12,4 +12,4 @@ minWidth
 		ifTrue: [ self submorphBounds width + 8 ]
 		ifFalse: [ 0 ].
 	^(self fontToUse widthOfString: contents)
-		+ subMenuWidth + iconWidth + markerWidth + self stringMargin + self layoutInset left + self layoutInset right
+		+ subMenuWidth + iconWidth + markerWidth + self stringMargin + self layoutInsetRectangle left + self layoutInsetRectangle right

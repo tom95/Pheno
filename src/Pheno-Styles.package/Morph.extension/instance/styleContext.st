@@ -1,4 +1,4 @@
-as yet unclassified
+*Pheno-Styles
 styleContext
 
 	^ self valueOfProperty: #styleContext ifAbsentPut: [ | context |
