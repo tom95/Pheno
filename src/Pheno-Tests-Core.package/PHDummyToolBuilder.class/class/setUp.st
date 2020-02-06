@@ -1,4 +1,4 @@
 installing
 setUp
 	
-	WidgetsHeap := WeakSet new.
+	WidgetsHeap := Set new.
