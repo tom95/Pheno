@@ -34,3 +34,8 @@ Here are two handy scripts to run on your repo if you used the `BT` instead of t
 ack -l 'BT[^\s]' | xargs perl -pi -E 's/BT([^\s])/PH\1/g'
 find . | grep BT | xargs rename -e 's/BT/PH/'
 ```
+
+## Pango
+Pheno can use Pango for rendering text. It will automatically do so if the plugin is available.
+For linux we provide pre-built binaries: download the [plugin library](https://github.com/tom95/Pheno/blob/master/PangoPlugin/bin/linux-amd64/PangoPlugin) and place it next to your squeak executable (not your squeak.sh, but the executable that is usually found in the `bin` folder).
+If you get an error, check if all dependencies of the plugin are installed on your system, e.g. via `ldd PangoPlugin`.
