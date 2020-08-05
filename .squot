@@ -1,11 +1,11 @@
 OrderedDictionary {
-	'src\/BaselineOfPheno.package' : #SquotCypressCodeSerializer,
-	'src\/Pheno-Core.package' : #SquotCypressCodeSerializer,
-	'src\/Pheno-Examples.package' : #SquotCypressCodeSerializer,
-	'src\/Pheno-Styles.package' : #SquotCypressCodeSerializer,
-	'src\/Pheno-Tests-Core.package' : #SquotCypressCodeSerializer,
-	'src\/Pheno-Tests-Styles.package' : #SquotCypressCodeSerializer,
-	'src\/Pheno-ToolBuilder.package' : #SquotCypressCodeSerializer,
-	'src\/Pheno-Tools.package' : #SquotCypressCodeSerializer,
-	'src\/Pheno-Widgets.package' : #SquotCypressCodeSerializer
+	'src/BaselineOfPheno.package' : #SquotCypressCodeSerializer,
+	'src/Pheno-Core.package' : #SquotCypressCodeSerializer,
+	'src/Pheno-Examples.package' : #SquotCypressCodeSerializer,
+	'src/Pheno-Styles.package' : #SquotCypressCodeSerializer,
+	'src/Pheno-Tests-Core.package' : #SquotCypressCodeSerializer,
+	'src/Pheno-Tests-Styles.package' : #SquotCypressCodeSerializer,
+	'src/Pheno-ToolBuilder.package' : #SquotCypressCodeSerializer,
+	'src/Pheno-Tools.package' : #SquotCypressCodeSerializer,
+	'src/Pheno-Widgets.package' : #SquotCypressCodeSerializer
 }
