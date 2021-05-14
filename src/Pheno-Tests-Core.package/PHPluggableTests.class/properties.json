@@ -10,5 +10,5 @@
 	"name" : "PHPluggableTests",
 	"pools" : [
 		 ],
-	"super" : "PHTestCase",
+	"super" : "PHEventTestCase",
 	"type" : "normal" }

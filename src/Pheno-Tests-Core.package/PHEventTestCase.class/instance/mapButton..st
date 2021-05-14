@@ -6,6 +6,6 @@ mapButton: aSymbol
 		#middle -> 16r01. "blue"
 		#right  -> 16r02. "yellow"
 		#shift  -> 16r08.
-		#ctrl   -> 16r10.
+		#ctrl   -> 16r40. "cmd"
 		#cmd    -> 16r40. "alt"
 	}) at: aSymbol ifAbsent: [Error signal: 'Unknown button symbol!']

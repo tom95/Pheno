@@ -1,16 +1,27 @@
 private
 simulateKeyEvent: aSymbol key: aCharacter buttons: someButtons morph: aMorph
+
 	| morphicEvent |
-	morphicEvent := MorphicEvent readFrom: ('{1} {2} {3} {4}' format: {
-		aSymbol.
-		0. "time"
-		self mapButtons: someButtons.
-		aCharacter asciiValue}) readStream.
-	
-	morphicEvent
-		wasHandled: false;
-		setHand: hand;
-		setPosition: aMorph center.
+	morphicEvent := KeyboardEvent new.
+	(morphicEvent respondsTo: #setType:buttons:position:keyValue:keyCode:hand:stamp:)
+		ifTrue: [
+			morphicEvent
+				setType: aSymbol
+				buttons: (self mapButtons: someButtons)
+				position: aMorph center
+				keyValue: aCharacter asciiValue
+				keyCode: aCharacter asciiValue
+				hand: hand
+				stamp: 0]
+		ifFalse: [
+			morphicEvent
+				setType: aSymbol
+				buttons: (self mapButtons: someButtons)
+				position: aMorph center
+				keyValue: aCharacter asciiValue
+				hand: hand
+				stamp: 0].
+	morphicEvent wasHandled: false.
 	
 	hand newKeyboardFocus: aMorph.
 	
