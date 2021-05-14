@@ -1,5 +1,10 @@
 initialize-release
 initialize
+
+	styleContext := PHStyleContext new.
+	styleContext addDependent: self.
+	requestCache := PHSizeRequestCache new.
+	
 	super initialize.
 	
 	minSize := 0 @ 0.
@@ -9,7 +14,6 @@ initialize
 	expand := false.
 	ignoreLayout := false.
 	disabled := false.
-	align := #(fill fill).
-	requestCache := PHSizeRequestCache new.
+	align := #(#fill #fill).
 	
-	self styleContext: PHStyleContext new
+	self changed

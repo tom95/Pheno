@@ -1,8 +1,5 @@
 drawing
 drawOn: aCanvas
 
-	self
-		drawOn: aCanvas
-		selectionColor: nil
-		selectionFillColor: nil
-		drawCursor: false
+	super drawOn: aCanvas.
+	self drawOn: aCanvas selectionColor: nil selectionFillColor: nil drawCursor: false
